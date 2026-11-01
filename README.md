@@ -1,2 +1,2 @@
 # zahrah-interactive-tajweed-app
-ZAHRAH INTERACTIVE TAJWEED APP — 3D Makhārij &amp; Advanced Tajweed Learning App
+ZAHRAH INTERACTIVE TAJWEED APP - Advanced Tajweed Learning App
