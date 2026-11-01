@@ -1,0 +1,96 @@
+{
+  "rule_metadata": {
+    "rule_id": "05_ikhfa_haqiqi",
+    "rule_name_english": "Ikhfa Haqiqi (Real Concealment)",
+    "rule_name_arabic": "الإِخْفَاء الحَقِيقِي",
+    "category": "Noon Sakinah and Tanween",
+    "level": "Advanced Intermediate",
+    "description": "The concealment of a non-vowelled Noon (نْ) or Tanween when followed by any of the 15 remaining Ikhfa letters, pronounced between Izhar and Idgham with a 2-count nasal Ghunnah."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Ikhfa literally means concealment or hiding (السِّتْر).",
+    "applied_tajweed_definition": "When a non-vowelled Noon (نْ) or Tanween is followed by any of the 15 specific Ikhfa letters across two words (or within a single word), the Noon is neither pronounced fully clear nor merged completely. Instead, it is concealed while holding a 2-count nasal Ghunnah from the nasal cavity (Khayshum), and the tongue hovers near the articulation point of the succeeding letter.",
+    "trigger_letters": [
+      "ت", "ث", "ج", "د", "ذ", "ز", "س", "ش", "ص", "ض", "ط", "ظ", "ف", "ق", "ك"
+    ],
+    "mnemonic_poetry_reference": "Found in the famous line: صِفْ ذَا ثَنَا كَمْ جَادَ شَخْصٌ قَدْ سَمَا ... دُمْ طَيِّبًا زِدْ فِى تُقًى ضَِعْ ظَالِمَا (the first letter of each word represents an Ikhfa letter).",
+    "acoustic_rule": "The nasal Ghunnah duration is exactly 2 counts. Crucially, the quality of the Ghunnah adapts to the upcoming letter: it becomes heavy (Tafkhim) when followed by heavy letters (ص, ض, ط, ظ, ق), and light (Tarqeeq) when followed by light letters.",
+    "mushaf_indicator": "The Noon Sakinah has no Sukoon sign, and the succeeding letter does NOT have a Tashdeed (distinguishing it from Idgham)."
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "مِنْ ثَمَرَةٍ",
+      "transliteration": "Min thamaratin",
+      "trigger_letter": "ث",
+      "breakdown": "Light Ikhfa: Tongue hovers near the edge of upper teeth while holding 2-count nasal hum.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/ikhfa/min_thamaratin.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "أَنْصَارًا",
+      "transliteration": "Ansaran",
+      "trigger_letter": "ص",
+      "breakdown": "Heavy Ikhfa (Tafkhim): Because Sad (ص) is a heavy letter, the nasal Ghunnah must be pronounced with an elevated, heavy back of the tongue.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/ikhfa/ansaran.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "كُنْتُمْ",
+      "transliteration": "Kuntum",
+      "trigger_letter": "ت",
+      "breakdown": "Single-word Ikhfa occurring between Noon and Ta inside the same word.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/ikhfa/kuntum.mp3"
+    },
+    {
+      "id": "ex_04",
+      "arabic_text": "قَوْلاً سَدِيدًا",
+      "transliteration": "Qawlan sadeedan",
+      "trigger_letter": "س",
+      "breakdown": "Tanween followed by Seen; light concealment with tongue behind lower front teeth.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/ikhfa/qawlan_sadeedan.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "How many letters trigger the rule of Ikhfa Haqiqi?", "options": ["6 letters", "4 letters", "15 letters", "28 letters"], "correct_answer": 2 },
+    { "id": "q02", "type": "multiple_choice", "question": "What does Ikhfa mean linguistically?", "options": ["Concealment or hiding", "Clear pronunciation", "Merging completely", "Conversion to Meem"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "How is Noon Sakinah pronounced during Ikhfa?", "options": ["Halfway between Izhar and Idgham, with a concealed tongue position and nasal hum", "With a sharp, clear 'N' sound touching the gums", "Merged entirely into the next letter with Tashdeed", "Converted into a Waw"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "How many counts (Harakat) must the Ghunnah be held during Ikhfa?", "options": ["1 count", "2 counts", "4 counts", "6 counts"], "correct_answer": 1 },
+    { "id": "q05", "type": "multiple_choice", "question": "What determines whether the Ghunnah is heavy (Tafkhim) or light (Tarqeeq) during Ikhfa?", "options": ["The characteristic of the succeeding Ikhfa letter (heavy letters make Ghunnah heavy)", "The vowel on the preceding letter", "Whether it is at the start of a Surah", "Random preference"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "Which of the following is a heavy (Mufakhakham) Ikhfa letter?", "options": ["ص (Sad)", "ت (Ta)", "س (Seen)", "ز (Zay)"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "In the word 'أَنْصَارًا', is the Ghunnah heavy or light?", "options": ["Heavy (Tafkhim) because Sad is a heavy letter", "Light (Tarqeeq)", "Neutral", "Silent"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "In the word 'كُنْتُمْ', what rule applies between Noon and Ta?", "options": ["Ikhfa Haqiqi", "Izhar Halqi", "Idgham with Ghunnah", "Iqlab"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "What is the visual indicator of Ikhfa in standard Mushafs?", "options": ["Bare Noon (no sukoon) followed by a letter without Tashdeed", "A Shaddah on the next letter", "A small Meem above", "A circled Noon"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "Can Ikhfa occur within a single word?", "options": ["Yes, such as in كُنْتُمْ or أَنْدَادًا", "No, it must always cross two words", "Only at the end of verses", "Never"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "What error occurs if a reciter touches their tongue firmly to the upper gum line during Ikhfa?", "options": ["They produced a clear Izhar or failed Ikhfa instead of hovering the tongue", "They made an Idgham error", "They extended the Madd too long", "No error"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "In 'قَوْلاً سَدِيدًا', how is the Tanween processed?", "options": ["Concealed with Ikhfa and light Ghunnah", "Read clear", "Merged into Seen", "Converted to Meem"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "Which of these letters is NOT an Ikhfa letter?", "options": ["م (Meem)", "ت (Ta)", "س (Seen)", "ق (Qaf)"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "Which letter group contains ALL 15 Ikhfa letters?", "options": ["ت ث ج د ذ ز س ش ص ض ط ظ ف ق ك", "ي ن م و", "ر ل", "ء هـ ع ح غ خ"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "How should 'مِنْ تَحْتِهَا' be recited?", "options": ["Min-tahtiha with a concealed nasal hum preparing for Ta", "Min-a-tahtiha clearly", "Mim-tahtiha", "Mee-tahtiha"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "What happens to the tongue position during Ikhfa?", "options": ["It hovers near the articulation point of the upcoming letter without making full firm contact", "It rests at the bottom of the mouth", "It presses tightly against the roof", "It vibrates rapidly"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "In 'رِزْقًا لَهُمْ', is Ikhfa present?", "options": ["No, Lam triggers Idgham without Ghunnah", "Yes", "Yes, with heavy Ghunnah", "It triggers Iqlab"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "In 'إِنْ كُنْتُمْ', how many instances of Ikhfa are present?", "options": ["Two instances (إِنْ كُنْتُمْ)", "Zero", "One instance", "Three instances"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "Why is Ikhfa the most common rule in the Quran?", "options": ["Because 15 out of the remaining Arabic alphabet letters trigger it after Noon Sakinah/Tanween", "Because it is the easiest rule", "Because it is only found in Surah Al-Baqarah", "Because letters are grouped randomly"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "If a student recites 'أَنْصَارًا' with a light, thin Ghunnah, what error did they make?", "options": ["Failed to make the Ghunnah heavy (Tafkhim) to match the heavy Sad letter", "Failed to hold the Madd", "Made an Izhar error", "Wrong word pronunciation"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "What is the exact duration required for the Ghunnah during Ikhfa?", "options": ["2 counts (Harakat)", "1 count", "4 counts", "6 counts"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "In 'فَصَبْرٌ جَمِيلٌ', does Ikhfa apply betweenَصَبْرٌ and جَمِيلٌ?", "options": ["Yes, Tanween followed by Jeem triggers Ikhfa", "No, Jeem triggers Idgham", "No, it is Izhar", "It triggers Iqlab"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "In 'مِنْ شَيْءٍ', what rule applies?", "options": ["Ikhfa Haqiqi with Sheen", "Izhar Halqi", "Idgham", "Iqlab"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "How should 'مِنْ شَيْءٍ' sound?", "options": ["Min-shay'in with a soft, spreading tongue position for Sheen and 2-count nasal hum", "Min-a-shay'in", "Mim-shay'in", "Mee-shay'in"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "Which of the following letters produces a light (Tarqeeq) Ghunnah during Ikhfa?", "options": ["ز (Zay)", "ط (Taa)", "ض (Dad)", "ظ (Zhhaa)"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "In 'جَنَّاتٍ تَجْرِي', what rule connects جَنَّاتٍ and تَجْرِي?", "options": ["Ikhfa Haqiqi", "Izhar", "Idgham with Ghunnah", "Iqlab"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "What is the difference between Idgham and Ikhfa regarding the second letter?", "options": ["Idgham features complete or incomplete merging into a vowelled letter with a Shaddah, whereas Ikhfa conceals the Noon without a Shaddah on the next letter", "Ikhfa has no nasal sound", "Idgham has 15 letters", "There is no difference"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "In 'وَأَنْزَلْنَا', what rule is present between Noon and Zay?", "options": ["Ikhfa Haqiqi", "Izhar", "Idgham", "Iqlab"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "How should 'وَأَنْزَلْنَا' be pronounced?", "options": ["Wan-zaltna with a whistling Zay tongue hover and nasal hum", "Wanazalna clearly", "Wamm-zalna", "Wai-zalna"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "In 'عَذَابٌ أَلِيمٌ', is Ikhfa present?", "options": ["No, Hamzah triggers Izhar Halqi", "Yes", "Yes, with heavy Ghunnah", "It triggers Iqlab"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "What role does Al-Khayshum (nasal cavity) play during Ikhfa?", "options": ["Houses the mandatory 2-count nasal resonance", "Stops all airflow", "Creates throat friction", "Produces vocal cord vibration"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "If a student pauses completely between the Noon and the Ikhfa letter, what error have they made?", "options": ["Added an incorrect breath pause instead of continuous flow", "Correct recitation", "Madd error", "Ghunnah length error"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "In 'مِنْ قَبْلِ', what rule applies between Noon and Qaf?", "options": ["Ikhfa Haqiqi with a heavy (Mufakhakham) Ghunnah", "Ikhfa with light Ghunnah", "Idgham", "Izhar"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "Why is the Ghunnah heavy in 'مِنْ قَبْلِ'?", "options": ["Because Qaf is a heavy (Istila) letter", "Because Qaf is at the end of a word", "Because of the Kasrah", "Random rule"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "In 'رَجُلاً كَرِيمًا', what rule connects رَجُلاً and كَرِيمًا?", "options": ["Ikhfa Haqiqi", "Izhar", "Idgham without Ghunnah", "Iqlab"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "How many total rules govern Noon Sakinah and Tanween in classical Tajweed?", "options": ["Four major rules (Izhar, Idgham, Iqlab, Ikhfa)", "Two rules", "Ten rules", "One rule"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "Which rule is considered the most nuanced because its nasal sound must adapt its weight to 15 different letter articulation points?", "options": ["Ikhfa Haqiqi", "Izhar Halqi", "Iqlab", "Idgham Taam"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "If a reciter fails to adapt the Ghunnah weight during Ikhfa (e.g., making it light before a heavy letter like Sad), how should an AI evaluation engine score it?", "options": ["Flag as a Tafkhim/Tarqeeq adaptation error in Ikhfa", "Mark as perfect", "Flag as a Madd error", "Ignore"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "In 'فَمَنْ يَعْمَلْ', does Ikhfa apply?", "options": ["No, Ya triggers Idgham with Ghunnah", "Yes", "Yes, with heavy Ghunnah", "It triggers Izhar"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the complete mechanics of Ikhfa Haqiqi:", "options": ["Encounter Noon Sakinah/Tanween + 1 of 15 Ikhfa letters -> conceal Noon sound between Izhar and Idgham -> hold 2-count nasal Ghunnah (heavy for heavy letters, light for light letters) -> transition smoothly into next letter without Shaddah", "Read clear Noon -> pause -> read next letter", "Merge completely with Shaddah", "Change sound to Meem"], "correct_answer": 0 }
+  ]
+}
