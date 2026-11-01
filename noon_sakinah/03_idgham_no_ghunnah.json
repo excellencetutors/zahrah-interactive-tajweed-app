@@ -1,0 +1,111 @@
+{
+  "rule_metadata": {
+    "rule_id": "03_idgham_no_ghunnah",
+    "rule_name_english": "Idgham without Ghunnah (Non-Nasalized Complete Merging)",
+    "rule_name_arabic": "الإِدْغَام بِغَيْرِ غُنَّة",
+    "category": "Noon Sakinah and Tanween",
+    "level": "Intermediate",
+    "description": "The complete merging of Noon Sakinah or Tanween into the letters Ra (ر) or Lam (ل) without any remaining nasal resonance."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Complete insertion of the sound of Noon Sakinah or Tanween into the succeeding letter so that no trace of the Noon remains.",
+    "applied_tajweed_definition": "When a non-vowelled Noon (نْ) or Tanween is followed by either Ra (ر) or Lam (ل) across two words, the Noon converts entirely into the destination letter with Tashdeed, and the Ghunnah (nasal sound) is completely eliminated.",
+    "trigger_letters": [
+      {
+        "letter": "ل",
+        "name": "Lam",
+        "type": "Complete Merging (Idgham Taam)",
+        "reason": "The articulation point and attributes of Noon merge completely into Lam."
+      },
+      {
+        "letter": "ر",
+        "name": "Ra",
+        "type": "Complete Merging (Idgham Taam)",
+        "reason": "The articulation point and attributes of Noon merge completely into Ra."
+      }
+    ],
+    "acoustic_rule": "No nasal resonance (Ghunnah) from Al-Khayshum should be heard. The sound transitions immediately from the preceding vowel to the doubled Lam or Ra.",
+    "special_quranic_exception": {
+      "rule": "Sakt (Obligatory Brief Pause) in Surah Al-Qiyamah",
+      "ayah_reference": "Surah Al-Qiyamah (75:27)",
+      "phrase": "وَقِيلَ مَنْ ۜ رَاقٍ",
+      "explanation": "Because of the obligatory pause (Sakt) on the word 'مَنْ', Idgham is NOT performed here. The Noon Sakinah is read clearly (Izhar) with a brief breath-holding pause before 'رَاقٍ'."
+    }
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "مِنْ لَدُنْهُ",
+      "transliteration": "Mil-ladunhu",
+      "trigger_letter": "ل",
+      "breakdown": "The Noon Sakinah merges completely into Lam. No nasal sound is held.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/idgham/min_ladunhu.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "مِنْ رَبِّهِمْ",
+      "transliteration": "Mir-rabbihim",
+      "trigger_letter": "ر",
+      "breakdown": "The Noon Sakinah merges completely into Ra with Tashdeed. The Ra retains its heavy pronunciation without any nasal hum.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/idgham/min_rabbihim.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "هُدًى لِلْمُتَّقِينَ",
+      "transliteration": "Hudal-lil-muttaqeen",
+      "trigger_letter": "ل",
+      "breakdown": "The Tanween on Hudan merges into the Lam of Lil-muttaqeen without Ghunnah.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/idgham/hudal_lilmuttaqeen.mp3"
+    },
+    {
+      "id": "ex_04",
+      "arabic_text": "عِيشَةٍ رَاضِيَةٍ",
+      "transliteration": "'Eeshatur-radiyah",
+      "trigger_letter": "ر",
+      "breakdown": "The Tanween merges directly into the heavy Ra without nasalization.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/idgham/eeshatin_radiyah.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "Which two letters trigger Idgham WITHOUT Ghunnah?", "options": ["ر and ل", "ي and و", "م and ن", "ء and هـ"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "Is Idgham into Lam and Ra classified as Complete (Taam) or Incomplete (Naqis)?", "options": ["Complete (Taam)", "Incomplete (Naqis)", "Conditional", "Hidden"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "How should 'مِنْ رَبِّهِمْ' be pronounced accurately?", "options": ["Min-Rabbihim", "Mir-rabbihim (no nasal hum)", "Min-a Rabbihim", "Mim-rabbihim"], "correct_answer": 1 },
+    { "id": "q04", "type": "multiple_choice", "question": "How should 'مِنْ لَدُنْهُ' be pronounced accurately?", "options": ["Min-ladunhu", "Mil-ladunhu", "Mi-ladunhu with 2-count nasal hum", "Min-a ladunhu"], "correct_answer": 1 },
+    { "id": "q05", "type": "multiple_choice", "question": "If a reciter holds a nasal sound (Ghunnah) while reciting 'مِنْ رَبِّهِمْ', what error occurred?", "options": ["Correct recitation", "Incorrectly applying Ghunnah where sound should be non-nasalized", "Izhar error", "Madd error"], "correct_answer": 1 },
+    { "id": "q06", "type": "multiple_choice", "question": "Why is this rule called 'Idgham Bighairi Ghunnah'?", "options": ["Because no nasal resonance is produced during merging", "Because it uses throat letters", "Because the sound is hidden in the lips", "Because it requires a 4-count pause"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "What symbol appears on top of Lam or Ra in the Mushaf to signify complete merging?", "options": ["Sukoon", "Shaddah (Tashdeed)", "Maddah", "Tanween"], "correct_answer": 1 },
+    { "id": "q08", "type": "multiple_choice", "question": "In Surah Al-Qiyamah (75:27) 'وَقِيلَ مَنْ ۜ رَاقٍ', why is Idgham NOT performed between Noon and Ra?", "options": ["Because Ra is a light letter", "Because of the obligatory brief pause (Sakt)", "Because it is in one word", "Because of Iqlab"], "correct_answer": 1 },
+    { "id": "q09", "type": "multiple_choice", "question": "In 'رَحْمَةً لِلْعَالَمِينَ', what rule applies between Tanween and Lam?", "options": ["Idgham without Ghunnah", "Idgham with Ghunnah", "Izhar Halqi", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "In 'غَفُورٌ رَحِيمٌ', what rule applies between Tanween and Ra?", "options": ["Idgham without Ghunnah", "Iqlab", "Izhar", "Ikhfa Haqiqi"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "Which letter group contains the non-nasalized Idgham letters?", "options": ["ر, ل", "ي, ن, م, و", "ء, هـ, ع", "ت, ث, ج"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "What happens to the Noon Sakinah when followed by Lam?", "options": ["It converts entirely into Lam with Tashdeed", "It is pronounced clearly with a nasal hum", "It is changed into Meem", "It is held for 2 counts"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "What happens to the Noon Sakinah when followed by Ra?", "options": ["It converts entirely into Ra with Tashdeed", "It becomes silent without affecting Ra", "It is read with Izhar", "It is read with Ikhfa"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "In the phrase 'فَذُوقُوا فَلَنْ نَزِيدَكُمْ إِلَّا عَذَابًا', where is Idgham without Ghunnah present?", "options": ["It is not present; 'فَلَنْ نَزِيدَكُمْ' is Idgham WITH Ghunnah", "Between 'عَذَابًا' and the end", "In 'فَذُوقُوا'", "Throughout the whole ayah"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "Which of these phrases contains Idgham WITHOUT Ghunnah?", "options": ["مِنْ رَبِّهِمْ", "مَنْ يَقُولُ", "مِنْ مَالٍ", "مِنْ هَادَ"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "Which of these phrases contains Idgham WITH Ghunnah?", "options": ["مِنْ وَالٍ", "مِنْ لَدُنْهُ", "مِنْ رَبِّهِمْ", "خَيْرٌ لَكُمْ"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "When reciting 'خَيْرٌ لَكُمْ', how should it sound?", "options": ["Khairun-lakum", "Khairul-lakum", "Khairum-lakum", "Khairu-lakum with nasal hum"], "correct_answer": 1 },
+    { "id": "q18", "type": "multiple_choice", "question": "Does Idgham without Ghunnah occur across two words or within a single word?", "options": ["Across two separate words", "Inside a single word", "In both cases equally", "Only at the beginning of a Surah"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "What is the primary visual indication of Noon Sakinah in the Mushaf for Idgham without Ghunnah?", "options": ["The Noon has no sukoon symbol on top (bare Noon)", "The Noon has a bold Sukoon", "The Noon has a small Meem above it", "The Noon is colored red"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "Why does the sound of Noon vanish completely in 'مِنْ رَبِّهِمْ'?", "options": ["Because Ra is a strong letter that absorbs the Noon entirely", "Because Noon is skipped due to breath limitations", "Because of a stop sign", "Because Ra is a throat letter"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "When reciting 'مَالًا لُبَدًا', what rule is applied?", "options": ["Idgham without Ghunnah", "Idgham with Ghunnah", "Izhar Halqi", "Ikhfa Haqiqi"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "How is 'يَوْمَئِذٍ لِخَبِيرٍ' pronounced?", "options": ["Yawma'idhin-likhabeer", "Yawma'idhil-likhabeer", "Yawma'idhim-likhabeer", "Yawma'idhi-likhabeer"], "correct_answer": 1 },
+    { "id": "q23", "type": "multiple_choice", "question": "Is the Ra in 'مِنْ رَبِّهِمْ' pronounced heavy (Tafkhim) or light (Tarqeeq)?", "options": ["Heavy (Tafkhim) because Ra has a Fathah", "Light (Tarqeeq)", "Medium", "Optional"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "If a student reads 'مِنْ لَدُنْهُ' as 'Min-ladunhu' with a clear 'N' sound, what is the mistake?", "options": ["Failing to perform Idgham (reciting with Izhar instead)", "Failing to hold Madd", "Holding Ghunnah too long", "Wrong makhraj for Lam"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "What combined phrase includes all 6 letters of Idgham (both with and without Ghunnah)?", "options": ["Yarmaloon (يَرْمَلُون)", "Yanmu (يَنْمُو)", "Khuṣṣa (خُصَّ)", "Halq (حَلْق)"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "In the word 'Yarmaloon' (يَرْمَلُون), which two letters represent non-nasalized merging?", "options": ["ر and ل", "ي and ن", "م and و", "ن and ل"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "In 'فَلاَنَّهُ كَانَ تَوَّابًا', what rule is applied to the doubled Noon in 'فَلاَنَّهُ'?", "options": ["Ghunnah Muschaddadah (Not Idgham across two words)", "Idgham Bighairi Ghunnah", "Izhar Mutlaq", "Iqlab"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "In 'تَوَّابًا رَحِيمًا', what rule connects the Tanween to Ra?", "options": ["Idgham without Ghunnah", "Iqlab", "Izhar", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "What is the physical position of the tongue during 'Mil-ladunhu'?", "options": ["It strikes the Lam articulation point immediately without touching the Noon position", "It rests at the bottom of the mouth", "It stays at the throat", "It vibrates at the lips"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "Is there any nasal sound allowed when reciting 'عِيشَةٍ رَاضِيَةٍ'?", "options": ["No, zero nasal sound", "Yes, 2 counts", "Yes, 1 count", "Optional"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "In 'أَنْ رَآَهُ', how is the Noon Sakinah processed?", "options": ["Merged into Ra without Ghunnah (Ar-ra'ahu)", "Read clearly", "Converted to Meem", "Hidden with Ikhfa"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "In 'فَسَلاَمٌ لَكَ', what rule applies?", "options": ["Idgham without Ghunnah", "Idgham with Ghunnah", "Izhar", "Iqlab"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "Which of the following options lists ONLY non-nasalized Idgham examples?", "options": ["مِنْ رَبِّهِمْ , مِنْ لَدُنْهُ", "مَنْ يَقُولُ , مِنْ مَالٍ", "مِنْ هَادَ , عَنْهُمْ", "مِنْ بَعْدِ , كِتَابٌ مَرْقُومٌ"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "Why is 'Sakt' in 'مَنْ ۜ رَاقٍ' an exception to Idgham without Ghunnah?", "options": ["Because Sakt prevents the two words from joining continuously", "Because Ra is silent", "Because Noon has a Fathah", "Because of a stop sign"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "In 'وَلَمْ يَكُنْ لَهُ', what is the rule between 'يَكُنْ' and 'لَهُ'?", "options": ["Idgham without Ghunnah", "Izhar", "Iqlab", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "How many counts of Ghunnah are held for 'Idgham without Ghunnah'?", "options": ["0 counts", "2 counts", "4 counts", "6 counts"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "In 'كُفُوًا أَحَدٌ', does Idgham without Ghunnah apply?", "options": ["No, Hamzah triggers Izhar", "Yes", "Only when stopping", "It triggers Iqlab"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "In 'ثَمَرَةٍ رِزْقًا', how is the Tanween pronounced?", "options": ["Merged directly into Ra with Kasrah (Thamaratir-rizqa)", "Thamaratin-rizqa", "Thamaratim-rizqa", "Thamarati-rizqa"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "What is the key difference between Idgham with Ghunnah and Idgham without Ghunnah?", "options": ["The presence or absence of the nasal hum (Ghunnah)", "The number of letters", "Whether it occurs in one word or two", "The pitch of the voice"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Select the correct complete description for Idgham Bighairi Ghunnah:", "options": ["Complete merging of Noon Sakinah/Tanween into Lam or Ra with zero Ghunnah across two words", "Incomplete merging with 2 counts of Ghunnah", "Clear pronunciation without Ghunnah", "Changing sound to Meem"], "correct_answer": 0 }
+  ]
+}
