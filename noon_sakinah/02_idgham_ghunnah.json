@@ -1,0 +1,107 @@
+{
+  "rule_metadata": {
+    "rule_id": "02_idgham_ghunnah",
+    "rule_name_english": "Idgham with Ghunnah (Nasalized Merging)",
+    "rule_name_arabic": "الإِدْغَام بِغُنَّاة",
+    "category": "Noon Sakinah and Tanween",
+    "level": "Intermediate",
+    "description": "The complete or incomplete merging of a Noon Sakinah or Tanween into a succeeding letter from the Yanmu (يَنْمُو) group, accompanied by a 2-count nasal resonance."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Idgham literally means insertion or merging (إِدْخَالُ شَيْءٍ فِي شَيْءٍ). Ghunnah is a nasal resonance originating from the Khayshum (nasal cavity).",
+    "applied_tajweed_definition": "Meeting of a non-vowelled Noon (نْ) or Tanween with one of the four letters of 'Yanmu' (ي, ن, م, و) across two separate words, causing the first sound to merge into the second with a held 2-count nasal hum.",
+    "trigger_letters": [
+      { "letter": "ي", "name": "Ya", "type": "Incomplete Merging (Idgham Naqis)", "reason": "The nasal Ghunnah attribute remains while the letter Noon merges." },
+      { "letter": "ن", "name": "Noon", "type": "Complete Merging (Idgham Taam)", "reason": "The first Noon merges fully into the second vowelled Noon with Tashdeed." },
+      { "letter": "م", "name": "Meem", "type": "Complete Merging (Idgham Taam)", "reason": "The Noon converts and merges fully into the Meem with Tashdeed." },
+      { "letter": "و", "name": "Waw", "type": "Incomplete Merging (Idgham Naqis)", "reason": "The nasal Ghunnah attribute remains while the letter Noon merges." }
+    ],
+    "duration_rules": "The nasalization (Ghunnah) must be held precisely for 2 counts (Harakat) at a steady tempo.",
+    "critical_exception_izhar_mutlaq": {
+      "rule": "Izhar Mutlaq (Absolute Manifestation)",
+      "condition": "If a Noon Sakinah and one of the Yanmu letters meet inside a SINGLE word, Idgham is STRICTLY FORBIDDEN. It must be pronounced clearly (Izhar).",
+      "occurrences_in_quran": [
+        { "word": "دُنْيَا", "transliteration": "Dunya", "reason": "Noon and Ya in a single word" },
+        { "word": "بُنْيَانٌ", "transliteration": "Bunyan", "reason": "Noon and Ya in a single word" },
+        { "word": "قِنْوَانٌ", "transliteration": "Qinwan", "reason": "Noon and Waw in a single word" },
+        { "word": "صِنْوَانٌ", "transliteration": "Sinwan", "reason": "Noon and Waw in a single word" }
+      ]
+    }
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "مَنْ يَقُولُ",
+      "transliteration": "May-yaqool",
+      "trigger_letter": "ي",
+      "breakdown": "The Noon Sakinah merges into the Ya with a 2-count nasal hum.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/idgham/man_yaqool.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "مِنْ نِعْمَةٍ",
+      "transliteration": "Min-ni'matin",
+      "trigger_letter": "ن",
+      "breakdown": "Complete merging of Noon Sakinah into vowelled Noon with Tashdeed.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/idgham/min_ni'mah.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "مِنْ مَالٍ",
+      "transliteration": "Mim-maalin",
+      "trigger_letter": "م",
+      "breakdown": "Complete merging into Meem with a clear 2-count Ghunnah.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/idgham/min_maal.mp3"
+    },
+    {
+      "id": "ex_04",
+      "arabic_text": "مِنْ وَالٍ",
+      "transliteration": "Miww-waalin",
+      "trigger_letter": "و",
+      "breakdown": "Incomplete merging into Waw while retaining nasal resonance.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/idgham/min_waal.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What does the word 'Idgham' mean linguistically?", "options": ["To manifest clearly", "To insert or merge one thing into another", "To conceal a sound", "To change a letter into Meem"], "correct_answer": 1 },
+    { "id": "q02", "type": "multiple_choice", "question": "Which four letters trigger Idgham with Ghunnah?", "options": ["ي, ن, م, و", "ر, ل, ب, أ", "ء, هـ, ع, ح", "ت, ث, ج, د"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "What mnemonic word summarizes all four letters of Idgham with Ghunnah?", "options": ["Yarmaloon", "Yanmu", "Raml", "Khuṣṣa"], "correct_answer": 1 },
+    { "id": "q04", "type": "multiple_choice", "question": "How many counts (Harakat) must the Ghunnah be held during Idgham with Ghunnah?", "options": ["1 count", "2 counts", "4 counts", "6 counts"], "correct_answer": 1 },
+    { "id": "q05", "type": "multiple_choice", "question": "Where does the sound of Ghunnah originate anatomically?", "options": ["Al-Lisan (Tongue)", "Al-Halq (Throat)", "Al-Khayshum (Nasal Cavity)", "Al-Jawf (Empty mouth)"], "correct_answer": 2 },
+    { "id": "q06", "type": "multiple_choice", "question": "What happens when Noon Sakinah meets a Yanmu letter within a SINGLE word?", "options": ["It is read with Idgham", "It is read with Izhar Mutlaq (Absolute Manifestation)", "It is read with Ikhfa", "It is skipped"], "correct_answer": 1 },
+    { "id": "q07", "type": "multiple_choice", "question": "Which of the following words is an example of Izhar Mutlaq?", "options": ["دُنْيَا", "مَنْ يَقُولُ", "مِنْ وَالٍ", "مِنْ مَالٍ"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "How many total words in the Quran exhibit Izhar Mutlaq due to single-word Noon Sakinah meeting Yanmu letters?", "options": ["2 words", "4 words", "10 words", "28 words"], "correct_answer": 1 },
+    { "id": "q09", "type": "multiple_choice", "question": "Which of these four words is NOT an example of Izhar Mutlaq?", "options": ["دُنْيَا", "بُنْيَانٌ", "قِنْوَانٌ", "أَنْعَمْتَ"], "correct_answer": 3 },
+    { "id": "q10", "type": "multiple_choice", "question": "Why is Idgham into 'Ya' and 'Waw' classified as Incomplete (Naqis)?", "options": ["Because the Ghunnah remains while the letter merges", "Because no Ghunnah is pronounced", "Because it occurs inside one word", "Because the sound is cut short"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "Why is Idgham into 'Noon' and 'Meem' classified as Complete (Taam)?", "options": ["Because the body of the letter and its Ghunnah merge entirely into the second letter", "Because it has no nasal sound", "Because it is held for 4 counts", "Because it only happens at pauses"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "In the phrase 'مَنْ يَقُولُ', how is the Noon Sakinah pronounced?", "options": ["Clear 'N' sound", "Merged into 'Y' with nasal resonance", "Converted to 'M'", "Silent with no nasal hum"], "correct_answer": 1 },
+    { "id": "q13", "type": "multiple_choice", "question": "In the phrase 'مِنْ وَالٍ', what letter triggers the Idgham with Ghunnah?", "options": ["Meem", "Waw", "Alif", "Lam"], "correct_answer": 1 },
+    { "id": "q14", "type": "multiple_choice", "question": "What is the correct transliteration for reciting 'مِنْ مَالٍ' with Tajweed?", "options": ["Min Maalin", "Mim-maalin (with nasal hum)", "Mi-maalin without hum", "Man maalin"], "correct_answer": 1 },
+    { "id": "q15", "type": "multiple_choice", "question": "What mark usually appears on the second letter in the Mushaf during complete Idgham?", "options": ["Sukoon", "Tashdeed (Shaddah)", "Maddah", "Tanween"], "correct_answer": 1 },
+    { "id": "q16", "type": "multiple_choice", "question": "What happens to Tanween when followed by the letter Waw (و)?", "options": ["Izhar", "Idgham with Ghunnah", "Iqlab", "Ikhfa"], "correct_answer": 1 },
+    { "id": "q17", "type": "multiple_choice", "question": "In 'وُجُوهٌ يَوْمَئِذٍ', which Tajweed rule applies between the Tanween and Ya?", "options": ["Idgham with Ghunnah", "Izhar Halqi", "Iqlab", "Idgham without Ghunnah"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "Which letter group includes ALL Idgham letters (both with and without Ghunnah)?", "options": ["Yanmu", "Yarmaloon", "Halq", "Khuṣṣa"], "correct_answer": 1 },
+    { "id": "q19", "type": "multiple_choice", "question": "If a reciter reads 'دُنْيَا' as 'Duyya' (merging the Noon), what error have they made?", "options": ["Correct recitation", "Violation of Izhar Mutlaq rule", "Incorrect Ghunnah length", "Madd mistake"], "correct_answer": 1 },
+    { "id": "q20", "type": "multiple_choice", "question": "When encountering 'خَيْرًا يَرَهُ', how is the Tanween processed?", "options": ["Pronounced as a clear 'N'", "Merged into Ya with Ghunnah", "Hidden with Ikhfa", "Changed to Meem"], "correct_answer": 1 },
+    { "id": "q21", "type": "multiple_choice", "question": "Can Idgham with Ghunnah occur within a single word?", "options": ["Yes, always", "No, it must occur across two separate words", "Only in Surah Al-Baqarah", "Only with the letter Meem"], "correct_answer": 1 },
+    { "id": "q22", "type": "multiple_choice", "question": "What is the rule for 'مِنْ نِعْمَةٍ'?", "options": ["Idgham Taam with Ghunnah", "Idgham Naqis without Ghunnah", "Izhar Halqi", "Iqlab"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "Which of the following contains an Idgham with Ghunnah triggered by 'Meem'?", "options": ["مِنْ مَالٍ", "مَنْ هَادَ", "مِنْ رَبِّهِمْ", "عَنْهُمْ"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "What sound should be heard through the nose during 'مِنْ وَالٍ'?", "options": ["A clear 'N' vibration", "Nasal resonance (Ghunnah) accompanying the Waw sound", "A heavy throat breath", "No nasal sound"], "correct_answer": 1 },
+    { "id": "q25", "type": "multiple_choice", "question": "In 'صِنْوَانٌ', why is the Noon Sakinah pronounced clearly?", "options": ["Because Waw is a throat letter", "Because it is in a single word (Izhar Mutlaq)", "Because it has a Tashdeed", "Because it comes at the end of an Ayah"], "correct_answer": 1 },
+    { "id": "q26", "type": "multiple_choice", "question": "In 'قِنْوَانٌ', what is the Tajweed rule applied?", "options": ["Izhar Mutlaq", "Idgham with Ghunnah", "Ikhfa Haqiqi", "Iqlab"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "In 'بُنْيَانٌ', what is the Tajweed rule applied?", "options": ["Idgham Naqis", "Izhar Mutlaq", "Izhar Halqi", "Ikhfa"], "correct_answer": 1 },
+    { "id": "q28", "type": "multiple_choice", "question": "Which condition is required for Idgham with Ghunnah to be valid?", "options": ["Noon Sakinah at the end of word 1, Yanmu letter at the start of word 2", "Both letters inside word 1", "Noon Sakinah followed by a throat letter", "Noon Sakinah preceded by Madd"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "In the phrase 'أَمْشَاجٍ نَبْتَلِيهِ', what rule applies between Tanween and Noon?", "options": ["Izhar Halqi", "Idgham with Ghunnah", "Iqlab", "Idgham without Ghunnah"], "correct_answer": 1 },
+    { "id": "q30", "type": "multiple_choice", "question": "In the phrase 'لَهَبٍ وَتَبَّ', what rule applies between Tanween and Waw?", "options": ["Idgham with Ghunnah", "Izhar Halqi", "Ikhfa", "Iqlab"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "What is the primary acoustic difference between Idgham Taam and Idgham Naqis?", "options": ["Naqis leaves a trace of the original letter's Ghunnah sound", "Taam has no nasal sound", "Naqis is 4 counts long", "Taam is only for throat letters"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "What happens to the Sukoon symbol on top of Noon Sakinah in the Mushaf when Idgham applies?", "options": ["It is clearly written", "It is omitted (bare Noon)", "It is replaced with a Circle", "It turns into a Maddah"], "correct_answer": 1 },
+    { "id": "q33", "type": "multiple_choice", "question": "If a student recites 'مَنْ يَقُولُ' without holding the Ghunnah for 2 counts, what type of error is this?", "options": ["Lahn Jali (Major Error)", "Lahn Khafi (Minor Timing Error)", "Izhar error", "Madd error"], "correct_answer": 1 },
+    { "id": "q34", "type": "multiple_choice", "question": "Which letter does NOT belong to the 'Yanmu' group?", "options": ["ي", "ن", "ر", "و"], "correct_answer": 2 },
+    { "id": "q35", "type": "multiple_choice", "question": "Which letter belongs to 'Yanmu'?", "options": ["م", "ل", "ر", "ب"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "In 'فَمَنْ يَعْمَلْ', what rule is present?", "options": ["Idgham with Ghunnah", "Izhar Halqi", "Iqlab", "Idgham without Ghunnah"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "In 'حِكْمَةٌ بَالِغَةٌ', does Idgham with Ghunnah apply between 'حِكْمَةٌ' and 'بَالِغَةٌ'?", "options": ["Yes", "No, because Baa triggers Iqlab", "No, because it is Izhar", "Yes, with 4 counts"], "correct_answer": 1 },
+    { "id": "q38", "type": "multiple_choice", "question": "How should 'مِنْ وَرَائِهِمْ' be pronounced?", "options": ["Min Wara'ihim", "Miww-wara'ihim (with 2-count Ghunnah)", "Mim Wara'ihim", "Min-a Wara'ihim"], "correct_answer": 1 },
+    { "id": "q39", "type": "multiple_choice", "question": "Which part of the speech apparatus produces the Ghunnah hum during Idgham?", "options": ["Throat", "Lips", "Nasal Cavity (Khayshum)", "Teeth"], "correct_answer": 2 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the complete sequence of events during Idgham with Ghunnah:", "options": ["Pronounce clear N -> add hum", "Merge Noon into Yanmu letter -> hold 2-count nasal Ghunnah -> release into next vowel", "Change Noon to Meem -> pause", "Skip the word entirely"], "correct_answer": 1 }
+  ]
+}
