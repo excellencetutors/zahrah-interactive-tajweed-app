@@ -1,0 +1,98 @@
+{
+  "rule_metadata": {
+    "rule_id": "04_iqlab",
+    "rule_name_english": "Iqlab (Conversion)",
+    "rule_name_arabic": "الإِقْلَاب",
+    "category": "Noon Sakinah and Tanween",
+    "level": "Intermediate",
+    "description": "The phonetic conversion of a non-vowelled Noon (نْ) or Tanween into a hidden Meem (مْ) sound with a 2-count nasal Ghunnah when followed by the letter Baa (ب)."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Iqlab literally means to turn or flip something around (التَّحْوِيل).",
+    "applied_tajweed_definition": "When a non-vowelled Noon (نْ) or Tanween is followed by the letter Baa (ب) across two words (or occasionally within a single word), the Noon sound is converted into a hidden Meem sound, accompanied by a 2-count nasal resonance (Ghunnah) and gentle lip contact.",
+    "trigger_letter": {
+      "letter": "ب",
+      "name": "Baa",
+      "articulation_point": "Ash-Shafatan (The Two Lips - inner closure)",
+      "mechanism": "The tongue does not touch the upper gum line for Noon; instead, the lips close gently to form a light Meem sound before releasing into the Baa."
+    },
+    "mushaf_indicator": "A small vertical or horizontal standing Meem (م) written directly above or in place of the Tanween or over the Noon Sakinah.",
+    "duration_rules": "The converted Meem sound must be held with nasalization (Ghunnah) for exactly 2 counts."
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "مِنْ بَعْدِ",
+      "transliteration": "Mim-ba'di",
+      "trigger_letter": "ب",
+      "breakdown": "The Noon Sakinah changes into a hidden Meem sound before Baa, held with a 2-count Ghunnah.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/iqlab/min_ba'di.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "سَمِيعٌ بَصِيرٌ",
+      "transliteration": "Samee'um-baseer",
+      "trigger_letter": "ب",
+      "breakdown": "The Dammah Tanween on Samee'un converts into a Meem sound when meeting Baa.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/iqlab/samee'un_baseer.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "أَنْبِئْهُمْ",
+      "transliteration": "Am-bi'hum",
+      "trigger_letter": "ب",
+      "breakdown": "Single-word Iqlab occurring between Noon and Baa inside the same word.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/iqlab/anbi'hum.mp3"
+    },
+    {
+      "id": "ex_04",
+      "arabic_text": "كِرَامٍ بَرَرَةٍ",
+      "transliteration": "Kiraamim-bararah",
+      "trigger_letter": "ب",
+      "breakdown": "Kasrah Tanween on Kiraamin converts to Meem before Baa.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/iqlab/kiraamin_bararah.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What does Iqlab mean linguistically?", "options": ["To turn or convert something around", "To make clear", "To merge completely", "To pause briefly"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "Which single letter triggers the rule of Iqlab?", "options": ["ب (Baa)", "م (Meem)", "ن (Noon)", "و (Waw)"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "Into what sound is the Noon Sakinah or Tanween converted during Iqlab?", "options": ["A hidden Meem (م) sound", "A clear Noon sound", "A Waw sound", "A Baa sound"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "How many counts (Harakat) must the Ghunnah be held during Iqlab?", "options": ["1 count", "2 counts", "4 counts", "6 counts"], "correct_answer": 1 },
+    { "id": "q05", "type": "multiple_choice", "question": "What visual symbol indicates Iqlab in standard Mushafs?", "options": ["A small standing Meem (م)", "A small Sukoon circle", "A Shaddah", "A Maddah wave"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "How should 'مِنْ بَعْدِ' be pronounced correctly?", "options": ["Min-ba'di", "Mim-ba'di (with hidden Meem and 2-count nasal hum)", "Mi-ba'di", "Mee-ba'di"], "correct_answer": 1 },
+    { "id": "q07", "type": "multiple_choice", "question": "Can Iqlab occur within a single word?", "options": ["Yes, such as in أَنْبِئْهُمْ", "No, it must always cross two words", "Only at the end of an Ayah", "Never"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "What anatomical organ is primarily responsible for producing the Iqlab sound?", "options": ["Ash-Shafatan (The Lips)", "Al-Halq (Throat)", "Al-Lisan (Tongue tip)", "Al-Khayshum only without lip contact"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "In the phrase 'سَمِيعٌ بَصِيرٌ', what rule applies between the Tanween and Baa?", "options": ["Iqlab", "Izhar Halqi", "Idgham with Ghunnah", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "If a reciter pronounces 'مِنْ بَعْدِ' with a sharp, clear 'N' sound touching the upper gums, what error have they made?", "options": ["Failed to perform Iqlab (recited with Izhar instead)", "Failed to hold Madd", "Incorrect pitch", "Major stop error"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "In 'كِرَامٍ بَرَرَةٍ', how is the Tanween handled?", "options": ["Converted to Meem with Ghunnah", "Read as a clear 'N'", "Merged into Baa", "Hidden silently"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "What happens to the lips during Iqlab?", "options": ["They touch gently without excessive pressure", "They press together tightly with force", "They remain wide open", "They round into a circle"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "Which of these words features single-word Iqlab?", "options": ["أَنْبِئْهُمْ", "مِنْ بَعْدِ", "مَنْ هَادَ", "مِنْ مَالٍ"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "What is another common spelling example of single-word Iqlab in the Quran?", "options": ["لَبِسْتُمْ", "يَنْصُرُكُمْ", "لَتُنْبَسُنَّ", "أَنْعَمْتَ"], "correct_answer": 2 },
+    { "id": "q15", "type": "multiple_choice", "question": "In 'عَلِيمٌ بِذَاتِ الصُّدُورِ', what rule connects عَلِيمٌ and بِذَاتِ?", "options": ["Iqlab", "Izhar", "Idgham", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "Why is Noon converted into Meem specifically when meeting Baa?", "options": ["Because Meem and Baa share the same lip articulation point (Ash-Shafatan), making Meem an easier transitional bridge", "Because Noon is a throat letter", "Because Baa is a heavy letter", "Because of breath control"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "How many counts of Ghunnah are required for Iqlab?", "options": ["2 counts", "1 count", "4 counts", "6 counts"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "In 'مَنْ بَعْدِ', what is the exact sequence of mouth movements?", "options": ["Pronounce 'Mim' with gentle lip touch + nasal hum -> open lips to pronounce 'Ba'", "Pronounce clear 'N' -> pause -> 'Ba'", "Pronounce 'Ba' with throat vibration", "Skip the Noon entirely"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "If a student closes their lips too tightly during Iqlab, producing a heavy 'M' sound, what is the corrective feedback?", "options": ["Lighten the lip contact so air and nasal resonance flow smoothly", "Press harder", "Stop using nasal sound", "Switch to Idgham"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "In 'جَزَاءً بِمَا', what Tajweed rule applies?", "options": ["Iqlab", "Izhar Halqi", "Idgham without Ghunnah", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "Does Iqlab apply to Tanween as well as Noon Sakinah?", "options": ["Yes, equally to both", "No, only to Noon Sakinah", "Only to Fathah Tanween", "Only when stopping"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "Which symbol replaces the Tanween sign in a Mushaf printed with color-coded Tajweed when Iqlab occurs?", "options": ["A small Meem sign", "A Sukoon", "A Shaddah", "A Hamzah"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "In 'أَنْ بُورِكَ', what rule is present?", "options": ["Iqlab", "Izhar", "Idgham", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "What sound should NOT be heard during Iqlab?", "options": ["A dental 'N' sound (tongue touching upper teeth/gums)", "A nasal hum", "A Meem sound", "A breath release"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "In 'مِنْ بَعْدِ', what is the status of the Noon Sakinah?", "options": ["Converted into Meem", "Read with Izhar", "Merged completely into Baa", "Deleted"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "How does Iqlab differ from Idgham?", "options": ["Iqlab converts the sound into a specific letter (Meem) with lip closure, whereas Idgham merges into the succeeding letter", "Iqlab has no Ghunnah", "Idgham only uses Baa", "There is no difference"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "In 'بَصِيرٌ بِالْعِبَادِ', what rule applies between بَصِيرٌ and بِالْعِبَادِ?", "options": ["Iqlab", "Izhar Halqi", "Idgham with Ghunnah", "Ikhfa Haqiqi"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "What is the primary purpose of the small Meem in Mushaf notation for Iqlab?", "options": ["To guide the reciter to convert the sound to Meem", "To indicate a pause", "To show a silent letter", "To mark the end of an Ayah"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "In 'وَمَنْ يَبْتَغِ', does Iqlab apply?", "options": ["No, because Ya triggers Idgham with Ghunnah", "Yes, because of Baa later", "Yes, immediately", "It triggers Izhar"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "How should 'سَمِيعٌ بَصِيرٌ' be recited?", "options": ["Samee'um-baseer", "Samee'un-baseer", "Samee'ul-baseer", "Samee'u-baseer"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "Can Iqlab occur across word boundaries?", "options": ["Yes, this is the most common occurrence", "No, only inside single words", "Never", "Only in the last 10 Juz"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "In 'فَإِذَا هُمْ بَاهِرُونَ' or similar phrases, what governs Noon/Tanween meeting Baa?", "options": ["Iqlab", "Izhar", "Idgham", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "What is the role of Al-Khayshum (nasal cavity) during Iqlab?", "options": ["It provides the necessary 2-count nasal resonance (Ghunnah)", "It blocks all sound", "It creates throat friction", "It has no role"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "If a student recites 'مِنْ بَعْدِ' and holds the Meem for 6 counts, what error is made?", "options": ["Exceeding the standard 2-count duration for Ghunnah", "Wrong letter conversion", "Izhar error", "Madd error"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "In 'تَوْبَةً نَصُوحًا', is Iqlab present?", "options": ["No, Noon triggers Idgham with Ghunnah", "Yes", "Yes, because of Ta", "It triggers Ikhfa"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "What letter is found immediately after the Iqlab sign in 'أَنْبِئْهُمْ'?", "options": ["ب (Baa)", "ن (Noon)", "م (Meem)", "هـ (Haa)"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "How is 'إِمَامًا بَبِيناً' (hypothetical or Quranic parallel) affected by Baa?", "options": ["Tanween converts to hidden Meem", "Tanween remains clear", "Tanween merges into Baa", "Tanween disappears"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "Which tajweed rule shares the exact same 2-count duration requirement as Iqlab?", "options": ["Idgham with Ghunnah and Ikhfa Haqiqi", "Izhar Halqi", "Idgham without Ghunnah", "Madd Lazim"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "In 'لَيُنْبَذَنَّ', what rule applies between Noon and Baa?", "options": ["Iqlab", "Izhar", "Idgham", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the exact execution of Iqlab:", "options": ["Encounter Noon/Tanween + Baa -> convert sound to hidden Meem -> hold 2-count nasal Ghunnah with gentle lip closure -> release into Baa", "Read clear Noon -> pause -> read Baa", "Merge Noon into Baa without nasalization", "Change Noon to Waw"], "correct_answer": 0 }
+  ]
+}
