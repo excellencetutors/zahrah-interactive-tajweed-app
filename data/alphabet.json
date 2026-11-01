@@ -1,1 +1,11 @@
-{}
+{
+  "letters": [
+    {
+      "name": "Qaf",
+      "arabic": "ق",
+      "transliteration": "q",
+      "region": "Tongue",
+      "tip": "Pull the back of your tongue up to the soft palate."
+    }
+  ]
+}
