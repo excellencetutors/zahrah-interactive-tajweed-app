@@ -1,0 +1,144 @@
+{
+  "rule_metadata": {
+    "rule_id": "06_mutamathil_mutajanis_mutaqarib",
+    "rule_name_english": "Relational Categories of Letters: Mutamathilayn, Mutajanisayn, and Mutaqaribayn",
+    "rule_name_arabic": "المِثْلَانِ وَالمُتَجَانِسَانِ وَالمُتَقَارِبَانِ",
+    "category": "Advanced Idgham & Letter Relationships",
+    "level": "Advanced",
+    "description": "Comprehensive rules governing how identical, homogeneous, and close articulation letters interact when the first is vowelless (Saakin) and the second has a vowel (Mutaharrik)."
+  },
+  "theoretical_foundation": {
+    "core_concept": "When two letters meet—where the first is Saakin (vowelless) and the second is Mutaharrik (vowelled)—their relationship falls into one of three categories based on their Makhraj (articulation point) and Sifaat (attributes).",
+    "categories": [
+      {
+        "category_id": "mutamathilayn",
+        "name_english": "Al-Mutamathilayn (The Identical Letters)",
+        "definition": "Two letters that share the exact same name, Makhraj, and Sifaat (e.g., Baa meeting Baa, Dal meeting Dal).",
+        "sub_divisions": {
+          "saghir": "Mutamathilayn Saghir: First letter is Saakin, second is Mutaharrik. **Rule: Mandatory Idgham (Merging)** in almost all cases.",
+          "kabeer": "Mutamathilayn Kabeer: Both letters are Mutaharrik. **Rule: Izhar (Clear)** for Hafs, except in specific words like مَأْمُنِيْ.",
+          "mutlaq": "Mutamathilayn Mutlaq: First letter is Mutaharrik, second is Saakin. **Rule: Izhar (Clear)**."
+        },
+        "example": {
+          "arabic": "إِذْ ذَهَبَ",
+          "transliteration": "Idh thahaba -> Izh-thahaba (Wait: Thal meeting Thal -> Idh-thahaba or Idh-thal)",
+          "better_example": "قَدْ دَخَلُوا",
+          "breakdown": "Dal meeting Dal. The first vowelless Dal merges completely into the second Dal: Qad-dakhalu -> Qad-dakhalu with Tashdeed."
+        }
+      },
+      {
+        "category_id": "mutajanisayn",
+        "name_english": "Al-Mutajanisayn (The Homogeneous Letters)",
+        "definition": "Two letters that share the **exact same Makhraj (articulation point)** but **differ in some Sifaat (attributes)**.",
+        "key_groups_in_hafs": [
+          {
+            "group": "Ta (ت) and Dal (د) and Taa (ط)",
+            "description": "They share the tip of the tongue and upper gum line. When Saakin meets Mutaharrik among these three, Idgham occurs.",
+            "examples": [
+              { "phrase": "أَبْطَطْتُ", "rule": "Taa meeting Ta" },
+              { "phrase": "أَجَابَتْ دَعْوَتُكُمَا", "transliteration": "Ajabadda'watukuma", "breakdown": "Ta meeting Dal -> Ta merges into Dal." },
+              { "phrase": "رَكَبْتُ مَعَنَا", "note": "Exception where Idgham is incomplete due to Istila of Taa." }
+            ]
+          },
+          {
+            "group": "Thal (ذ) and Thha (ظ)",
+            "description": "Tip of tongue and upper teeth edges.",
+            "example": { "phrase": "إِذْ ظَلَمُوا", "transliteration": "Izh-zhalamu -> Izh-zhalamu (Thal merges into Zhhaa)" }
+          },
+          {
+            "group": "Ba (ب) and Meem (م)",
+            "description": "Both exit from the lips (Ash-Shafatan).",
+            "example": { "phrase": "يَرْكَبْ مَعَنَا", "transliteration": "Yarkab-ma'ana (In Surah Hud, Hafs recites this with complete Idgham of Ba into Meem: Yarkam-ma'ana)." }
+          }
+        ]
+      },
+      {
+        "category_id": "mutaqaribayn",
+        "name_english": "Al-Mutaqaribayn (The Close Letters)",
+        "definition": "Two letters whose **Makharij are very close to each other** or **whose Sifaat are closely linked**.",
+        "key_instances": [
+          {
+            "pair": "Noon Sakinah meeting La, Ra, Ya, Waw, Meem (Yarmaloon)",
+            "description": "Technically classified under Mutaqaribayn or Mutajanisayn depending on the exact letter."
+          },
+          {
+            "pair": "Qaf (ق) meeting Kaf (ك)",
+            "description": "In the verse: أَلَمْ نَخْلُقْكُمْ (Surah Al-Mursalat), the Qaf meets Kaf. Hafs allows complete or incomplete Idgham (Idgham Kaamil or Naqis)."
+          }
+        ]
+      }
+    ]
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "قَدْ دَخَلُوا",
+      "transliteration": "Qad-dakhalu -> Qaddakhalu",
+      "category": "Mutamathilayn Saghir",
+      "breakdown": "Identical Dal letters meeting; the first is vowelless, so it merges completely into the second with Tashdeed."
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "أَجَابَتْ دَعْوَتُكُمَا",
+      "transliteration": "Ajabadda'watukuma",
+      "category": "Mutajanisayn Saghir (Ta into Dal)",
+      "breakdown": "Ta and Dal share the same articulation point. Vowelless Ta merges into Dal."
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "إِذْ ظَلَمُوا",
+      "transliteration": "Izh-zhalamu",
+      "category": "Mutajanisayn Saghir (Thal into Zhhaa)",
+      "breakdown": "Thal merges into Zhhaa completely."
+    },
+    {
+      "id": "ex_04",
+      "arabic_text": "أَلَمْ نَخْلُقْكُمْ",
+      "transliteration": "Alam nakhluqkum -> Alam nakhlukkum",
+      "category": "Mutaqaribayn Saghir (Qaf into Kaf)",
+      "breakdown": "Qaf merges into Kaf due to proximity of articulation."
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What does 'Al-Mutamathilayn' mean in Tajweed?", "options": ["Two identical letters meeting", "Two letters with completely different exit points", "Two vowel sounds", "Two letters in separate surahs"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "What is the rule for Mutamathilayn Saghir (first letter Saakin, second Mutaharrik)?", "options": ["Mandatory Idgham (Merging)", "Strict Izhar", "Iqlab", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "What defines 'Al-Mutajanisayn' (Homogeneous letters)?", "options": ["Letters that share the exact same Makhraj (articulation point) but differ in some attributes", "Letters that have no relation", "Letters found only at the start of surahs", "Letters with identical attributes"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "What defines 'Al-Mutaqaribayn'?", "options": ["Letters whose Makharij or Sifaat are close to each other", "Identical letters", "Letters separated by 5 verses", "Letters with opposite attributes"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "In the phrase 'قَدْ دَخَلُوا', what relationship exists between the two Dals?", "options": ["Mutamathilayn Saghir", "Mutajanisayn", "Mutaqaribayn", "Izhar Mutlaq"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "How is 'قَدْ دَخَلُوا' recited according to Tajweed rules?", "options": ["With complete Idgham (Qaddakhalu)", "With clear separation of both Dals", "With Iqlab", "With a 4-count pause"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "In 'أَجَابَتْ دَعْوَتُكُمَا', which two letters interact under Mutajanisayn?", "options": ["Ta (ت) and Dal (د)", "Ba and Meem", "Qaf and Kaf", "Seen and Sad"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "In 'إِذْ ظَلَمُوا', how does Thal interact with Zhhaa?", "options": ["Thal merges into Zhhaa (Mutajanisayn)", "Thal is pronounced clearly", "Thal changes to Meem", "Thal is dropped"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "In Surah Hud, how does Hafs recite 'يَرْكَبْ مَعَنَا' regarding Ba and Meem?", "options": ["Complete Idgham of Ba into Meem (Yarkamma'ana)", "Clear Ba and clear Meem", "Iqlab", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "In 'أَلَمْ نَخْلُقْكُمْ', what relationship exists between Qaf and Kaf?", "options": ["Mutaqaribayn (Close letters)", "Mutamathilayn", "Mutajanisayn", "No relationship"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "What is 'Mutamathilayn Kabeer'?", "options": ["When both meeting letters carry vowels (Mutaharrik)", "When the first letter is Saakin", "When letters are in different words", "When letters have different names"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "What is the general rule for Mutamathilayn Kabeer for Hafs?", "options": ["Izhar (Clear pronunciation)", "Mandatory Idgham", "Iqlab", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "What is 'Mutamathilayn Mutlaq'?", "options": ["First letter Mutaharrik, second letter Saakin", "Both letters Saakin", "Both letters Mutaharrik", "Identical letters across surahs"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "What is the rule for Mutamathilayn Mutlaq?", "options": ["Izhar (Clear pronunciation)", "Idgham", "Iqlab", "Sakt"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "Why do Ta, Dal, and Taa form a Mutajanisayn group?", "options": ["Because they share the tip of the tongue and upper gum line", "Because they are throat letters", "Because they use the lips", "Because they are nasal"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "If a reciter fails to merge the vowelless Dal into the vowelled Dal in 'قَدْ دَخَلُوا', what kind of error is committed?", "options": ["Lahn (violation of Tajweed application)", "No error", "Madd error", "Ghunnah error"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "In 'بْتُّ', as in 'قَالَتْ طَائِفَةٌ' or similar, how do Taa and Ta interact?", "options": ["Mutajanisayn Idgham", "Izhar", "Iqlab", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "What distinguishes Mutajanisayn from Mutamathilayn?", "options": ["Mutamathilayn letters are 100% identical; Mutajanisayn letters share an exit point but have different attributes", "Mutajanisayn letters are identical", "There is no difference", "Mutamathilayn only uses lips"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "What distinguishes Mutaqaribayn from Mutajanisayn?", "options": ["Mutaqaribayn letters have close (not identical) exit points or attributes", "Mutaqaribayn letters are identical", "Mutaqaribayn only applies to Noon", "There is no distinction"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "In 'فَلْتَسْتَجِبُوا' or similar contexts, how are letters grouped?", "options": ["Under general letter interaction rules", "Under Noon Sakinah", "Under Madd", "Under Qira'at usool"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "Is Idgham mandatory for all Mutamathilayn Saghir instances?", "options": ["Yes, with very few exceptions (like Ha' as-Sakt in Haqgalah)", "No, never", "Only in Juz 30", "Only for Meem"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "What happens in 'مَالِيَهْ ۜ هَلَكَعَنِّي' (Ha' as-Sakt exception)?", "options": ["The two identical Ha' letters are read with Izhar (or Sakt) instead of Idgham because of the pause sign", "Mandatory Idgham applies", "They merge into Meem", "They are deleted"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "In 'رَبِحَتْ تِجَارُهُمْ', what interaction occurs between Taa and Ta?", "options": ["Mutamathilayn Saghir Idgham", "Mutajanisayn", "Izhar", "Iqlab"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "In 'فَمَا رَبِحَتْ تِجَارُهُمْ', how should it be pronounced?", "options": ["Fama rabihattijaruhum (merged Taa with Tashdeed)", "Fama rabihat tijaruhum", "Fama rabiha tijaruhum", "Fama rabihat-n tijaruhum"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "Which category covers the interaction between Lam and Ra in certain contexts?", "options": ["Mutaqaribayn", "Mutamathilayn", "Mutajanisayn", "Izhar"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "Why is understanding Mutamathil, Mutajanis, and Mutaqarib essential for an advanced Tajweed app?", "options": ["Because advanced Quranic recitation rules require handling letter assimilation beyond just Noon Sakinah", "Because it is required for spelling", "Because it replaces the alphabet", "Because it is only for children"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "In 'أَلَمْ نَخْلُقْكُمْ', what are the two possible valid recitations for Hafs regarding Qaf and Kaf?", "options": ["Complete Idgham (Kaamil) or Incomplete Idgham (Naqis)", "Only Izhar", "Only Iqlab", "Only Ikhfa"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "What is 'Saghir' (Small) classification in these three categories?", "options": ["First letter is Saakin (vowelless) and second is Mutaharrik (vowelled)", "Both letters have Fathah", "Letters are written in small font", "Letters occur at the end of Ayahs"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "What is 'Kabeer' (Big) classification?", "options": ["Both letters carry vowels", "First letter is vowelless", "Letters are pronounced loudly", "It refers to heavy letters"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "What is 'Mutlaq' classification?", "options": ["First letter has a vowel, second letter is vowelless", "Both letters have sukoon", "Both letters have shaddah", "It has no rules"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "In 'بْل قُلْ' or similar, how do Lam and Lam interact?", "options": ["Mutamathilayn Saghir -> Idgham", "Mutajanisayn", "Izhar", "Iqlab"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "In 'كْتُبْ', if it met another letter, how would it be classified?", "options": ["Depends on the succeeding letter", "Always Idgham", "Always Izhar", "Always Iqlab"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "Does Mutajanisayn Idgham apply to 'ذ' and 'ظ' in all recitations?", "options": ["Yes, specifically in 'إِذْ ظَلَمُوا' for Hafs 'an 'Asim", "No, never", "Only in Warsh", "Only in Madinah"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "What is the physical sensation of pronouncing Mutamathilayn Saghir with Idgham?", "options": ["The articulators strike once with double force and duration (Shaddah) without stopping", "The articulators strike twice separately", "The voice stops completely", "The breath is held in the throat"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "In 'يُرِدْ ثَوَابَ', what letter interaction takes place?", "options": ["Dal and Tha interaction", "Mutamathilayn", "Mutajanisayn", "Iqlab"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "Why are letters like Ba and Meem considered Mutajanisayn in specific phrases like 'يَرْكَبْ مَعَنَا'?", "options": ["Because they both originate from the lips (Ash-Shafatan)", "Because they are throat letters", "Because they use the tongue", "Because they are both heavy"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "How should your app's AI audio analyzer score a student who fails to merge Mutamathilayn Saghir letters?", "options": ["Flag as a rule assimilation error (missing Idgham)", "Mark as perfect", "Flag as a Madd error", "Ignore"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "In 'وَقُلْ رَبِّ', how do Lam and Ra interact?", "options": ["Mutaqaribayn relationship", "Mutamathilayn", "Mutajanisayn", "Identical"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "What is the ultimate educational goal of teaching these three categories in your app?", "options": ["To transition students from basic Noon rules to mastering absolute fluency and professional recitation mechanics across the entire Quran", "To memorize grammar terms", "To study Arabic poetry", "To practice translation"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the core rule governing Mutamathil, Mutajanis, and Mutaqarib in Saghir form:", "options": ["When vowelless letters meet identical, homogeneous, or close letters, Idgham (assimilation) takes place with specific exceptions", "They are always pronounced clearly", "They always convert to Meem", "They are silent"], "correct_answer": 0 }
+  ]
+}
