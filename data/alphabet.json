@@ -1,11 +1,32 @@
 {
   "letters": [
-    {
-      "name": "Qaf",
-      "arabic": "ق",
-      "transliteration": "q",
-      "region": "Tongue",
-      "tip": "Pull the back of your tongue up to the soft palate."
-    }
+    { "name": "Alif", "arabic": "ا", "transliteration": "a", "region": "Jawf (Empty Space)", "tip": "Open the mouth naturally; sound originates from empty mouth space." },
+    { "name": "Ba", "arabic": "ب", "transliteration": "b", "region": "Lips", "tip": "Press both inner lips firmly together." },
+    { "name": "Ta", "arabic": "t", "transliteration": "t", "region": "Tongue", "tip": "Touch the tip of the tongue to the roots of the upper front teeth." },
+    { "name": "Tha", "arabic": "ث", "transliteration": "th", "region": "Tongue & Teeth", "tip": "Lightly touch the tip of the tongue to the edge of the upper front teeth." },
+    { "name": "Jeem", "arabic": "ج", "transliteration": "j", "region": "Tongue", "tip": "Press the middle of the tongue firmly against the roof of the mouth." },
+    { "name": "Haa", "arabic": "ح", "transliteration": "h", "region": "Throat", "tip": "Exhale from the middle of the throat with a warm breath." },
+    { "name": "Khaa", "arabic": "خ", "transliteration": "kh", "region": "Throat", "tip": "Gargle the sound slightly from the top of the throat." },
+    { "name": "Dal", "arabic": "د", "transliteration": "d", "region": "Tongue", "tip": "Touch the tip of the tongue to the roots of the upper teeth, similar to Ta." },
+    { "name": "Dhal", "arabic": "ذ", "transliteration": "dh", "region": "Tongue & Teeth", "tip": "Lightly touch the tip of the tongue to the edge of the upper teeth, similar to Tha." },
+    { "name": "Ra", "arabic": "ر", "transliteration": "r", "region": "Tongue", "tip": "Tap the tip of the tongue gently against the gum line with a slight trill." },
+    { "name": "Zay", "arabic": "ز", "transliteration": "z", "region": "Tongue & Teeth", "tip": "Bring teeth close together and let air whistle across the tip of the tongue." },
+    { "name": "Seen", "arabic": "س", "transliteration": "s", "region": "Tongue & Teeth", "tip": "Direct a sharp whistling breath over the tip of the tongue behind lower teeth." },
+    { "name": "Sheen", "arabic": "ش", "transliteration": "sh", "region": "Tongue", "tip": "Spread the middle of the tongue against the palate with a spreading breath." },
+    { "name": "Sad", "arabic": "ص", "transliteration": "s", "region": "Tongue & Teeth", "tip": "Pronounce 'S' while elevating and hollowing the back of the tongue for a heavy sound." },
+    { "name": "Dad", "arabic": "ض", "transliteration": "d", "region": "Tongue", "tip": "Press the side of the tongue against the upper molars." },
+    { "name": "Taa", "arabic": "ط", "transliteration": "t", "region": "Tongue", "tip": "Pronounce 'T' while elevating the back of the tongue to make it heavy." },
+    { "name": "Zhaa", "arabic": "ظ", "transliteration": "zh", "region": "Tongue & Teeth", "tip": "Lightly touch the tip of the tongue to the upper teeth with a heavy, full mouth." },
+    { "name": "Ayn", "arabic": "ع", "transliteration": "'", "region": "Throat", "tip": "Squeeze the middle of the throat tightly from deep within." },
+    { "name": "Ghayn", "arabic": "غ", "transliteration": "gh", "region": "Throat", "tip": "Gargle softly from the top of the throat with a heavy resonance." },
+    { "name": "Fa", "arabic": "ف", "transliteration": "f", "region": "Lips & Teeth", "tip": "Touch the edge of the upper front teeth to the inside of the lower lip." },
+    { "name": "Qaf", "arabic": "ق", "transliteration": "q", "region": "Tongue", "tip": "Pull the extreme back of the tongue up to the soft palate." },
+    { "name": "Kaf", "arabic": "ك", "transliteration": "k", "region": "Tongue", "tip": "Touch the back of the tongue to the hard and soft palate junction." },
+    { "name": "Lam", "arabic": "ل", "transliteration": "l", "region": "Tongue", "tip": "Press the edges of the tongue tip against the gums of the upper teeth." },
+    { "name": "Meem", "arabic": "م", "transliteration": "m", "region": "Lips", "tip": "Close the lips completely while generating a nasal sound (Ghunnah)." },
+    { "name": "Noon", "arabic": "ن", "transliteration": "n", "region": "Tongue", "tip": "Touch the tip of the tongue to the gum line behind upper teeth with a nasal hum." },
+    { "name": "Waw", "arabic": "و", "transliteration": "w", "region": "Lips", "tip": "Round the lips forward without letting them fully close." },
+    { "name": "Haa_end", "arabic": "هـ", "transliteration": "h", "region": "Throat", "tip": "Release breath smoothly from the deepest part of the throat." },
+    { "name": "Ya", "arabic": "ي", "transliteration": "y", "region": "Tongue", "tip": "Raise the middle of the tongue toward the roof of the mouth." }
   ]
 }
