@@ -1,0 +1,112 @@
+{
+  "rule_metadata": {
+    "rule_id": "01_tafkheem_tarqeeq",
+    "rule_name_english": "Tafkheem & Tarqeeq (Heavy and Light Letters & Detailed Rules of Ra)",
+    "rule_name_arabic": "التَّفْخِيمُ وَالتَّرْقِيقُ وَأَحْكَامُ الرَّاءِ",
+    "category": "Phonetic Weight & Consonant Rules",
+    "level": "Advanced",
+    "description": "The definitive master module for Tafkheem (velarization/heaviness) and Tarqeeq (attenuation/lightness), including the 3 letter categories and exhaustive conditional rules for the letter Ra."
+  },
+  "theoretical_foundation": {
+    "definitions": {
+      "tafkheem": "Tafkheem (تَفْخِيم): Heaviness or velarization—producing a full, echoing resonance in the mouth by elevating the back of the tongue toward the soft palate.",
+      "tarqeeq": "Tarqeeq (تَرْقِيق): Lightness or attenuation—producing a thin, flat resonance by keeping the tongue lowered away from the soft palate."
+    },
+    "three_letter_categories": {
+      "permanently_heavy": "1. Permanently Heavy (7 Isti'la' letters): خُصَّ ضَغْطٍ قِظْ (خ، ص، ض، غ، ط، ق، ظ). Always read with Tafkheem.",
+      "conditionally_heavy_or_light": "2. Conditionally Heavy or Light (3 letters): Alif Madd (follows the weight of preceding letter), Lam of Jalalah (heavy after Fathah/Dammah, light after Kasrah), and Ra (ر).",
+      "permanently_light": "3. Permanently Light (21 Istifal letters): All remaining letters of the Arabic alphabet."
+    },
+    "rules_of_the_letter_ra": {
+      "ra_tafkheem_heavy": [
+        "1. When carrying a Fathah or Dammah (e.g., رَبَّنَا, رُحَمَاء).",
+        "2. When Saakinah preceded by a Fathah or Dammah (e.g., مَرْحَمَة, قُرْآن).",
+        "3. When Saakinah due to Waqf preceded by a Saakin letter which is preceded by Fathah or Dammah (e.g., وَالْعَصْر, خُسْر).",
+        "4. When Saakinah preceded by an temporary/connecting Hamzah (Hamzat al-Wasl) (e.g., ارْجِعِي).",
+        "5. When Saakinah preceded by a Kasrah but followed by an Isti'la' letter carrying a Fathah in the same word (e.g., قِرْطَاس, مِرْصَاد)."
+      ],
+      "ra_tarqeeq_light": [
+        "1. When carrying a Kasrah (e.g., رِجَال).",
+        "2. When Saakinah preceded by an original Kasrah in the same word, NOT followed by an Isti'la' letter (e.g., فِرْعَوْن).",
+        "3. When Saakinah due to Waqf preceded by Ya Saakinah (Lin or Madd) (e.g., خَيْر, قَدِير).",
+        "4. When Saakinah due to Waqf preceded by a non-Isti'la' Saakin letter which is preceded by a Kasrah (e.g., حِجْر)."
+      ],
+      "ra_permissible_either_way": [
+        "1. When Saakinah preceded by Kasrah and followed by an Isti'la' letter carrying Kasrah: فِرْقٍ in Surah Ash-Shu'ara.",
+        "2. When stopping (Waqf) on words with a dropped original Ya: كَنُذُر, يَسْر, and the words عِمْصْر, الْقِطْر."
+      ]
+    }
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "خُصَّ ضَغْطٍ قِظْ",
+      "transliteration": "Khussa daghtin qidh",
+      "rule_type": "Permanently Heavy Letters",
+      "breakdown": "The 7 letters of Isti'la' that are always pronounced with full Tafkheem."
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "مِرْصَادًا",
+      "transliteration": "Mirsaada",
+      "rule_type": "Heavy Ra (Tafkheem Exception)",
+      "breakdown": "Ra Saakinah preceded by Kasrah, but followed by heavy Saad carrying Fathah."
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "فِرْعَوْنَ",
+      "transliteration": "Fir'awna",
+      "rule_type": "Light Ra (Tarqeeq)",
+      "breakdown": "Ra Saakinah preceded by genuine original Kasrah inside the same word."
+    },
+    {
+      "id": "ex_04",
+      "arabic_text": "كُلُّ فِرْقٍ",
+      "transliteration": "Kullu firqin",
+      "rule_type": "Permissible Ra (Jawaz al-Wajhayn)",
+      "breakdown": "Ra Saakinah preceded by Kasrah and followed by heavy Qaf carrying Kasrah."
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What does 'Tafkheem' mean in Tajweed?", "options": ["Heaviness or velarization producing a full-mouth resonance", "Lightness or attenuation", "Shortening counts", "Whispering"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "What does 'Tarqeeq' mean in Tajweed?", "options": ["Lightness or attenuation producing a thin resonance", "Full-mouth heaviness", "Compulsory 6 counts", "Bouncing sound"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "How many letters of the Arabic alphabet are PERMANENTLY heavy?", "options": ["7 letters (خُصَّ ضَغْطٍ قِظْ)", "14 letters", "3 letters", "21 letters"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "Which 3 letters in Arabic are conditionally heavy or light based on context?", "options": ["Alif Madd, Lam of Jalalah, and Ra (ر)", "Qaf, Ta, Ba", "Noon, Meem, Waw", "Hamzah, Ha, Ayn"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "How does Alif Madd determine its weight (Tafkheem vs. Tarqeeq)?", "options": ["It mirrors the weight of the letter immediately preceding it", "It is always heavy", "It is always light", "It depends on the succeeding letter"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "When is the letter Ra (ر) pronounced heavy due to its own vowel?", "options": ["When it carries a Fathah or Dammah", "When it carries a Kasrah", "When it is preceded by Ya", "When stopping on Kasrah"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "When is the letter Ra (ر) pronounced light due to its own vowel?", "options": ["When it carries a Kasrah (e.g., رِجَال)", "When it carries a Fathah", "When it carries a Dammah", "When followed by Saad"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "In 'مَرْحَمَة', why is the Ra Saakinah heavy?", "options": ["Because it is preceded by a Fathah on Meem", "Because it carries Kasrah", "Because it is followed by Ya", "Because of Waqf"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "In 'فِرْعَوْن', why is the Ra Saakinah light?", "options": ["Because it is preceded by an original Kasrah in the same word without an Isti'la' letter following", "Because it carries Dammah", "Because it is preceded by Fathah", "Because of Waqf"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "In 'مِرْصَادًا', why is the Ra Saakinah heavy despite being preceded by a Kasrah?", "options": ["Because it is immediately followed by an Isti'la' letter (Saad) carrying a Fathah in the same word", "Because it carries Dammah", "Because of Hamzat al-Wasl", "It is light"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "In 'ارْجِعِي', why is the Ra Saakinah heavy?", "options": ["Because it is preceded by a temporary connecting Hamzah (Hamzat al-Wasl)", "Because of Kasrah", "Because it is light", "Because of Waqf"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "When stopping (Waqf) on 'خَيْر', how is the Ra pronounced?", "options": ["Light (Tarqeeq) because it is preceded by a Ya Saakinah", "Heavy (Tafkheem)", "Permissible either way", "Silent"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "In 'كُلُّ فِرْقٍ', what is the rule regarding the Ra?", "options": ["Permissible either way (Jawaz al-Wajhayn) because the following Isti'la' letter carries Kasrah", "Strictly heavy", "Strictly light", "Prohibited"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "In 'وَالْعَصْر', when stopping at the verse end, how is the Ra pronounced?", "options": ["Heavy (Tafkheem) because the letter before Saad has a Fathah", "Light (Tarqeeq)", "Silent", "With Qalqalah"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "In 'حِجْر', when stopping at the verse end, how is the Ra pronounced?", "options": ["Light (Tarqeeq) because the letter before Jeem has a Kasrah", "Heavy (Tafkheem)", "Silent", "With Sakt"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "How many levels of Tafkheem exist for Isti'la' letters according to Ibn al-Jazari?", "options": ["5 levels (Fathah+Alif, Fathah, Dammah, Sukoon, Kasrah)", "2 levels", "10 levels", "3 levels"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "Which level of Tafkheem is the strongest?", "options": ["An Isti'la' letter carrying a Fathah followed by an Alif (e.g., قَالَ)", "An Isti'la' letter with Kasrah", "An Isti'la' letter with Sukoon", "An Isti'la' letter with Dammah"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "Which level of Tafkheem is the weakest (Tafkheem Nisbi)?", "options": ["An Isti'la' letter carrying a Kasrah (e.g., قِيلَ)", "An Isti'la' letter with Fathah+Alif", "An Isti'la' letter with Dammah", "An Isti'la' letter with Sukoon"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "If a student pronounces 'فِرْعَوْن' with a heavy full-mouth Ra, what error is flagged?", "options": ["Incorrect Tafkheem on a Ra that requires Tarqeeq (lightness after Kasrah)", "Correct recitation", "Madd error", "Qalqalah error"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "What is the primary pedagogical goal of the Tafkheem & Tarqeeq module?", "options": ["Mastering heavy vs. light letter categories and all conditional rules governing the letter Ra", "Learning Arabic grammar", "Translating text", "Studying history"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "In 'قِرْطَاس', why is the Ra heavy?", "options": ["Followed by heavy Tah with Fathah in the same word", "Preceded by Kasrah", "Preceded by Fathah", "Because of Waqf"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "In 'رُحَمَاء', why is the Ra heavy?", "options": ["Carries Dammah", "Carries Kasrah", "Preceded by Ya", "Preceded by Sukoon"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "In 'قَدِير', when stopping (Waqf), why is the Ra light?", "options": ["Preceded by Ya Saakinah (Madd)", "Preceded by Fathah", "Carries Dammah", "Followed by Qaf"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "What happens to the letter Ra when stopping on 'مِصْر'?", "options": ["Permissible either way (Jawaz al-Wajhayn), with heavy being preferred by many scholars", "Strictly light", "Strictly 6 counts", "Silent"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "What happens to the letter Ra when stopping on 'الْقِطْر'?", "options": ["Permissible either way (Jawaz al-Wajhayn), with light being preferred by many scholars", "Strictly heavy", "Strictly 6 counts", "Silent"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "Are the letters of Itbaq (ص، ض، ط، ظ) heavier than non-Itbaq Isti'la' letters (خ، غ، ق)?", "options": ["Yes, Itbaq letters maintain stronger heaviness across all vowels", "No, they are equal", "Non-Itbaq is heavier", "Itbaq letters are light"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "In 'قَالُوا', why is the Alif Madd heavy?", "options": ["Because it is preceded by the heavy Isti'la' letter Qaf", "Because Alif is always heavy", "Because of Dammah", "Because of Waqf"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "In 'بِمَا', why is the Alif Madd light?", "options": ["Because it is preceded by the light Istifal letter Baa", "Because Alif is always light", "Because of Fathah", "Because of Sukoon"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "In 'أَمِ ارْتَابُوا', why is the Ra Saakinah heavy?", "options": ["Preceded by a temporary Kasrah due to Hamzat al-Wasl transition", "Preceded by original Kasrah", "Carries Kasrah", "Followed by Ya"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "Summarize the core rules of Tafkheem & Tarqeeq:", "options": ["7 letters are permanently heavy, 21 are permanently light, while Alif, Lam Jalalah, and Ra are conditional—with Ra's weight determined by its vowel, preceding vowels, or succeeding heavy letters", "Always heavy", "Always light", "Optional"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "In 'الرَّحْمَٰن', why is the Ra heavy?", "options": ["Carries Fathah with Shaddah", "Carries Kasrah", "Preceded by Ya", "Preceded by Sukoon"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "In 'فَرِيق', why is the Ra light?", "options": ["Carries Kasrah", "Carries Fathah", "Carries Dammah", "Preceded by Qaf"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "In 'قُرْآن', why is the Ra heavy?", "options": ["Saakinah preceded by Dammah on Qaf", "Saakinah preceded by Kasrah", "Carries Fathah", "Followed by Ya"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "What is the physical tongue position for Tarqeeq?", "options": ["Tongue stays lowered and flat without raising the back", "Back of tongue elevated to roof of mouth", "Lips pouted", "Nasal hum"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "What is the physical tongue position for Tafkheem?", "options": ["Back of tongue elevated toward soft palate creating full mouth resonance", "Tongue lowered completely", "Lips wide open", "Whispering"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "In 'وَنُذُر', when stopping (Waqf), why is Ra permissible either way?", "options": ["Due to the omission of an original ending Ya in Quranic orthography", "Because it has Shaddah", "Because of 6 counts", "Because of Iqlab"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "If a student recites 'رِجَال' with a heavy Ra, what feedback is given?", "options": ["Apply Tarqeeq (lightness) since Ra carries a direct Kasrah", "Correct", "Ignore", "Pass"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "How does an AI voice evaluation engine assess Tafkheem accuracy?", "options": ["Detect lower formants and full acoustic resonance characteristic of back-tongue elevation", "Check verse counts", "Check page breaks", "Check text length"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "How many conditions make the letter Ra light (Tarqeeq)?", "options": ["4 core conditions (Kasrah vowel, Saakin after original Kasrah, Saakin after Ya, Saakin after non-Isti'la' after Kasrah)", "1 condition", "10 conditions", "20 conditions"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the complete Tafkheem & Tarqeeq master module:", "options": ["A comprehensive 40-question module governing heavy vs. light letter classification and all rules of Ra across heavy, light, and dual-permissible conditions", "Always heavy", "Always light", "Optional"], "correct_answer": 0 }
+  ]
+}
