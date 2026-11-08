@@ -1,0 +1,51 @@
+{
+  "rule_metadata": {
+    "rule_id": "01_ikhfa_shafawi",
+    "rule_name_english": "Ikhfa Shafawi (Lip Concealment)",
+    "rule_name_arabic": "الإِخْفَاء الشَّفَوِي",
+    "category": "Meem Sakinah Rules",
+    "level": "Intermediate",
+    "description": "The concealment of a vowelless Meem (مْ) when followed by the letter Baa (ب), accompanied by a 2-count nasal Ghunnah and gentle lip closure."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Ikhfa means concealment, and Shafawi means pertaining to the lips (Ash-Shafatan), because both Meem and Baa exit from the lips.",
+    "applied_tajweed_definition": "When a non-vowelled Meem (مْ) is followed by the letter Baa (ب) across two words, the Meem is concealed with a 2-count nasal Ghunnah while the lips touch gently without pressing tightly.",
+    "trigger_letter": {
+      "letter": "ب",
+      "name": "Baa",
+      "articulation_point": "Ash-Shafatan (The Two Lips)",
+      "mechanism": "The lips close softly to produce the Meem nasal sound before immediately opening into the Baa."
+    },
+    "mushaf_indicator": "The Meem Sakinah appears bare (without a Sukoon sign), and the succeeding Baa has no Shaddah."
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "تَرْمِيهِمْ بِحِجَارَةٍ",
+      "transliteration": "Tarmihim-bihijaratin",
+      "trigger_letter": "ب",
+      "breakdown": "The Meem Sakinah of 'Tarmihim' is concealed with a 2-count Ghunnah before the Baa of 'bihijaratin'.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/meem_sakinah/tarmihim_bihijaratin.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "مِنْهُمْ بِرَبِّهِمْ",
+      "transliteration": "Minhum-birabbihim",
+      "trigger_letter": "ب",
+      "breakdown": "Gentle lip closure with nasal resonance connecting 'Minhum' to 'birabbihim'.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/meem_sakinah/minhum_birabbihim.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What does 'Shafawi' mean in Ikhfa Shafawi?", "options": ["Pertaining to the lips (Ash-Shafatan)", "Pertaining to the throat", "Pertaining to the nasal cavity only", "Pertaining to the teeth"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "Which letter triggers Ikhfa Shafawi when following Meem Sakinah?", "options": ["ب (Baa)", "م (Meem)", "ن (Noon)", "و (Waw)"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "How many counts of Ghunnah are required for Ikhfa Shafawi?", "options": ["2 counts", "1 count", "4 counts", "6 counts"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "How should the lips behave during Ikhfa Shafawi?", "options": ["Touch gently without tight pressure", "Press together forcefully", "Remain wide open", "Round into a circle"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "In 'تَرْمِيهِمْ بِحِجَارَةٍ', what rule applies between Meem and Baa?", "options": ["Ikhfa Shafawi", "Izhar Shafawi", "Idgham Shafawi", "Iqlab"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "What is the visual sign of Meem Sakinah in the Mushaf during Ikhfa Shafawi?", "options": ["Bare Meem with no Sukoon symbol", "Meem with a Shaddah", "Meem with a small circle", "Meem with a Maddah"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "Does Ikhfa Shafawi occur across two words or within a single word?", "options": ["Across two separate words", "Inside a single word", "Only at the end of a Surah", "Only with Hamzah"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "What error occurs if a reciter presses their lips together too hard during Ikhfa Shafawi?", "options": ["Excessive pressure distorts the light concealment into a heavy, rigid sound", "Correct recitation", "Madd error", "Izhar error"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "In 'عَلَيْهِمْ بِمُؤْمِنِينَ', what rule governs the Meem meeting Baa?", "options": ["Ikhfa Shafawi", "Izhar", "Idgham", "Iqlab"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "Summarize the execution of Ikhfa Shafawi:", "options": ["Encounter Meem Sakinah + Baa -> conceal Meem with gentle lip touch -> hold 2-count nasal Ghunnah -> release into Baa", "Read clear Meem -> pause -> read Baa", "Merge Meem into Baa completely", "Change Meem to Noon"], "correct_answer": 0 }
+  ]
+}
