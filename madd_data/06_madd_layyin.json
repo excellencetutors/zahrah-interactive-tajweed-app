@@ -1,0 +1,89 @@
+{
+  "rule_metadata": {
+    "rule_id": "06_madd_layyin",
+    "rule_name_english": "Madd al-Layyin (The Soft Lengthening)",
+    "rule_name_arabic": "مَدّ اللَّيِّن",
+    "category": "Madd (Lengthening) Rules",
+    "level": "Advanced Intermediate",
+    "description": "Comprehensive rules governing the semi-vowel soft lengthening of Waw or Ya Saakinah preceded by a Fathah when pausing (Waqf) on a word."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Layyin (لَيِّن) literally means softness, ease, or smoothness in Arabic.",
+    "applied_tajweed_definition": "Madd al-Layyin occurs when a Waw Saakinah (وْ) or Ya Saakinah (يْ) is preceded specifically by a Fathah letter, and the reciter pauses (Waqf) on the subsequent letter, creating a temporary Sukoon.",
+    "trigger_letters": [
+      "وْ (Waw Saakinah preceded by Fathah)",
+      "يْ (Ya Saakinah preceded by Fathah)"
+    ],
+    "ruling_and_duration": "A permissible elongation of **2, 4, or 6 counts** (Harakat) upon stopping, exactly matching the mechanics of Madd 'Arid lis-Sukoon.",
+    "wasl_ruling": "If the reciter continues reading without stopping (Wasl), the Layyin letters are pronounced smoothly with zero elongation (normal short count).",
+    "mushaf_indicator": "A Fathah on the letter preceding a vowelless Waw or Ya, combined with pausing at the end of the word."
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "لِإِيلَافِ قُرَيْشٍ",
+      "transliteration": "Li-eelaafi Quraysh (when stopping)",
+      "trigger_letter": "يْ",
+      "breakdown": "Ya Saakinah preceded by Ra with Fathah; when pausing on Quraysh, elongated 2, 4, or 6 counts.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/quraysh.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "مِنْ خَوْفٍ",
+      "transliteration": "Min khawf (when stopping)",
+      "trigger_letter": "وْ",
+      "breakdown": "Waw Saakinah preceded by Kha with Fathah; soft lengthening applied upon pausing.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/khawf.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "وَالصَّيْفِ",
+      "transliteration": "Was-sayf (when stopping)",
+      "trigger_letter": "يْ",
+      "breakdown": "Ya Saakinah preceded by Sad with Fathah.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/sayf.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What does 'Layyin' mean linguistically?", "options": ["Softness, ease, or smoothness", "Compulsory merging", "Heavy pronunciation", "Nasal resonance"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "What letters form the foundation of Madd al-Layyin?", "options": ["Waw Saakinah or Ya Saakinah preceded by a Fathah", "Alif preceded by Fathah", "Hamzah followed by Madd", "Meem meeting Baa"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "What vowel must precede the Waw or Ya for Madd al-Layyin to apply?", "options": ["Fathah", "Dammah", "Kasrah", "Sukoon"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "What is the permissible duration range for Madd al-Layyin when pausing?", "options": ["2, 4, or 6 counts", "Strictly 1 count", "Always 5 counts", "Always 6 counts only"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "What action triggers Madd al-Layyin to become active?", "options": ["Pausing (Waqf) on the word, creating a temporary Sukoon on the final letter", "Reading at high speed", "Starting a new Surah", "Connecting words without breath"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "What happens to Madd al-Layyin if you continue reading without stopping (Wasl)?", "options": ["The lengthening disappears and it is read as a smooth, short semi-vowel with zero elongation", "It turns into 6 counts", "It becomes Madd Lazim", "It turns into Iqlab"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "In the word 'قُرَيْشٍ', when stopping at the end of the ayah, what rule applies?", "options": ["Madd al-Layyin", "Madd Lazim", "Madd Badal", "Izhar"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "In the phrase 'مِنْ خَوْفٍ', when pausing on 'خَوْفٍ', what Tajweed rule governs the Waw?", "options": ["Madd al-Layyin (Waw Saakinah preceded by Fathah)", "Madd Tabii", "Idgham", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "How does Madd al-Layyin differ from standard Madd Tabii or 'Arid?", "options": ["Layyin specifically uses semi-vowels Waw/Ya preceded by Fathah rather than matching Dammah/Kasrah homing vowels", "Layyin is 10 counts", "Layyin requires Hamzah", "There is no difference"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "In 'وَالصَّيْفِ', stopping on it invokes which rule?", "options": ["Madd al-Layyin", "Madd Muttasil", "Madd Munfasil", "Izhar"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "What is the phonetic character of Layyin letters compared to strict Madd letters?", "options": ["They are pronounced with extreme smoothness and ease off the tongue", "They require harsh throat pressure", "They carry a nasal hum", "They are silent"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "If a student chooses a 4-count length for Madd al-Layyin in Surah Quraysh, should they maintain it?", "options": ["Yes, consistency in rhythm throughout the reading session is standard practice", "No, it must change every word", "Switch to 1 count", "Stop reciting"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "Which of the following words features a Waw Layyin?", "options": ["الْمَوْتِ (Al-Mawt when stopping)", "قِيلَ", "يَقُولُ", "قَالَ"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "Which of the following words features a Ya Layyin?", "options": ["بَيْتٍ (Bayt when stopping)", "قَالَ", "يَقُولُ", "قِيلَ"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "What similarity does Madd al-Layyin share with Madd 'Arid lis-Sukoon?", "options": ["Both activate upon pausing and share the identical permissible count options (2, 4, or 6 counts)", "Both require Hamzah", "Both are 6 counts mandatory", "Both are Noon rules"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "If a reciter connects 'قُرَيْشٍ' directly to the next word without pausing, how is the Ya treated?", "options": ["Read smoothly with normal short vowel tempo and zero soft elongation", "Elongated 6 counts", "Turned into Meem", "Deleted"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "In Surah Quraysh, how many opportunities for Madd al-Layyin appear?", "options": ["Multiple (e.g., إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ and قُرَيْشٍ)", "Zero", "Only one", "Fifty"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "What error does an AI evaluation engine flag if a student adds a 6-count Layyin lengthening while connecting words in Wasl?", "options": ["Inappropriate elongation of Layyin letter during continuous unpaused recitation", "Correct recitation", "Madd Badal error", "Izhar error"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "Why are Waw and Ya in Layyin called semi-vowels?", "options": ["Because they retain a glide quality while being vowelless, preceded by an open Fathah", "Because they are vowels only", "Because they are consonants only", "Because they are silent"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "In 'عَلَيْف' or similar contexts, what governs the Ya?", "options": ["Madd al-Layyin upon pausing", "Madd Lazim", "Iqlab", "Idgham"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "What is the exact counting pulse required for a 4-count Madd al-Layyin pause?", "options": ["A steady 4-beat rhythm maintaining vocal resonance", "A rushed 1-beat pulse", "A rigid 6-beat pulse", "Whisper"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "Can Madd al-Layyin occur in the middle of an uninterrupted verse sentence?", "options": ["No, the lengthening component strictly requires a pause (Waqf) or temporary Sukoon trigger", "Yes, always", "Only with Hamzah", "Only in poetry"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "In 'فَلْيَعْبُدُوا رَبَّ هَذَا الْبَيْتِ', when stopping on 'الْبَيْتِ', what rule applies?", "options": ["Madd al-Layyin", "Madd Badal", "Madd Lazim", "Idgham"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "How does the mouth shape differ between Waw Layyin and Ya Layyin?", "options": ["Waw Layyin rounds the lips; Ya Layyin flattens the tongue and lowers the jaw slightly", "Both require wide open mouth", "Both require closed lips", "No difference"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "What is the relationship between Madd al-Layyin and Aqwa al-Mudud hierarchy?", "options": ["It ranks similarly to Madd 'Arid lis-Sukoon since both depend on temporary pausing sukoon", "It ranks higher than Lazim", "It is the strongest rule", "It does not exist"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "In 'الَّذِي أَطْعَمَهُمْ مِنْ جُوعٍ وَآمَنَهُمْ مِنْ خَوْفٍ', stopping on 'خَوْفٍ' triggers what rule?", "options": ["Madd al-Layyin", "Madd Muttasil", "Madd Munfasil", "Izhar"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "What is the visual clue in the Arabic script for recognizing a potential Layyin opportunity?", "options": ["A Fathah on a consonant directly preceding a vowelless Waw or Ya at a pause point", "A Shaddah", "A small Meem", "A Maddah wave"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "If a student recites Madd al-Layyin with 2 counts, is it valid?", "options": ["Yes, 2, 4, or 6 counts are all fully permissible upon stopping", "No, must be 6 counts", "No, must be 5 counts", "Invalid"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "What is the pedagogical goal of including Madd al-Layyin in your elite Tajweed app?", "options": ["To ensure comprehensive coverage of semi-vowel pause mechanics across all Quranic styles", "To teach grammar", "To practice translation", "To study history"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "Summarize the complete mechanism of Madd al-Layyin:", "options": ["Encounter Waw/Ya Saakinah preceded by Fathah -> pause on the word (Waqf) -> apply permissible 2, 4, or 6 count soft elongation -> drop elongation if connecting in Wasl", "Always read 6 counts", "Always read 1 count", "Merge into Meem"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "In 'بَيْنِ', when pausing, what rule applies?", "options": ["Madd al-Layyin", "Madd Badal", "Madd Lazim", "Idgham"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "In 'شَيْءٍ', when pausing on it, does Layyin apply?", "options": ["Yes, Ya Saakinah preceded by Fathah on Sheen", "No", "It is Lazim", "It is Munfasil"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "How does pausing on 'شَيْءٍ' affect the Hamzah and Ya?", "options": ["Creates a soft Layyin glide on the Ya when stopping", "Deletes the Hamzah", "Adds a Shaddah", "Turns into Noon"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "What is the primary acoustic distinction between a natural vowel Madd and a Layyin semi-vowel Madd?", "options": ["Layyin glides from an open Fathah mouth posture into a semi-vowel, whereas Tabii follows a matching homing vowel", "Layyin is silent", "Tabii uses semi-vowels", "No difference"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "If a reciter uses 6 counts for Layyin in Surah Quraysh, is it accepted in authentic Tajweed transmission?", "options": ["Yes, 6 counts is one of the three valid permissible options (2, 4, 6)", "Prohibited", "Requires 10 counts", "Invalid"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "What happens to the rhythm of recitation when mastering Madd al-Layyin?", "options": ["It adds exquisite smoothness and melodic cadence to verse-ending pauses", "It causes stuttering", "It speeds up recitation", "It stops breathing"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "Which Quranic Surah is famously taught first when introducing Madd al-Layyin to students?", "options": ["Surah Quraysh (due to قُرَيْشٍ and الصَّيْفِ)", "Surah Al-Baqarah", "Surah Al-Fatihah", "Surah Yasin"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "Can Madd al-Layyin be combined with other stopping rules like Hams or Qalqalah?", "options": ["Yes, when stopping on words ending in other letters preceded by a Layyin semi-vowel", "No, they cancel each other", "Only in poetry", "Never"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "How should an AI evaluation engine score a student who pauses on 'قُرَيْشٍ' with a steady 4-count soft glide?", "options": ["Mark as correct and fully compliant with valid Layyin pause options", "Major error", "Requires 10 counts", "Requires 1 count"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the core rule of Madd al-Layyin in one definitive statement:", "options": ["Waw or Ya Saakinah preceded by Fathah allows a permissible 2, 4, or 6 count soft elongation only when pausing on the word", "Always 6 counts mandatory", "Always 1 count", "Only applies to Noon"], "correct_answer": 0 }
+  ]
+}
