@@ -1,0 +1,94 @@
+{
+  "rule_metadata": {
+    "rule_id": "05_madd_advanced_hierarchy",
+    "rule_name_english": "Advanced Madd: Madd al-Farq and Aqwa al-Mudud (Madd Hierarchy)",
+    "rule_name_arabic": "مَدّ الْفَرْق وَأَقْوَى الْمُدُود",
+    "category": "Madd (Lengthening) Rules",
+    "level": "Expert Masterclass",
+    "description": "Comprehensive rules covering the rare 6-count distinguishing Madd (Madd al-Farq) and the precedence hierarchy when multiple secondary Madd causes overlap."
+  },
+  "theoretical_foundation": {
+    "madd_al_farq": {
+      "name": "Madd al-Farq (The Distinguishing Madd)",
+      "definition": "A rare specialized Madd found in only 4 places in the Quran. It occurs when an interrogative Hamzah (أَ) precedes a definite noun starting with the definite article Alif-Lam (الْـ).",
+      "purpose": "To clearly distinguish (Farq) between an interrogative question ('Is it X?') and a mere statement of fact.",
+      "ruling": "Mandatory extension of **6 counts** (acting like Madd Lazim).",
+      "locations_in_quran": [
+        "آللَّهُ أَذِنَ لَكُمْ (Surah Yunus, v. 59)",
+        "آللَّهُ خَيْرٌ أَمْ مَا يُشْرِكُونَ (Surah An-Naml, v. 59)",
+        "آلذَّكَرَيْنِ حَرَّمَ أَمِ الْأُنْثَيَيْنِ (Surah Al-An'am, v. 143 & 144)"
+      ]
+    },
+    "aqwa_al_mudud": {
+      "name": "Aqwa al-Mudud (The Hierarchy of Strength Among Madds)",
+      "definition": "When two different causes for lengthening apply to the same Madd letter, the stronger rule overrides the weaker one.",
+      "hierarchy_order_strongest_to_weakest": [
+        "1. Madd Lazim (6 counts) — Strongest because both sukoon and length are permanent.",
+        "2. Madd Muttasil (4-5 counts) — Strong because the Hamzah is in the same word.",
+        "3. Madd ‘Arid lis-Sukoon (2, 4, 6 counts) — Moderate because sukoon is temporary due to stopping.",
+        "4. Madd Munfasil (4-5 counts) — Weaker because the Hamzah is separated in the next word.",
+        "5. Madd Badal (2 counts) — Weakest because the Hamzah precedes rather than follows the Madd letter."
+      ]
+    }
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "آللَّهُ أَذِنَ لَكُمْ",
+      "transliteration": "Allaahu athina lakum",
+      "rule_type": "Madd al-Farq",
+      "breakdown": "Interrogative Hamzah meets definite Lam; Alif is stretched for 6 counts to clarify it is a question.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/madd_al_farq.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "جَاءُوا أَبَاهُمْ",
+      "transliteration": "Jaa'uu abaahum",
+      "rule_type": "Madd Precedence / Conflict",
+      "breakdown": "Madd Muttasil (4-5 counts) precedes Madd Munfasil (4-5 counts); both align in count tier.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/cedence.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What is Madd al-Farq designed to distinguish?", "options": ["An interrogative question from a statement of fact", "A plural noun from a singular noun", "A verb from a noun", "Masculine from feminine"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "How many counts must Madd al-Farq be lengthened?", "options": ["6 counts", "2 counts", "4 counts", "1 count"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "How many places in the Quran feature Madd al-Farq?", "options": ["4 places", "10 places", "1 place", "50 places"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "What is 'Aqwa al-Mudud' in Tajweed science?", "options": ["The hierarchy determining which Madd rule takes precedence when causes overlap", "The loudness of recitation", "The speed of breath", "The rules of Noon Sakinah"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "According to Aqwa al-Mudud, which Madd is the STRONGEST?", "options": ["Madd Lazim (6 counts)", "Madd Badal (2 counts)", "Madd Tabii", "Madd Munfasil"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "According to Aqwa al-Mudud, which Madd is the WEAKEST among secondary Madds?", "options": ["Madd Badal (2 counts)", "Madd Lazim", "Madd Muttasil", "Madd Arid"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "In the phrase 'آللَّهُ أَذِنَ لَكُمْ', why is the Alif lengthened for 6 counts?", "options": ["To act as Madd al-Farq, distinguishing the question from a statement", "Because of Noon Sakinah", "Because of Shaddah alone", "It is optional"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "Which of the following is a recognized location of Madd al-Farq in Surah Yunus?", "options": ["آللَّهُ أَذِنَ لَكُمْ", "قُلْ أَرَأَيْتُمْ", "بِسْمِ اللَّهِ", "الْحَمْدُ لِلَّهِ"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "If Madd Muttasil (4-5 counts) and Madd Munfasil (4-5 counts) are both present, how do they rank against each other?", "options": ["Muttasil ranks higher than Munfasil in precedence because the Hamzah is internal to the word", "Munfasil ranks higher", "They cancel each other out", "Neither exists"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "What is the primary purpose of studying Aqwa al-Mudud in an advanced Tajweed app?", "options": ["To resolve complex theoretical overlaps and ensure elite scholarly precision in recitation", "To learn Arabic grammar", "To translate verses", "To study poetry"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "In 'آلذَّكَرَيْنِ', what rule applies to the opening Alif?", "options": ["Madd al-Farq (6 counts)", "Madd Tabii", "Madd Badal", "Idgham"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "Where does Madd al-Farq appear in Surah An-Naml?", "options": ["آللَّهُ خَيْرٌ أَمْ مَا يُشْرِكُونَ", "قُلْ سِيرُوا", "إِنَّ اللَّهَ", "وَمَا أَنْزَلْنَا"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "What is the structural signature of Madd al-Farq?", "options": ["An interrogative Hamzah (أَ) immediately preceding a definite noun starting with Alif-Lam (الْـ)", "A doubled Noon", "A vowelless Meem", "A Shaddah on Baa"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "How does Madd al-Farq compare to Madd Lazim in duration?", "options": ["Both are strictly 6 counts", "Farq is 2 counts; Lazim is 6", "Farq is 4 counts", "Farq is optional"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "If a reciter fails to apply Madd al-Farq in 'آللَّهُ أَذِنَ لَكُمْ', what semantic error occurs?", "options": ["The sentence sounds like a statement of fact rather than an interrogative question", "A Madd error only", "An Iqlab error", "No error"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "Where are the two verses for 'آلذَّكَرَيْنِ' located?", "options": ["Surah Al-An'am (verses 143 and 144)", "Surah Al-Baqarah", "Surah Al-Imran", "Surah Yasin"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "What is the ranking position of Madd Muttasil in Aqwa al-Mudud?", "options": ["Second strongest (behind Madd Lazim)", "Weakest", "Middle", "Equal to Badal"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "What is the ranking position of Madd 'Arid lis-Sukoon in Aqwa al-Mudud?", "options": ["Third strongest (behind Lazim and Muttasil)", "Strongest", "Weakest", "Equal to Lazim"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "What is the ranking position of Madd Munfasil in Aqwa al-Mudud?", "options": ["Fourth strongest (weaker than Arid, stronger than Badal)", "Strongest", "Equal to Muttasil", "Last"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "Why is Madd Lazim placed at the very top of the Aqwa al-Mudud hierarchy?", "options": ["Because its cause (permanent Sukoon/Shaddah) is absolute and unchangeable", "Because it is optional", "Because it is short", "Because it uses Hamzah"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "Can Madd al-Farq be substituted with a 2-count recitation?", "options": ["No, it must be recited with 6 counts in authentic narration paths like Hafs", "Yes, always", "Only when whispering", "Only in the last Juz"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "What role do secondary alternate readings (Turuq) play in advanced Madd hierarchy?", "options": ["They govern permissible count variations (like 4 vs 5 counts in Munfasil/Muttasil)", "They eliminate all rules", "They change Arabic grammar", "They apply only to Noon"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "In 'جَاءَ أَحَدُكُمْ', what two Madd rules interact across the words?", "options": ["Madd Muttasil (on جَاءَ) and Madd Munfasil/Tabii context", "Lazim and Badal", "Arid and Farq", "None"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "How should an AI evaluation engine score an advanced student reciting Madd al-Farq with 2 counts?", "options": ["Flag as a major Madd al-Farq duration error (must be 6 counts)", "Mark as perfect", "Ignore", "Flag as Iqlab error"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "What is another accepted historical name for Madd al-Farq?", "options": ["Madd al-Istifham (Interrogative Madd)", "Madd al-Tabii", "Madd al-Sukun", "Madd al-Layyin"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "In 'أَمْ لَهُمْ شُرَكَاءُ', what Madd rule applies to 'شُرَكَاءُ' when stopping?", "options": ["Madd Muttasil combining with Madd Arid lis-Sukoon", "Madd al-Farq", "Madd Badal", "Idgham"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "Why is Madd Badal considered weaker than Munfasil in Aqwa al-Mudud?", "options": ["Because the Hamzah precedes the Madd letter rather than acting as a succeeding lengthening trigger", "Because it has no vowels", "Because it is 6 counts", "Because it is a Noon rule"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "What is the acoustic feel of Madd al-Farq?", "options": ["A grand, commanding 6-count elevation that signals an inquisitive question to the listener", "A whispered pause", "A quick dash", "A nasal hum"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "Are there any alternative pronunciations permitted for Madd al-Farq in Hafs 'an 'Asim?", "options": ["An alternative scholarly path permits Badallike light reading (Tasheel), but standard Shatibiyyah route mandates 6-count Madd al-Farq", "Always 2 counts", "Always silent", "Optional"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "In 'وَجَاءُوا سِحْرًا عَظِيمًا', what rules govern the Madds?", "options": ["Madd Muttasil on جَاءُوا and Tabii on succeeding letters", "Madd al-Farq", "Madd Lazim", "Iqlab"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "What is the ultimate benefit of mastering Aqwa al-Mudud for reciters?", "options": ["Absolute mastery over complex scriptural nuances, ensuring zero contradiction in breath timing during advanced recitation", "Learning poetry", "Translation fluency", "Grammar analysis"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "If a student asks whether Madd al-Farq is a type of Lazim, what is the correct explanation?", "options": ["It shares the same 6-count duration as Lazim, but its specific trigger is an interrogative Hamzah meeting definite Alif-Lam", "Yes, it is identical", "No, it is 2 counts", "It is a Noon rule"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "In 'آللَّهُ أَبْصَرُ', is Madd al-Farq present?", "options": ["No, only in the specific 4 designated Quranic locations", "Yes, everywhere", "It is Badal", "It is Arid"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "What is the hierarchical relationship between Muttasil and Munfasil?", "options": ["Muttasil (4-5 counts inside a word) outranks Munfasil (4-5 counts across words) in conceptual strength", "Munfasil outranks Muttasil", "They are unrelated", "Both are 2 counts"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "How many total modules now comprise your app's comprehensive Madd curriculum?", "options": ["5 modules (01 through 05)", "1 module", "3 modules", "10 modules"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "If a reciter pauses on a word that has both Madd Muttasil and a stopping Arid Sukoon, which rule dictates the minimum length?", "options": ["The stronger rule (Muttasil) establishes the floor (at least 4 counts), which can then match or exceed the Arid choice", "Arid cancels Muttasil", "Both reset to 1 count", "The word becomes unreadable"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "What is the phonetic classification of the Hamzah in Madd al-Farq?", "options": ["Hamzatul-Istifham (Interrogative Hamzah)", "Hamzatul-Wasl", "Hamzatul-Qat'", "Hamzatul-Madfoun"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "Which of the following summaries correctly lists Aqwa al-Mudud from strongest to weakest?", "options": ["Lazim -> Muttasil -> 'Arid -> Munfasil -> Badal", "Badal -> Munfasil -> 'Arid -> Muttasil -> Lazim", "Tabii -> Lazim -> Badal", "Munfasil -> Lazim -> Muttasil"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "In 'قُلْ آلذَّكَرَيْنِ', how should the interaction be executed?", "options": ["Execute 6-count Madd al-Farq on the Alif, bridging cleanly into the Lam and Zay", "Read with 2 counts", "Skip the Alif", "Apply Iqlab"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the core focus of advanced Madd masterclass rules (Farq and Hierarchy):", "options": ["Farq is a rare 6-count distinguishing question Madd in 4 places; Aqwa al-Mudud resolves precedence when multiple secondary lengthening causes overlap", "Both are 2-count natural rules", "Both apply only to Noon", "Neither affects timing"], "correct_answer": 0 }
+  ]
+}
