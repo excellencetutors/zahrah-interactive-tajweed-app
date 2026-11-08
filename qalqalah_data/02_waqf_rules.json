@@ -1,0 +1,86 @@
+{
+  "rule_metadata": {
+    "rule_id": "02_waqf_rules",
+    "rule_name_english": "Waqf (Rules of Stopping and Pausing in Recitation)",
+    "rule_name_arabic": "أَحْكَامُ الوَقْفِ وَالابْتِدَاءِ",
+    "category": "Qalqalah & Stopping Rules",
+    "level": "Advanced",
+    "description": "Comprehensive rules covering how to pause correctly at word endings, handling vowel conversions (Iskan, Ishmam, Rawm), and interpreting Mushaf stopping signs."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Waqf (وَقْف) literally means to halt, stop, or pause.",
+    "applied_tajweed_definition": "Cutting off the voice at the end of a word for a brief moment to take a breath with the intention of resuming recitation, ensuring meaning remains pristine.",
+    "key_pausing_techniques": {
+      "iskan": "1. Iskan (الإِسْكَان): The standard and most common pause—replacing any final vowel (Fathah, Kasrah, Dammah) with a temporary Sukoon.",
+      "rawm": "2. Rawm (الرَّوْم): Pronouncing one-third of the final vowel (Kasrah or Dammah) in a soft, quiet whisper when stopping.",
+      "ishmam": "3. Ishmam (الإِشْمَام): Pouting or rounding the lips immediately after silencing the final Dammah, without producing an audible vowel sound."
+    },
+    "mushaf_stop_signs": {
+      "lazim_m": "مـ (Mandatory Stop): Must stop; continuing alters or corrupts meaning.",
+      "la_prohibited": "لا (Prohibited Stop): Must not stop here unless forced by breath loss.",
+      "jaiz_jooq": "ج (Permissible Stop): Stopping or continuing are both allowed.",
+      "qif": "قِ (Pause Recommended): Stopping is preferred.",
+      "s_or_sakt": "س or سَكْتَة (Silence Pause): Brief silent breath-hold without taking a breath."
+    }
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "transliteration": "Rabbil-'Alameen (Waqf via Iskan)",
+      "rule_type": "Standard Iskan Pause",
+      "breakdown": "Final Fathah/Kasrah converted to temporary Sukoon with Arid lengthening.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/waqf/alameen_stop.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "مَا لَكَ لَا تَأْمَنَّا عَلَى يُوسُفَ",
+      "transliteration": "La tamanna (Ishmam example)",
+      "rule_type": "Ishmam Technique",
+      "breakdown": "Lips pouted to indicate Dammah root during silent pause.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/waqf/ishmam.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What does 'Waqf' mean linguistically?", "options": ["To halt, stop, or pause", "To merge completely", "To lengthen 6 counts", "To add nasal hum"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "What is the primary objective of mastering Waqf and Ibtida' (stopping and starting)?", "options": ["Preserving accurate scriptural meaning and theological clarity", "Reading as fast as possible", "Eliminating breath altogether", "Translating into Arabic"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "What is 'Iskan' in the context of stopping?", "options": ["Replacing any final vowel with a temporary Sukoon", "Adding a Shaddah", "Pronouncing full vowels", "Whispering loudly"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "What is 'Rawm'?", "options": ["Pronouncing one-third of a final Kasrah or Dammah in a soft whisper", "Shouting the last letter", "Adding 6 counts of Madd", "Stopping permanently"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "What is 'Ishmam'?", "options": ["Rounding the lips immediately after silencing a final Dammah without vocal sound", "Bouncing a Qalqalah letter", "Adding Tanween Fathah", "Swallowing the word"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "Which vowels are eligible for Rawm?", "options": ["Kasrah and Dammah only (never Fathah)", "Fathah only", "All vowels", "Sukoon only"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "Which vowel is eligible for Ishmam?", "options": ["Dammah only", "Kasrah only", "Fathah only", "Tanween only"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "What does the Mushaf sign 'مـ' (Lazim) indicate?", "options": ["Mandatory stop; continuing corrupts meaning", "Prohibited stop", "Optional stop", "Pause recommended"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "What does the Mushaf sign 'لا' (La) indicate?", "options": ["Prohibited stop; do not stop here unless out of breath", "Mandatory stop", "Stop immediately", "Optional stop"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "What does the Mushaf sign 'ج' (Ja'iz) indicate?", "options": ["Permissible stop; stopping or continuing are both allowed", "Prohibited stop", "Mandatory stop", "Silent pause"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "What does 'Sakt' (سَكْتَة) mean in stopping rules?", "options": ["A brief silent pause of the voice without taking a breath", "A full 10-second breath break", "Adding 6 counts", "Repeating the word"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "How many mandatory Sakt pauses exist in standard Hafs recitation?", "options": ["4 specific locations", "100 locations", "Zero", "Only in Surah Al-Fatihah"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "In 'عِوَجَا ۝ قَيِّمًا' (Surah Al-Kahf), how is the Sakt executed?", "options": ["Brief silent pause on Alif of 'عِوَجَا' without breathing before continuing", "Stop and breathe", "Merge words together", "Apply Qalqalah"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "What happens to Tanween Fathah (ً) when stopping on a standard word?", "options": ["Converted to Madd 'Iwad (2-count Alif extension)", "Converted to Sukoon", "Pronounced with full nasal Tanween", "Deleted entirely"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "What happens when stopping on a Ta Marbootah (ة)?", "options": ["Converts into a vowelless Haa (هْ)", "Converted to Alif Madd", "Converted to Ta Saakinah", "Converted to Dammah"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "If a reciter stops on a word ending with Fathah (e.g., عَلِيمًا), what technique is applied?", "options": ["Madd 'Iwad (2 counts)", "Rawm", "Ishmam", "Iskan with 6 counts"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "Why is stopping at inappropriate places ('Waqf Qabeeh') discouraged?", "options": ["It can distort or fracture the intended theological meaning of the verse", "It speeds up recitation", "It breaks the Mushaf", "It is grammatically required"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "What is 'Waqf Taam' (Complete Stop)?", "options": ["Stopping at a complete sentence where meaning and grammar are fully concluded", "Stopping mid-phrase", "Stopping abruptly", "Stopping at a comma"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "What is 'Waqf Kafi' (Sufficient Stop)?", "options": ["Stopping where meaning is complete, though structurally linked to what follows", "Incomplete stop", "Prohibited stop", "Mandatory stop"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "What is 'Waqf Hasan' (Good Stop)?", "options": ["Stopping where meaning is clear, but resuming from the same word or prior word is required for grammatical sense", "Forbidden stop", "Mandatory stop", "Complete stop"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "What is 'Waqf Qabeeh' (Ugly / Bad Stop)?", "options": ["Stopping on an incomplete fragment that misrepresents or destroys the meaning", "Perfect stop", "Mandatory pause", "Recommended pause"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "What Mushaf sign indicates 'قِ' (Qif)?", "options": ["Pause recommended; stopping is preferred over continuing", "Stop prohibited", "Mandatory stop", "Sakt pause"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "What Mushaf sign indicates 'صلى' (Al-Wasl Awla)?", "options": ["Continuing is preferred, though stopping is permissible", "Stop mandatory", "Stop prohibited", "Sakt required"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "What Mushaf sign indicates 'قلى' (Al-Waqf Awla)?", "options": ["Stopping is preferred, though continuing is permissible", "Stop prohibited", "Mandatory stop", "Sakt required"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "What are the three dots symbol (ۛ ۛ) known as in Mushaf stopping rules?", "options": ["Mu'anaqah (The Embrace / Mutually Exclusive Stop: stop at one dot, do not stop at both)", "Mandatory stop", "Prohibited stop", "Sakt sign"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "How do you execute Mu'anaqah dots when reciting?", "options": ["Choose to pause at the first dot OR the second dot, but never pause at both consecutively", "Pause at both", "Skip both", "Read backward"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "When stopping via Iskan on a word ending in Madd letter, what rule is triggered?", "options": ["Madd 'Arid lis-Sukoon (2, 4, or 6 counts)", "Madd Badal", "Madd Lazim", "Iqlab"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "Can Rawm be heard from a distance?", "options": ["No, Rawm is extremely soft and whispered, audible only to someone sitting very close", "Yes, shouted loudly", "It is 6 counts", "It uses Shaddah"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "Can Ishmam be heard on an audio recording without visual lip monitoring?", "options": ["No, Ishmam is entirely visual (lip pouting) with zero acoustic sound", "Yes, very loud", "It creates a whistle", "It creates Qalqalah"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "What is the primary pedagogical objective of Module 02 in Qalqalah & Waqf?", "options": ["Mastering all pausing techniques (Iskan, Rawm, Ishmam) and interpreting Mushaf stop signs accurately", "Learning Arabic grammar", "Translating verses", "Studying history"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "If a reciter stops on a word ending with Sukoon (e.g., أَلَمْ), how is it handled?", "options": ["Maintained as a clean Sukoon with no vowel change", "Converted to Fathah", "Converted to Kasrah", "Added Alif"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "What is the rule when stopping on a letter carrying Tanween Kasrah (ٍ) or Dammah (ٌ)?", "options": ["Converted to Iskan (temporary Sukoon on the final letter, dropping the Tanween sound)", "Converted to Alif Madd", "Converted to Fathah", "Pronounced with full Tanween"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "In 'مَنْ رَاقٍ', what rule governs the Sakt?", "options": ["Mandatory silent pause of Sakt between 'مَنْ' and 'رَاقٍ'", "Idgham", "Ikhfa", "Izhar"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "In 'بَلْ رَانَ', what rule governs the transition?", "options": ["Mandatory Sakt pause without taking breath", "Idgham into Ra", "Iqlab", "Izhar"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "Why are Sakt pauses placed in specific Quranic locations by transmission?", "options": ["To protect meaning and prevent misinterpretation across word boundaries", "To test breath capacity", "To add decoration", "No reason"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "How should an AI evaluation engine grade a proper Iskan pause at a verse end?", "options": ["Mark as clean temporary Sukoon pause", "Major error", "Requires Rawm", "Requires Ishmam"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "What is 'Ibtida'' in Tajweed science?", "options": ["The rules and etiquette of resuming recitation after a pause (Waqf)", "Stopping abruptly", "Ending a Surah", "Translating text"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "What is the fundamental rule for starting (Ibtida') after pausing?", "options": ["Must start with a vowelled letter and a grammatically sound phrase (never start on a broken fragment)", "Always start with Sukoon", "Always start with Hamzah", "Start anywhere"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "If a reciter pauses on a mandatory stop sign ('مـ'), what is the ruling?", "options": ["Must stop; continuing is a serious theological error", "Optional", "Prohibited", "Encouraged to continue"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the complete Waqf rules module:", "options": ["A comprehensive 40-question module covering Iskan, Rawm, Ishmam, Sakt, stop types (Taam, Kafi, Hasan, Qabeeh), and Mushaf stop signs", "Always 2 counts", "Always nasal", "Optional"], "correct_answer": 0 }
+  ]
+}
