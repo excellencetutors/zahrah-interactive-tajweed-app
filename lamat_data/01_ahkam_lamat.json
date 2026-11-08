@@ -1,0 +1,99 @@
+{
+  "rule_metadata": {
+    "rule_id": "01_ahkam_lamat",
+    "rule_name_english": "Ahkam al-Lamat (Rules of the Letter Lam: Solar/Lunar & Lam Jalalah)",
+    "rule_name_arabic": "أَحْكَامُ اللَّمَاتِ وَلَامُ الْجَلَالَة",
+    "category": "Lam & Consonant Rules",
+    "level": "Intermediate to Advanced",
+    "description": "The definitive master module for Ahkam al-Lamat, covering Lam Shamsiyyah (Sun letters assimilation), Lam Qamariyyah (Moon letters clarity), and Lam Jalalah (heavy/light rules for the Majestic Name Allah)."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Lam (لَام) is a liquid coronal consonant possessing the attributes of Tawasut (Bayniyyah) and Inhiraf.",
+    "applied_tajweed_definition": "Governs how the definite article (ال) interacts with succeeding noun letters, and how the Lam in the Sacred Name of God (اللَّه) shifts between heavy (Tafkheem) and light (Tarqeeq) pronunciation based on preceding vowels.",
+    "section_one_shamsiyyah_qamariyyah": {
+      "lam_qamariyyah": "1. Lam Qamariyyah (Lunar Lam): Occurs when the definite article 'Alif-Lam' precedes any of the 14 'Moon letters' (مَبْغَى حَجِّكَ وَخَفْ عَقِيمُ). The Lam is pronounced clearly with a Sukoon (Izhar). Example: القَمَر.",
+      "lam_shamsiyyah": "2. Lam Shamsiyyah (Solar Lam): Occurs when the definite article 'Alif-Lam' precedes any of the 14 'Sun letters' (the remaining consonants starting with Ta, Tha, Dal, etc.). The Lam assimilates entirely into the succeeding letter, which receives a Shaddah (Idgham). Example: الشَّمْس."
+    },
+    "section_two_lam_jalalah": {
+      "definition": "Lam Jalalah refers exclusively to the Lam in the Majestic Name أَللَّه (Allah) or اللَّهُمَّ.",
+      "tafkheem_heavy": "1. Tafkheem (Heavy Lam): Pronounced with a heavy, full mouth when preceded by a Fathah (َ) or a Dammah (ُ). Example: قَالَ اللَّهُ, عَبْدُ اللَّهِ.",
+      "tarqeeq_light": "2. Tarqeeq (Light Lam): Pronounced with a light, thin mouth when preceded by a Kasrah (ِ). Example: بِاللَّهِ, فِي اللَّهِ."
+    }
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "الْقَمَرُ",
+      "transliteration": "Al-Qamaru",
+      "rule_type": "Lam Qamariyyah (Lunar)",
+      "breakdown": "Lam of definite article is pronounced clearly with Sukoon before Qaf.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/lamat/alqamar.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "الشَّمْسُ",
+      "transliteration": "Ash-Shamsu",
+      "rule_type": "Lam Shamsiyyah (Solar)",
+      "breakdown": "Lam of definite article merges into Shin, which carries a Shaddah.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/lamat/ashshams.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "قَالَ اللَّهُ",
+      "transliteration": "Qaala-llahu",
+      "rule_type": "Lam Jalalah Heavy (Tafkheem)",
+      "breakdown": "Lam Jalalah is heavy because it is preceded by Fathah on Lam of Qaala.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/lamat/qaalallahu.mp3"
+    },
+    {
+      "id": "ex_04",
+      "arabic_text": "بِاللَّهِ",
+      "transliteration": "Billaahi",
+      "rule_type": "Lam Jalalah Light (Tarqeeq)",
+      "breakdown": "Lam Jalalah is light because it is preceded by Kasrah on Baa.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/lamat/billaahi.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What are the two primary divisions of Ahkam al-Lamat covered in this module?", "options": ["Lam Shamsiyyah/Qamariyyah and Lam Jalalah", "Madd and Qalqalah", "Izhar and Iqlab", "Hams and Jahr"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "What is Lam Qamariyyah (Lunar Lam)?", "options": ["The definite article Lam pronounced clearly with a Sukoon before 14 Moon letters", "The Lam that merges into Sun letters", "The Lam of the word Allah", "A silent Lam"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "What is the classic mnemonic sentence for the 14 Moon letters (حروف قمرية)?", "options": ["بغى حجك وخف عقيمه (or مبغى حجك وخف عقيم)", "فَحَثْهُ شَخْصٌ سَكَتْ", "أَجِدُ قَطْ بَكَتْ", "خُصَّ ضَغْطٍ قِظْ"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "What happens to the Lam of the definite article (ال) when it meets a Solar letter (Lam Shamsiyyah)?", "options": ["It assimilates completely (Idgham) into the Sun letter, which receives a Shaddah", "It is pronounced clearly with Sukoon", "It is dropped entirely without a Shaddah", "It turns into Meem"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "How many letters comprise the Sun letters (الحروف الشمسية)?", "options": ["14 letters", "7 letters", "28 letters", "5 letters"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "In the word 'الْقَمَرُ', how is the Lam pronounced?", "options": ["Clearly with Sukoon (Lam Qamariyyah)", "Merged into Qaf", "Heavy with Tafkheem", "Silent"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "In the word 'الشَّمْسُ', how is the Lam pronounced?", "options": ["Assimilated (Idgham) into Shin with Shaddah (Lam Shamsiyyah)", "Pronounced clearly with Sukoon", "Light with Tarqeeq", "Dropped"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "What is 'Lam Jalalah'?", "options": ["The Lam in the Majestic Name of Allah (اللَّه) or اللَّهُمَّ", "The Lam in historical names", "The Lam at the end of a verse", "A Qamariyyah Lam"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "When is Lam Jalalah pronounced with heavy Tafkheem?", "options": ["When preceded by a Fathah (َ) or a Dammah (ُ)", "When preceded by a Kasrah (ِ)", "When preceded by Sukoon", "Never"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "When is Lam Jalalah pronounced with light Tarqeeq?", "options": ["When preceded by a Kasrah (ِ)", "When preceded by a Fathah (َ)", "When preceded by a Dammah (ُ)", "Always heavy"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "In the phrase 'قَالَ اللَّهُ', how is the Lam Jalalah pronounced?", "options": ["Heavy (Tafkheem) because it is preceded by Fathah on 'قَالَ'", "Light (Tarqeeq)", "As a Moon Lam", "With Qalqalah"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "In the phrase 'بِاللَّهِ', how is the Lam Jalalah pronounced?", "options": ["Light (Tarqeeq) because it is preceded by Kasrah on 'بِ'", "Heavy (Tafkheem)", "As a Sun Lam", "Silent"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "In the phrase 'رَسُولُ اللَّهِ', how is the Lam Jalalah pronounced?", "options": ["Heavy (Tafkheem) because it is preceded by Dammah on 'رَسُولُ'", "Light (Tarqeeq)", "With Sakt", "With Iqlab"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "Does Lam Shamsiyyah have a Sukoon written over the Lam in the Mushaf?", "options": ["No, the Lam has no Sukoon, and the succeeding Sun letter carries a Shaddah", "Yes, always", "Marked with a small Meem", "Marked with a Madd wave"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "Does Lam Qamariyyah have a Sukoon written over the Lam in the Mushaf?", "options": ["Yes, an explicit Jazm/Sukoon header is placed over the Lam", "No Sukoon", "Carries a Shaddah", "Carries Tanween"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "Which of the following letters is a Sun letter (Shamsiyyah)?", "options": ["Taa (ت)", "Qaf (ق)", "Meem (م)", "Ba (ب)"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "Which of the following letters is a Moon letter (Qamariyyah)?", "options": ["Jim (ج)", "Sin (س)", "Shad (ش)", "Nun (ن)"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "What common error do reciters make with Lam Jalalah after Fathah?", "options": ["Pronouncing it thin/light instead of heavy Tafkheem", "Making it 6 counts", "Adding a Qalqalah", "Applying Iqlab"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "What common error do reciters make with Lam Jalalah after Kasrah?", "options": ["Pronouncing it heavy instead of light Tarqeeq", "Making it silent", "Adding a Shaddah", "Applying Idgham"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "What is the primary pedagogical goal of the Ahkam al-Lamat module?", "options": ["Mastering Sun/Moon definite article rules and the heavy/light rules of Lam Jalalah", "Learning Arabic grammar", "Translating verses", "Studying history"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "In 'وَاللَّهِ', how is the Lam Jalalah pronounced?", "options": ["Heavy (Tafkheem) because it is preceded by Fathah on the Waw", "Light (Tarqeeq)", "As a Sun Lam", "Silent"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "In 'مِنْ لَدُنْحِ', does Lam Shamsiyyah apply?", "options": ["No, that is a Noon Sakinah Idgham rule, not a definite article Lam", "Yes", "Always", "Only in Fatihah"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "How many total letters are in the Arabic alphabet, divided evenly between Sun and Moon letters?", "options": ["28 letters (14 Sun and 14 Moon)", "20 letters", "30 letters", "15 letters"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "In 'التَّوَّابُ', is the Lam Shamsiyyah or Qamariyyah?", "options": ["Shamsiyyah (Sun letter Ta causes complete assimilation)", "Qamariyyah", "Lam Jalalah", "Izhar"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "In 'الْكِتَابُ', is the Lam Shamsiyyah or Qamariyyah?", "options": ["Qamariyyah (Moon letter Kaf retains clear Sukoon)", "Shamsiyyah", "Lam Jalalah", "Idgham"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "What is the acoustic effect of Lam Shamsiyyah assimilation?", "options": ["The Lam sound completely disappears into the vocal tract of the Sun letter", "The Lam is whispered", "The Lam echoes", "The Lam is held for 6 counts"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "What is the acoustic effect of Lam Qamariyyah clarity?", "options": ["The Lam maintains its crisp, distinct Tawasut resonance before the Moon letter", "The Lam merges", "The Lam becomes heavy", "The Lam is silent"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "If a student pronounces the Lam in 'الشَّمْس' with a clear Sukoon, what error is flagged?", "options": ["Failure to assimilate Sun letter Lam (Shamsiyyah Izhar error instead of Idgham)", "Correct recitation", "Madd error", "Qalqalah error"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "How should an AI evaluation engine grade accurate Lam Jalalah after Kasrah in 'بِاللَّهِ'?", "options": ["Mark as correct light Tarqeeq pronunciation", "Major error", "Requires Tafkheem", "Requires 6 counts"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "Summarize the core rules of Ahkam al-Lamat:", "options": ["Definite article Lam splits into clear Moon (Qamariyyah) and assimilated Sun (Shamsiyyah) letters, while the Divine Lam Jalalah is heavy after Fathah/Dammah and light after Kasrah", "Always heavy", "Always light", "Optional"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "In 'الصَّلَاةُ', is the Lam Shamsiyyah or Qamariyyah?", "options": ["Shamsiyyah (Sad is a Sun letter)", "Qamariyyah", "Lam Jalalah", "Izhar"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "In 'الْحَمْدُ', is the Lam Shamsiyyah or Qamariyyah?", "options": ["Qamariyyah (Ha is a Moon letter)", "Shamsiyyah", "Lam Jalalah", "Idgham"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "What happens if Lam Jalalah is preceded by a Sukoon that is itself preceded by a Fathah (e.g., قَبْلَ اللَّهِ)?", "options": ["The Fathah governs, making the Lam Jalalah heavy (Tafkheem)", "It becomes light", "It becomes silent", "It turns into Meem"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "What happens if Lam Jalalah is preceded by a Sukoon preceded by a Kasrah (e.g., مِنْ حِكْمَةِ اللَّهِ)?", "options": ["The Kasrah governs, making the Lam Jalalah light (Tarqeeq)", "It becomes heavy", "It becomes silent", "It turns into Meem"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "Are there any other Arabic words besides 'Allah' where Lam Jalalah rules apply?", "options": ["Only the derivative 'اللَّهُمَّ' (O Allah)", "All words starting with Lam", "Verbs only", "No other words"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "How many Moon letters are in 'يبغي حجك وخف عقيمه'?", "options": ["14 letters", "10 letters", "7 letters", "28 letters"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "If a reciter says 'نُورُ اللَّهِ' with a thin light Lam, what error is flagged?", "options": ["Incorrect Lam Jalalah Tarqeeq (must be heavy Tafkheem after Dammah on 'نُورُ')", "Correct", "Ignore", "Pass"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "Does the definite article rule apply to words where 'Al' is an inseparable part of the root stem?", "options": ["No, Shamsiyyah/Qamariyyah rules apply strictly to the prefix definite article (ال)", "Yes, all words", "Only verbs", "Only poetry"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "How should an AI scoring engine grade flawless Ahkam al-Lamat execution?", "options": ["Verify correct Sun/Moon assimilation/clarity and accurate Divine Lam weight", "Check translation", "Check page breaks", "Check verse numbers"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the complete Ahkam al-Lamat master module:", "options": ["A rigorous 40-question master module covering Solar/Lunar definite article Lams and Divine Lam Jalalah heavy/light conditioning", "Always heavy", "Always light", "Optional"], "correct_answer": 0 }
+  ]
+}
