@@ -1,0 +1,95 @@
+{
+  "rule_metadata": {
+    "rule_id": "03_madd_arid_and_madd_badal",
+    "rule_name_english": "Madd 'Arid lis-Sukoon (Temporary Sukoon Madd) & Madd Badal (Substitution Madd)",
+    "rule_name_arabic": "مَدّ عَارِض لِلسُّكُون وَمَدّ بَدَل",
+    "category": "Madd (Lengthening) Rules",
+    "level": "Advanced Intermediate",
+    "description": "Comprehensive rules covering the 2-to-6 count temporary sukoon lengthening upon stopping and the fixed 2-count substitution lengthening originating from a preceded Hamzah."
+  },
+  "theoretical_foundation": {
+    "madd_arid_lissukun": {
+      "name": "Madd 'Arid lis-Sukoon (Temporary Sukoon Madd)",
+      "definition": "Occurs when a Madd letter is followed by a letter whose original vowel is temporarily replaced by a Sukoon because the reciter stops (Waqf) on that word.",
+      "ruling": "Permissible lengthening of **2, 4, or 6 counts** (Harakat), provided the reciter maintains a consistent choice throughout their recitation session.",
+      "example": "العَالَمِينَ (Al-'Alameen), الرَّحِيمِ (Ar-Raheem), خَائِفُونَ (Khaifoon)"
+    },
+    "madd_badal": {
+      "name": "Madd Badal (Substitution Madd)",
+      "definition": "Occurs when a Hamzah precedes a Madd letter in the same word (originally two Hamzahs where the second vowelled Hamzah was converted into a weak Madd letter to ease pronunciation).",
+      "ruling": "Fixed lengthening of exactly **2 counts** according to Hafs 'an 'Asim.",
+      "sub_divisions": {
+        "fixed_origin": "Derived from patterns like أَاْمَنَ -> آمَنَ."
+      },
+      "example": "آمَنَ (Aamana), إِيمَانًا (Eemanan), أُوتُوا (Ootoo)"
+    }
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "رَبِّ الْعَالَمِينَ",
+      "transliteration": "Rabbil-'Alameen (when stopping)",
+      "rule_type": "Madd 'Arid lis-Sukoon",
+      "breakdown": "The Noon of Al-'Alameen receives a temporary Sukoon upon stopping; the preceding Ya Madd is stretched 2, 4, or 6 counts.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/alameen.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "آمَنَ",
+      "transliteration": "Aamana",
+      "rule_type": "Madd Badal",
+      "breakdown": "Hamzah precedes an Alif Madd; extended for exactly 2 counts.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/aamana.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "إِيمَانًا",
+      "transliteration": "Eemanan",
+      "rule_type": "Madd Badal",
+      "breakdown": "Hamzah with Kasrah precedes Ya Madd; extended for 2 counts.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/eemanan.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What defines Madd 'Arid lis-Sukoon?", "options": ["A Madd letter followed by a temporary Sukoon caused by stopping on a word", "A Madd letter followed by a permanent Shaddah", "A Hamzah preceding a Madd letter", "Noon Sakinah meeting Baa"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "What are the permissible lengths (counts) for Madd 'Arid lis-Sukoon?", "options": ["2, 4, or 6 counts", "Strictly 1 count", "Always 5 counts", "Always 6 counts only"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "Why is it called 'Arid' (Temporary)?", "options": ["Because the Sukoon on the final letter only appears when stopping (Waqf)", "Because it is optional poetry", "Because it uses a temporary vowel", "Because it is a weak rule"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "What defines Madd Badal (Substitution Madd)?", "options": ["A Hamzah preceding a Madd letter in the same word", "A Madd letter followed by a Hamzah", "Meem Sakinah meeting Meem", "Two identical letters meeting"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "How many counts is Madd Badal lengthened according to Hafs?", "options": ["2 counts", "4 counts", "5 counts", "6 counts"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "Why is it called 'Badal' (Substitution)?", "options": ["Because a second vowelled Hamzah was substituted/converted into a Madd letter for ease of articulation", "Because letters are substituted across words", "Because it replaces Shaddah", "Because it is temporary"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "In the word 'الْعَالَمِينَ', if you stop on it at the end of an ayah, what rule applies to the Ya Madd?", "options": ["Madd 'Arid lis-Sukoon (2, 4, or 6 counts)", "Madd Tabii (strictly 2 counts)", "Madd Lazim (6 counts)", "No rule"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "In the word 'آمَنَ', what Tajweed rule applies to the opening Alif?", "options": ["Madd Badal (2 counts)", "Madd Muttasil", "Madd Munfasil", "Izhar"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "What happens if a reciter chooses a 4-count length for Madd 'Arid lis-Sukoon in verse 1 of Surah Al-Fatihah?", "options": ["They should maintain that exact 4-count tempo consistently throughout their recitation session", "They must switch to 6 counts immediately", "It becomes invalid", "It turns into Madd Tabii"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "In 'إِيمَانًا', what letter of Madd follows the initial Hamzah?", "options": ["Ya Saakinah preceded by Kasrah", "Alif preceded by Fathah", "Waw preceded by Dammah", "No Madd letter"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "What is the historical origin of the spelling in Madd Badal words like 'آمَنَ'?", "options": ["Originally أَاْمَنَ (two Hamzahs), where the second was changed to Alif", "Originally a doubled Noon", "Derived from Greek loanwords", "Created for poetic meter"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "If you continue reciting past 'رَبِّ الْعَالَمِينَ' without stopping (Wasl), what does the Madd 'Arid lis-Sukoon revert to?", "options": ["Madd Tabii (2 counts only, because the Sukoon disappears when unvowelled or vowel-connected)", "It becomes 6 counts", "It disappears entirely", "It turns into Lazim"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "Which of the following words contains a Madd Badal?", "options": ["أُوتُوا", "قَالَ", "جَاءَ", "الضَّالِّينَ"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "What is the correct count for Madd Badal across all authentic transmission paths for Hafs?", "options": ["Strictly 2 counts", "4 to 5 counts", "6 counts", "10 counts"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "In 'نَسْتَعِينُ', when stopping at the end of the ayah, how is it categorized?", "options": ["Madd 'Arid lis-Sukoon", "Madd Badal", "Madd Lazim", "Iqlab"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "Does Madd Badal occur when the Hamzah comes AFTER the Madd letter?", "options": ["No, that is Muttasil or Munfasil; Badal requires the Hamzah to precede the Madd letter", "Yes, always", "Only in the last Juz", "Only with Waw"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "In 'آمَنُوا', how many Madd rules are present?", "options": ["Two (Madd Badal on the first Alif = 2 counts, Madd Tabii on the Waw = 2 counts)", "Only one", "Zero", "Only Lazim"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "What is the primary objective of Madd 'Arid lis-Sukoon when pausing in recitation?", "options": ["To allow a smooth, melodious, and graceful breathing pause at verse endings", "To make recitation faster", "To merge words together", "To eliminate vowels"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "If a reciter stops on 'الرَّحِيمِ', what is the sound produced on the Meem?", "options": ["A temporary Sukoon replacing the original Kasrah", "A loud Shaddah", "A nasal Meem Murabba'", "A complete deletion"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "In 'الْخَاسِرِينَ', stopping at the end creates which Tajweed rule?", "options": ["Madd 'Arid lis-Sukoon", "Madd Badal", "Madd Lazim", "Izhar"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "Can Madd Badal appear in the middle of a word rather than just the beginning?", "options": ["Yes, such as in رِئَاسَةٍ or similar constructs where Hamzah precedes Madd", "No, only at the absolute start of words", "Never", "Only in poetry"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "What error does an AI evaluation engine flag if a student changes their 'Arid lis-Sukoon length erratically from 2 counts to 6 counts mid-ayah?", "options": ["Inconsistency in Madd 'Arid lis-Sukoon tempo", "Correct recitation", "Madd Badal violation", "Izhar error"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "In 'ءَادَمُ', what rule applies to the Hamzah followed by Alif?", "options": ["Madd Badal (2 counts)", "Madd Muttasil", "Madd Lazim", "Idgham"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "How does Madd Badal differ from Madd Tabii in spelling notation?", "options": ["Badal is written with a Hamzah before the Madd letter (sometimes as a prolonged Maddah sign over Hamzah), whereas Tabii has no preceding Hamzah", "Tabii has a Hamzah", "Badal is 6 counts", "There is no difference"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "In 'الْحَكِيمُ', when stopping at the end, what is the minimum recommended length for Arid lis-Sukoon for standard practice?", "options": ["2 counts (or extended to 4 or 6)", "Strictly 1 count", "Strictly 6 counts", "Zero counts"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "What happens to Madd Badal if the word is connected to the next word in recitation?", "options": ["It remains a fixed 2 counts because the Hamzah-preceded-by-Madd structure is internal to the word", "It turns into 6 counts", "It disappears", "It becomes Muttasil"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "Which of the following is an example of Madd Badal with Waw?", "options": ["أُوتُوا", "آمَنَ", "إِيمَانًا", "قَالَ"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "Why is Madd Badal considered one of the easiest secondary Madds to master?", "options": ["Because its duration is fixed rigidly at 2 counts, just like Madd Tabii", "Because it has no rules", "Because it is optional", "Because it has no Hamzah"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "In 'سَمِيعٌ بَصِيرٌ', if you stop on 'بَصِيرٌ', what rule is triggered?", "options": ["Madd 'Arid lis-Sukoon", "Madd Badal", "Iqlab", "Idgham"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "What is the relationship between Waqf (stopping) and Madd 'Arid lis-Sukoon?", "options": ["Waqf is the direct trigger that creates the temporary Sukoon, activating the Arid rule", "Waqf cancels all Madds", "Waqf turns Arid into Lazim", "Waqf has no effect"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "In 'ءَالْآنَ', how many rules are combined?", "options": ["Both Madd Badal (on the first Hamzah) and Madd Lazim (on the second Alif)", "Only Madd Tabii", "Only Idgham", "Zero"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "If a student recites Madd Badal with 6 counts, what feedback should be given?", "options": ["Madd Badal is strictly 2 counts; reserve 6 counts for Madd Lazim", "Correct recitation", "Increase to 10 counts", "Apply Sakt"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "In 'الْمُؤْمِنِينَ', when pausing at the end of a verse, what rule applies?", "options": ["Madd 'Arid lis-Sukoon", "Madd Badal", "Ikhfa", "Izhar"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "What is the phonetic sound of Madd Badal when recited correctly?", "options": ["A clean, unhurried 2-count vowel expansion directly following a glottal Hamzah", "A sharp throat stop", "A nasal hum", "A doubled consonant"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "In 'وَأُوْلَئِكَ', does Madd Badal apply to 'أُوْلَئِكَ'?", "options": ["Yes, the Hamzah precedes a Waw Madd, forming a 2-count Madd Badal", "No", "It is Lazim", "It is Munfasil"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "Why is mastering Madd 'Arid lis-Sukoon essential for Quranic recitation beauty?", "options": ["Because almost every verse ends with a pause requiring graceful Arid lengthening for recitation rhythm", "Because it is required for spelling", "Because it replaces all other rules", "It is optional"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "If a reciter uses 2 counts for Arid in verse 1 and 6 counts for Arid in verse 2 of the same sitting, what is the ruling?", "options": ["Permissible in Islamic tajweed schools, though consistency within a single reading session is preferred", "Strictly prohibited", "Invalidates prayer", "Turns into Lazim"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "Which two secondary Madds both share a standard baseline duration of 2 counts?", "options": ["Madd Tabii and Madd Badal", "Madd Lazim and Madd Muttasil", "Madd Munfasil and Madd Arid", "Madd Lazim and Madd Badal"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "In 'مَآبٍ', when stopping on the word, how many rules interact?", "options": ["Madd Badal (fixed 2 counts on the first part) and Madd Arid lis-Sukoon (2, 4, or 6 counts on the final pause)", "Only Tabii", "Only Lazim", "Zero"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the core definitions of Madd 'Arid lis-Sukoon and Madd Badal:", "options": ["'Arid is 2-4-6 counts upon pausing due to temporary Sukoon; Badal is fixed 2 counts when a Hamzah precedes a Madd letter", "Both are strictly 6 counts", "Both are permanent sukoon rules", "Neither involves elongation"], "correct_answer": 0 }
+  ]
+}
