@@ -1,0 +1,86 @@
+{
+  "rule_metadata": {
+    "rule_id": "07_madd_iwad",
+    "rule_name_english": "Madd 'Iwad (Compensation Lengthening)",
+    "rule_name_arabic": "مَدّ العِوَض",
+    "category": "Madd (Lengthening) Rules",
+    "level": "Intermediate",
+    "description": "Comprehensive rules governing the 2-count compensation lengthening of Tanween Fathah upon stopping (Waqf)."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "'Iwad (عِوَض) literally means compensation or substitution.",
+    "applied_tajweed_definition": "Madd 'Iwad occurs when pausing (Waqf) on a word ending with a Tanween Fathah (ً). The nasal Tanween sound is dropped and compensated ('Iwad) by a single 2-count Alif Madd extension.",
+    "ruling_and_duration": "Fixed lengthening of exactly **2 counts** (Harakat) upon stopping.",
+    "the_ta_marbootah_exception": "If the word ends with a Ta Marbootah carrying Tanween Fathah (ًة), pausing on it converts it into a vowelless Haa (هْ) with **zero** Madd 'Iwad (e.g., رَحْمَةً becomes Rahmah).",
+    "wasl_ruling": "If the reciter continues reading without stopping (Wasl), Madd 'Iwad does not apply, and the full Tanween sound is read according to its normal governing rule.",
+    "mushaf_indicator": "An Alif carrying the Tanween Fathah is typically written at the end of the word (e.g., ًا)."
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "عَلِيمًا حَكِيمًا",
+      "transliteration": "Aleeman Hakeemaa (when stopping)",
+      "trigger_letter": "ً",
+      "breakdown": "The Tanween Fathah on Hakeeman is replaced by a clean 2-count Alif Madd upon pausing.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/hakeema.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "سَمِيعًا بَصِيرًا",
+      "transliteration": "Samee'an Baseeraa (when stopping)",
+      "trigger_letter": "ً",
+      "breakdown": "Tanween Fathah converted to 2-count Alif extension.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/baseera.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "رَحْمَةً",
+      "transliteration": "Rahmah (when stopping - Exception)",
+      "trigger_letter": "ًة",
+      "breakdown": "Ta Marbootah exception: stops as a vowelless Haa with no Madd 'Iwad.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/rahmah_stop.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What does ''Iwad' mean linguistically?", "options": ["Compensation or substitution", "Merging", "Concealment", "Shortening"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "What ending trigger causes Madd 'Iwad to apply when stopping?", "options": ["Tanween Fathah (ً)", "Tanween Dammah (ٌ)", "Tanween Kasrah (ٍ)", "Sukoon"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "What is the exact duration of Madd 'Iwad upon stopping?", "options": ["2 counts (Harakat)", "4 counts", "5 counts", "6 counts"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "What happens if a reciter stops on a word ending with a Ta Marbootah with Tanween Fathah (ًة)?", "options": ["It changes into a vowelless Haa (هْ) without any Madd 'Iwad", "It takes a 6-count Madd", "It takes a 2-count Alif", "It turns into Meem"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "What happens to Madd 'Iwad if you continue reciting without pausing (Wasl)?", "options": ["The Madd disappears and the full Tanween sound is recited with its applicable rule", "It remains 2 counts", "It turns into 6 counts", "It becomes silent"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "In the word 'حَكِيمًا', when stopping at the end of the verse, how is it pronounced?", "options": ["Hakeemaa with a 2-count Alif extension", "Hakeeman with full Tanween", "Hakeem with Sukoon", "Hakeemi"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "Does Madd 'Iwad apply to Tanween Kasrah (ٍ) or Tanween Dammah (ٌ) when stopping?", "options": ["No, those end in standard Sukoon on the consonant when stopping (e.g., عَلِيمٍ becomes 'Aleem)", "Yes, always", "Only in the last Juz", "Only with Hamzah"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "What is the structural replacement mechanism in Madd 'Iwad?", "options": ["The second Fathah (representing the 'n' sound) is dropped and compensated by an Alif Madd", "The letter is deleted", "The vowel becomes Kasrah", "A Shaddah is added"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "Which of the following words forms Madd 'Iwad when paused upon?", "options": ["غَفُورًا", "غَفُورٌ", "غَفُورٍ", "غَفَرَ"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "In 'رَحْمَةً', when pausing, what sound ends the word?", "options": ["A clean, vowelless Haa (Rahmah)", "A 2-count Alif (Rahmaa)", "A Tanween (Rahman)", "A Sukoon Ta"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "What common error do beginners make when stopping on words like 'غَفُورًا'?", "options": ["Pronouncing the 'n' sound of Tanween instead of converting it to a 2-count Alif", "Holding for 6 counts", "Dropping the word", "Adding a Shaddah"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "What duration does an AI evaluation engine enforce for Madd 'Iwad?", "options": ["Strictly 2 counts (Harakat)", "4 counts", "6 counts", "0 counts"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "In 'هُدًى', when stopping on the word, how is it recited?", "options": ["Hudaa with a 2-count Alif extension", "Hudan", "Hud", "Hudaye"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "Is Madd 'Iwad considered a natural branch of Madd Tabii?", "options": ["Yes, because upon stopping its duration is a fixed 2 counts without requiring a Hamzah or Sukoon trigger", "No, it is Lazim", "No, it is 6 counts", "It is optional"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "What sign in the Mushaf is usually written after Tanween Fathah to signal Madd 'Iwad readiness?", "options": ["An extra Alif carrying the Tanween Fathah (e.g., ًا)", "A Sukoon circle", "A Shaddah", "A small Meem"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "In 'أَفْوَاجًا', stopping at the end of the verse results in what pronunciation?", "options": ["Afwaajaa (2 counts)", "Afwaajan", "Afwaaj", "Afwaaji"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "Why does a word ending with Hamzah carrying Tanween Fathah (like مَاءً) sometimes lack a written Alif after it?", "options": ["Because in Arabic orthography, a Hamzah preceded by Alif does not take another trailing Alif, but Madd 'Iwad STILL applies vocally", "Because it has no Madd", "Because it is 6 counts", "Because it is invalid"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "In 'سَوَاءً', how is it pronounced when stopping?", "options": ["Sawaa'aa (2-count 'Iwad extension after the Muttasil Madd)", "Sawaa'an", "Sawaa'", "Sawi"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "What is the key takeaway regarding stopping on Ta Marbootah (ًة)?", "options": ["It is the ONLY Tanween Fathah ending that DOES NOT become Madd 'Iwad (it becomes Haa Saakinah)", "It becomes 6 counts", "It becomes Iqlab", "It stays Tanween"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "If a student recites 'عَلِيمًا حَكِيمًا' and connects 'حَكِيمًا' to the next verse, should they perform Madd 'Iwad?", "options": ["No, because Madd 'Iwad strictly requires pausing (Waqf)", "Yes, always", "Only in the morning", "Only in Surah Al-Fatihah"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "In 'قَوْلًا سَدِيدًا', stopping on 'سَدِيدًا' produces:", "options": ["Madd 'Iwad (Sadeedaa)", "Idgham", "Ikhfa", "Izhar"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "What is the relationship between Madd 'Iwad and breath management?", "options": ["It provides a clear 2-count rhythmic wind-down at sentence pauses", "It shortens breath", "It requires 6 counts of breath", "No effect"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "In Surah Al-Adiyat, verses ending in 'ضَبْحًا', 'قَدْحًا', 'صُبْحًا' all exhibit which rule when pausing?", "options": ["Madd 'Iwad (2 counts each)", "Madd Lazim", "Madd Badal", "Izhar"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "What is the total number of dedicated Madd modules in your app now?", "options": ["7 dedicated modules (01 through 07)", "1 module", "3 modules", "10 modules"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "If a reciter extends Madd 'Iwad to 6 counts, how should the app grade it?", "options": ["Flag as over-extension error (Madd 'Iwad must be strictly 2 counts)", "Mark correct", "Ignore", "Flag as Iqlab error"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "In 'كِتَابًا مَرْقُومًا', stopping on 'مَرْقُومًا' gives what ending?", "options": ["Marqoomaa (2 counts)", "Marqooman", "Marqoom", "Marqoomi"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "Does Madd 'Iwad exist in written text when reading continuously?", "options": ["No, it only exists phonetically during a vocal pause (Waqf)", "Yes, always", "Only in printing", "Only in translation"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "In 'مُبِينًا', pausing yields:", "options": ["Mubeenaa", "Mubeenan", "Mubeen", "Mubeeni"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "Why is Madd 'Iwad essential for memorization testing?", "options": ["Because students frequently confuse continuous Tanween recitation with pause rules", "Because it is hard to spell", "Because it replaces all vowels", "It is not essential"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "In 'شَيْئًا', stopping on it gives:", "options": ["Shay'aa (2 counts)", "Shay'an", "Shay'", "Shayi"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "Which of these words ends in a Ta Marbootah exception that DOES NOT take Madd 'Iwad?", "options": ["قِيَامَةً", "كِتَابًا", "عَلِيمًا", "سَمِيعًا"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "What happens if a student recites 'قِيَامَةً' upon pausing as 'Qiyaamaa'?", "options": ["Flag as Ta Marbootah stopping error (must be Qiyaamah with Haa Saakinah)", "Mark correct", "Ignore", "Flag as Madd Lazim error"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "In 'لَطِيفًا خَبِيرًا', pausing on 'خَبِيرًا' produces:", "options": ["Khabeeraa (2 counts)", "Khabeeran", "Khabeer", "Khabeeri"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "What is the primary phonological rule of Madd 'Iwad?", "options": ["Replace Tanween Fathah with 2-count Alif on pause", "Always 6 counts", "Always 1 count", "Turns into Meem"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "Does Madd 'Iwad apply when connecting words?", "options": ["Never; it only activates upon a complete vocal pause (Waqf)", "Always", "Only in Surah Al-Baqarah", "Only with Hamzah"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "In 'حَكِيمًا', pausing gives:", "options": ["Hakeemaa", "Hakeeman", "Hakeem", "Hakeemi"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "What is the role of the Alif in 'عَلِيمًا' during Wasl vs Waqf?", "options": ["During Wasl, it acts as a carrier supporting the Tanween; during Waqf, it becomes the 2-count compensation lengthening instrument", "It is silent always", "It is 6 counts", "It is a Meem"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "If a student applies Madd 'Iwad to 'رَحْمَةً' and says 'Rahmaa', how should the AI app grade it?", "options": ["Flag as error because Ta Marbootah ends in Haa Saakinah ('Rahmah'), not Alif Madd", "Mark correct", "Ignore", "Flag as Lazim error"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "In 'بَصِيرًا', stopping yields:", "options": ["Baseeraa", "Baseeran", "Baseer", "Baseeri"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the complete Madd 'Iwad rule:", "options": ["Stopping on Tanween Fathah (ً) replaces the nasal sound with a 2-count Alif extension, except on Ta Marbootah (ًة) which stops as a vowelless Haa", "Always 6 counts", "Always 1 count", "Turns into Meem"], "correct_answer": 0 }
+  ]
+}
