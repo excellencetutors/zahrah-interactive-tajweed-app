@@ -1,0 +1,90 @@
+{
+  "rule_metadata": {
+    "rule_id": "02_madd_lazim",
+    "rule_name_english": "Madd Lazim (The Unified Compulsory Lengthening)",
+    "rule_name_arabic": "المَدّ اللَّازِم",
+    "category": "Madd (Lengthening) Rules",
+    "level": "Advanced",
+    "description": "The definitive, centralized module for Madd Lazim, covering all four sub-categories (Kalimi Thaqil, Kalimi Khafif, Harfi Thaqil, and Harfi Khafif) anchored by a mandatory 6-count duration."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Lazim (لَازِم) means compulsory, mandatory, or permanent.",
+    "applied_tajweed_definition": "Madd Lazim occurs when a Madd letter is followed by a permanent Sukoon or a Shaddah (representing a doubled consonant) within the same word or inside the disjointed letters (Al-Huroof al-Muqatta'ah) at the start of Surahs.",
+    "ruling_and_duration": "Strictly and universally extended for exactly **6 counts** (Harakat) across all authentic transmission paths.",
+    "the_four_sub_categories": {
+      "kalimi_thaqil": "1. Madd Lazim Kalimi Thaqil (Word-Based Heavy): A Madd letter followed by a Shaddah in the same word (e.g., الضَّالِّينَ, الحَاقَّةُ).",
+      "kalimi_khafif": "2. Madd Lazim Kalimi Khafif (Word-Based Light): A Madd letter followed by a permanent unmerged Sukoon in a word. Found in only one word in the entire Quran, appearing twice: آلْآنَ (Surah Yunus).",
+      "harfi_thaqil": "3. Madd Lazim Harfi Thaqil (Letter-Based Heavy): Found in isolated letters at Surah openings whose spelled-out ending letter merges into the succeeding letter (e.g., the Meem in المٓ merging into the Lam or Meem).",
+      "harfi_khafif": "4. Madd Lazim Harfi Khafif (Letter-Based Light): Found in isolated letters at Surah openings whose spelled-out ending letter is followed by a non-merging Sukoon (e.g., the Qaf in قٓ or Noon in نٓ)."
+    },
+    "mushaf_indicator": "A wavy Maddah sign (~) placed over the Madd letter, followed by a Shaddah or clear Sukoon."
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "الضَّالِّينَ",
+      "transliteration": "Ad-Daalleen",
+      "rule_type": "Madd Lazim Kalimi Thaqil",
+      "breakdown": "Alif Madd followed by a Shaddah on the Lam inside the same word; extended strictly for 6 counts.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/addaalleen.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "آلْآنَ",
+      "transliteration": "Al-Aana",
+      "rule_type": "Madd Lazim Kalimi Khafif",
+      "breakdown": "Alif Madd followed by permanent unmerged Sukoon in Surah Yunus; 6 counts.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/alaana.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "المٓ",
+      "transliteration": "Alif-Laam-Meem",
+      "rule_type": "Madd Lazim Harfi Thaqil / Khafif",
+      "breakdown": "Laam ends in Meem merging into succeeding Meem (Thaqil 6 counts); Meem ends in Saakin Mim (Khafif 6 counts).",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/alif_laam_meem.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What does 'Lazim' mean linguistically?", "options": ["Compulsory, mandatory, or permanent", "Optional or temporary", "Hidden or concealed", "Shortened"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "What is the universal duration required for all forms of Madd Lazim?", "options": ["Strictly 6 counts (Harakat)", "2 counts", "4 to 5 counts", "10 counts"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "What are the two primary structural domains where Madd Lazim occurs?", "options": ["Within words (Kalimi) and within disjointed opening letters (Harfi)", "Only in poetry", "Only at verse endings", "Only with Noon Sakinah"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "What distinguishes Thaqil (Heavy) from Khafif (Light) in Madd Lazim?", "options": ["Thaqil has a succeeding Shaddah (doubled consonant/merging), whereas Khafif has a clear unmerged Sukoon", "Thaqil is shorter than Khafif", "Khafif has a Hamzah", "There is no difference"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "In the word 'الضَّالِّينَ', what specific sub-category of Madd Lazim applies?", "options": ["Madd Lazim Kalimi Thaqil", "Madd Lazim Kalimi Khafif", "Madd Lazim Harfi Thaqil", "Madd Tabii"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "Where does Madd Lazim Kalimi Khafif occur in the Quran?", "options": ["In only one word appearing twice: آلْآنَ in Surah Yunus", "In every Surah", "Only in Surah Al-Baqarah", "Nowhere"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "In the opening letters 'المٓ', how is the letter 'Laam' (لَام) classified?", "options": ["Madd Lazim Harfi Thaqil (because its spelled-out ending 'Meem' merges into the succeeding 'Meem' of 'Meem')", "Madd Tabii", "Madd Badal", "Izhar"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "In 'قٓ ۚ وَالْقُرْآنِ', how is the letter 'Qaf' (قَاف) classified?", "options": ["Madd Lazim Harfi Khafif (because its spelled-out ending 'Fa' has no succeeding letter to merge into)", "Madd Lazim Kalimi Thaqil", "Madd Munfasil", "Iqlab"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "What happens if a reciter reads Madd Lazim with only 2 counts?", "options": ["It is a major Tajweed violation (Lahn Jali) because 6 counts are mandatory", "It is fully permissible", "It turns into Madd Tabii", "It becomes silent"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "What Mushaf symbol signals Madd Lazim across its variants?", "options": ["A wavy Maddah sign (~)", "A Sukoon circle", "A small Meem", "A Tanween sign"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "Why is Madd Lazim ranked at the very top of Aqwa al-Mudud (the hierarchy of Madd strength)?", "options": ["Because its cause (permanent Sukoon/Shaddah) is absolute and unalterable", "Because it is optional", "Because it is the shortest rule", "Because it uses Hamzah"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "In 'الْحَاقَّةُ', what rule governs the Alif followed by a doubled Qaf?", "options": ["Madd Lazim Kalimi Thaqil (6 counts)", "Madd Tabii", "Madd Munfasil", "Izhar"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "Which disjointed opening letter (Al-Huroof al-Muqatta'ah) has NO Madd at all?", "options": ["أَلِفْ (Alif)", "مِيم (Meem)", "لَام (Laam)", "صَاد (Saad)"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "Why does 'Alif' (أَلِفْ) have no Madd Lazim?", "options": ["Because its spelled-out three-letter name (أ - ل - ف) contains no central Madd letter in its middle position", "Because it has a Fathah", "Because it is silent", "Because it is at the end of an ayah"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "What is the exact counting rhythm for a 6-count Madd Lazim execution?", "options": ["A steady, unhurried pulse holding vocal extension across 6 finger movements", "A rapid 2-beat dash", "A whispered pause", "Zero counts"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "In 'طٰهٰ', how are Ta and Ha lengthened?", "options": ["2 counts each (Madd Tabii Harfi, NOT Lazim because their spelling names lack 3 letters with central Madd)", "6 counts", "4 counts", "1 count"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "In 'كهيعص', which letters receive the full 6-count Madd Lazim?", "options": ["Kaaf, Seen, Saad (ك، س، ص)", "Ha and Ya", "All letters", "None"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "How does an AI evaluation engine grade a student who recites 'الضَّالِّينَ' with 6 counts?", "options": ["Mark as perfect and fully compliant with Madd Lazim Kalimi Thaqil standards", "Major error", "Requires 2 counts", "Requires 1 count"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "What is the acoustic effect of Madd Lazim Kalimi Thaqil?", "options": ["A majestic 6-count elongation crashing into a heavy, doubled consonant sound with Shaddah", "A quick breath stop", "A nasal hum", "A whisper"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "Can Madd Lazim occur across two separate words?", "options": ["No, Lazim strictly occurs within a single word or single isolated letter name", "Yes, always", "Only in Surah Al-Baqarah", "Only with Tanween"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "What is the purpose of unifying all Madd Lazim variants into Module 02?", "options": ["To provide a centralized, comprehensive master home for all word-based and letter-based compulsory rules", "To teach grammar", "To practice translation", "To study history"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "In 'حَٓمْ ۝ عَسَقْ', what rule governs the spelled-out ending letters like 'Meem' and 'Seen'?", "options": ["Madd Lazim Harfi (6 counts)", "Madd Tabii", "Madd Munfasil", "Ikhfa"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "What is the structural definition of Kalimi in Madd Lazim?", "options": ["Pertaining to standard dictionary words (Kalimah) rather than isolated letters", "Pertaining to verbs only", "Pertaining to poetry", "Pertaining to grammar"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "What is the structural definition of Harfi in Madd Lazim?", "options": ["Pertaining to the isolated letters of the alphabet found at Surah openings", "Pertaining to everyday nouns", "Pertaining to pronouns", "Pertaining to vowels"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "In 'آلْآنَ', why is it classified as Kalimi Khafif?", "options": ["Because the Alif Madd is followed by a clear, unmerged Sukoon on the Lam inside a word", "Because it has a Shaddah", "Because it is 2 counts", "Because it is a letter"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "If a student confuses Madd Lazim with Madd Muttasil, what is the core correction?", "options": ["Muttasil is 4-5 counts triggered by Hamzah; Lazim is strictly 6 counts triggered by permanent Sukoon/Shaddah", "Both are 6 counts", "Both use Hamzah", "There is no difference"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "What mnemonic device helps students remember the 8 letters of Harfi Madd Lazim ('كم عسل نقص')?", "options": ["The classic scholarly grouping containing Kaaf, Meem, Ayn, Seen, Lam, Noon, Qaf, Saad", "A poetry rhyme", "A counting trick", "A grammar rule"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "How many counts are required for the 'Ain' (ع) in 'كهيعص' or 'عسق'?", "options": ["4 or 6 counts (permissible scholarly variance, with 6 being preferred)", "Strictly 2 counts", "Strictly 1 count", "Zero counts"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "What is the role of the permanent Sukoon in Madd Lazim?", "options": ["It serves as the definitive structural trigger that forces the 6-count mandatory elongation", "It shortens the word", "It adds a vowel", "It creates Iqlab"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "Summarize the unified Madd Lazim rule in one master statement:", "options": ["Any Madd letter followed by a permanent Sukoon or Shaddah—whether inside a word (Kalimi) or an opening letter name (Harfi)—must be rigidly extended for exactly 6 counts across all four sub-categories", "Always 2 counts", "Always 1 count", "Optional elongation"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "In 'صَآفَّاتٍ', what rule applies to the Alif followed by a Shaddah?", "options": ["Madd Lazim Kalimi Thaqil (6 counts)", "Madd Tabii", "Madd Munfasil", "Izhar"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "In 'طָّسْمۤ', how is the transition executed?", "options": ["Meem merges into Noon or similar rules with Harfi Lazim 6 counts", "Read with 2 counts", "Skip letters", "Apply Iqlab"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "What is the penalty for shortening Madd Lazim in professional Quranic recitation certification (Ijazah)?", "options": ["Considered a severe recitation flaw violating foundational rules", "Ignored", "Rewarded", "Optional"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "In 'الضَّالِّينَ', what exact letter carries the Shaddah?", "options": ["The Lam (ل)", "The Dad (ض)", "The Alif (ا)", "The Noon (ن)"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "Does Madd Lazim change its count depending on recitation speed (Hadr vs Tartil)?", "options": ["The ratio remains a stable 6 counts relative to the overall tempo", "It drops to 2 counts in fast reading", "It becomes 10 counts", "It disappears"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "What is the relationship between Madd Lazim and Mushaf orthography?", "options": ["Explicitly marked with a bold Maddah sign (~) across all authoritative Mushafs", "Unmarked", "Marked with a red dot", "Marked with square brackets"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "If a student asks whether Harfi Lazim applies to all letters of the Arabic alphabet, what is the answer?", "options": ["No, it applies exclusively to the specific isolated letters at Surah openings whose spelled-out names contain a central Madd letter", "Yes, all letters", "Only letters ending in Fathah", "Only vowels"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "In 'المٓ', how many total 6-count Madd Lazim segments are performed?", "options": ["Two (Laam ending in Meem = Thaqil 6 counts; Meem ending in Sukoon = Khafif 6 counts)", "One only", "Zero", "Three"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "How should an AI scoring engine evaluate a 6-count recitation of 'آلْآنَ'?", "options": ["Mark as precise Madd Lazim Kalimi Khafif compliance", "Major error", "Requires 2 counts", "Requires 1 count"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the complete unified Madd Lazim module structure:", "options": ["A centralized master module covering Kalimi Thaqil, Kalimi Khafif, Harfi Thaqil, and Harfi Khafif under the mandatory 6-count rule", "Always 2 counts", "Always 1 count", "Optional lengthening"], "correct_answer": 0 }
+  ]
+}
