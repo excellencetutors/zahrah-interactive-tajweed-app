@@ -1,0 +1,86 @@
+{
+  "rule_metadata": {
+    "rule_id": "09_madd_munfasil",
+    "rule_name_english": "Madd Munfasil (Separated Permissible Madd)",
+    "rule_name_arabic": "مَدّ المُنْفَصِل",
+    "category": "Madd (Lengthening) Rules",
+    "level": "Intermediate",
+    "description": "The dedicated module for Madd Munfasil, covering the 4-to-5 count separated lengthening that occurs when a Madd letter ends one word and a Hamzah begins the next word, complete with a 40-question assessment bank."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Munfasil (مُنْفَصِل) means separated or detached.",
+    "applied_tajweed_definition": "Madd Munfasil occurs when a Madd letter (Alif, Waw, or Ya) appears at the very end of a word, and the immediately succeeding word begins with a Hamzah (ء).",
+    "ruling_and_duration": "Extended for **4 to 5 counts** (Harakat) according to the standard narration of Hafs 'an 'Asim (via Shatibiyyah route).",
+    "permissible_shortening": "In certain authentic scholarly transmission paths (Turuq), it is permissible to shorten it to 2 counts (Qasr al-Munfasil), though 4-5 counts remains standard practice.",
+    "wasl_vs_waqf": "Munfasil applies only when connecting words in recitation (Wasl). If you pause (Waqf) on the first word ending with the Madd letter, it reduces to a standard 2-count Madd Tabii because the succeeding Hamzah is temporarily cut off.",
+    "mushaf_indicator": "A wavy Maddah sign (~) placed over the final Madd letter of the first word."
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "بِمَا أُنْزِلَ",
+      "transliteration": "Bima unzila",
+      "rule_type": "Madd Munfasil",
+      "breakdown": "Alif Madd at end of 'Bima' meets Hamzah at start of 'unzila'; extended 4-5 counts.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/bima_unzila.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "يَا أَيُّهَا",
+      "transliteration": "Ya ayyuha",
+      "rule_type": "Madd Munfasil",
+      "breakdown": "Alif Madd at end of 'Ya' meets Hamzah at start of 'ayyuha'; extended 4-5 counts.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/ya_ayyuha.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "قَالُوا آمَنَّا",
+      "transliteration": "Qalu amanna",
+      "rule_type": "Madd Munfasil",
+      "breakdown": "Waw Madd at end of 'Qalu' meets Hamzah at start of 'amanna'.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/qalu_amanna.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What does 'Munfasil' mean linguistically?", "options": ["Separated or detached", "Connected or joined", "Compulsory", "Hidden"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "What structural condition triggers Madd Munfasil?", "options": ["A Madd letter at the end of a word followed by a Hamzah starting the next word", "A Madd letter followed by Hamzah in the same word", "A permanent Sukoon", "A Shaddah"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "How many counts are required for Madd Munfasil according to standard Hafs recitation?", "options": ["4 to 5 counts", "2 counts", "6 counts", "1 count"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "Why is Madd Munfasil called 'Separated'?", "options": ["Because the Madd letter and the Hamzah are separated across two different words", "Because it uses a pause", "Because it is optional", "Because it is at verse ends"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "In the phrase 'بِمَا أُنْزِلَ', what rule governs the transition between the two words?", "options": ["Madd Munfasil (4-5 counts)", "Madd Muttasil", "Madd Lazim", "Izhar"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "What happens to Madd Munfasil if you pause (Waqf) on the first word (e.g., stopping on 'بِمَا')?", "options": ["It reduces to a standard 2-count Madd Tabii because the succeeding Hamzah is no longer connected", "It increases to 6 counts", "It disappears entirely", "It turns into Lazim"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "What is 'Qasr al-Munfasil' in advanced scholarly transmission?", "options": ["A permissible scholarly transmission path allowing shortening of Munfasil to 2 counts", "A rule requiring 10 counts", "A rule prohibiting Hamzah", "A Meem rule"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "In 'يَا أَيُّهَا', how should the Alif in 'يَا' be lengthened under standard Hafs?", "options": ["4 to 5 counts", "2 counts", "6 counts", "1 count"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "What Mushaf symbol is typically placed over the Madd letter in Madd Munfasil?", "options": ["A wavy Maddah sign (~)", "A Sukoon circle", "A Shaddah", "A small Meem"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "In the phrase 'قَالُوا آمَنَّا', what Madd letter ends the first word?", "options": ["Waw Madd", "Alif Madd", "Ya Madd", "No Madd letter"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "Which of the following phrases contains a Madd Munfasil with Ya Madd?", "options": ["فِي أَنْفُسِكُمْ", "قَالَ", "جَاءَ", "الضَّالِّينَ"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "How does Madd Munfasil differ structurally from Madd Muttasil?", "options": ["Munfasil spans across two words, whereas Muttasil occurs within a single word", "Munfasil is 6 counts", "Muttasil spans across words", "There is no difference"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "What is the ruling category (Hukm) of Madd Munfasil according to most scholars?", "options": ["Permissible (Ja'iz) due to differing transmission paths", "Strictly obligatory (Wajib)", "Forbidden (Haraam)", "Mandatory 6 counts"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "If a student recites Madd Munfasil with only 2 counts under standard Hafs Shatibiyyah instruction, what feedback should be given?", "options": ["While Qasr exists in other authentic routes, standard Hafs practice requires 4-5 counts", "Mark as major failure", "Ignore", "Switch to Lazim"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "In 'وَمَا أُمِرُوا', what governs the Alif meeting Hamzah across words?", "options": ["Madd Munfasil (4-5 counts)", "Madd Tabii", "Madd Lazim", "Izhar"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "What counting pulse is standard for a 4-count Munfasil extension?", "options": ["A steady 4-beat micro-pulse matching recitation tempo", "A rapid 1-beat dash", "A rigid 6-beat pulse", "Zero counts"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "Can a Madd Munfasil letter carry a Sukoon or Harakah of its own?", "options": ["No, Madd letters are inherently vowelless (Saakin)", "Yes, always", "Only with Fathah", "Only at verse ends"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "In 'أَنَّهُ أَنَا', how many Munfasil rules are present?", "options": ["Multiple (Silah Kubra / Munfasil variants across words)", "Zero", "Only one", "Only Lazim"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "What is the phonetic impact of Madd Munfasil on recitation flow?", "options": ["It creates a smooth, expansive vocal bridge between connected words meeting a Hamzah", "It causes a harsh stop", "It adds a nasal hum", "It deletes vowels"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "If a reciter fluctuates Munfasil counts erratically between 2 and 6 counts, what correction is needed?", "options": ["Stabilize the lengthening tempo to a consistent 4 or 5 counts throughout", "Increase speed", "Apply Iqlab", "Stop reading"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "In 'تُبُوءُوا بِإِثْمِكُمْ', what rule applies between 'تُبُوءُوا' and 'بِإِثْمِكُمْ'?", "options": ["Madd Munfasil", "Madd Lazim", "Idgham", "Izhar"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "Does Madd Munfasil rank higher or lower than Madd Muttasil in Aqwa al-Mudud hierarchy?", "options": ["Lower than Muttasil (Muttasil is 2nd strongest, Munfasil is 4th)", "Higher than Muttasil", "Equal strength", "Not ranked"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "What is the exact spelling signifier for Munfasil in printed Mushafs?", "options": ["The letter ends with a clean Madd letter supported by a wavy Maddah sign over the boundary", "A Shaddah", "A red dot", "A Sukoon circle"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "In 'رَبِّي أَعْلَمُ', how does the Ya of 'رَبِّي' interact with 'أَعْلَمُ'?", "options": ["Forms Madd Munfasil (4-5 counts) when connected", "Reduces to Tabii", "Turns into Meem", "Becomes silent"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "What is the primary pedagogical goal of Module 09?", "options": ["To isolate and master separated two-word Hamzah lengthening rules", "To teach Arabic grammar", "To practice translation", "To study history"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "If a student connects 'يَا' and 'أَيُّهَا' without extending the Alif, what error is flagged?", "options": ["Omission of required Madd Munfasil duration (insufficient Harakat count)", "Correct recitation", "Madd Badal error", "Izhar error"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "Can Madd Munfasil occur at the very beginning of a Surah?", "options": ["No, because Munfasil requires a preceding word to host the ending Madd letter", "Yes, always", "Only in the last Juz", "Only with Hamzah"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "How does an AI evaluation engine score a 5-count Munfasil recitation?", "options": ["Mark as accurate and fully compliant with standard Hafs recitation", "Major error", "Requires 2 counts", "Requires 6 counts"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "In 'قَالُوا أَنَّى', what governs the Waw?", "options": ["Madd Munfasil (4-5 counts)", "Madd Tabii", "Madd Lazim", "Iqlab"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "Summarize the core mechanics of Madd Munfasil:", "options": ["A Madd letter at the end of a word followed by a Hamzah at the start of the next word requires a 4-to-5 count extension when connected in Wasl", "Always 2 counts", "Always 6 counts", "Optional lengthening"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "In 'فِي أَنْفُسِكُمْ', what rule applies to 'فِي'?", "options": ["Madd Munfasil (4-5 counts)", "Madd Muttasil", "Idgham", "Izhar"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "What happens if you connect 'بِمَا' and 'أُنْزِلَ' with 6 counts?", "options": ["It is considered an over-extension since Munfasil standard is 4-5 counts (reserve 6 for Lazim)", "Mark as perfect", "Ignore", "Turn into Tabii"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "Does Madd Munfasil depend on the vowel following the Hamzah?", "options": ["No, any vowel on the succeeding Hamzah triggers Munfasil as long as it starts the next word", "Yes, must be Fathah only", "Must be Kasrah only", "Must be Dammah only"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "In 'وَأَنْتُمْ أَعْلَمُ', how are the words connected?", "options": ["Madd Munfasil on preceding words where applicable", "Lazim rule", "Iqlab rule", "No rule"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "What is the relationship between Wasl and Madd Munfasil?", "options": ["Wasl (connecting words) is mandatory for Munfasil to activate; pausing breaks the trigger", "Wasl cancels Munfasil", "Wasl makes it 6 counts", "No relationship"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "In 'عَلَى أَبْصَارِهِمْ', what rule governs 'عَلَى'?", "options": ["Madd Munfasil (4-5 counts)", "Madd Muttasil", "Madd Lazim", "Izhar"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "How many total modules now comprise your organized Madd repository?", "options": ["9 comprehensive modules (01 through 09)", "3 modules", "5 modules", "15 modules"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "If a reciter pauses on 'بِمَا' in 'بِمَا أُنْزِلَ', what does the Madd become?", "options": ["Madd Tabii (2 counts)", "Madd Lazim (6 counts)", "Madd Muttasil", "Zero counts"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "How should an AI engine evaluate a student who correctly applies 4 counts to Munfasil?", "options": ["Mark as accurate and compliant", "Major error", "Requires 6 counts", "Requires 1 count"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the complete dedicated Madd Munfasil module:", "options": ["A dedicated 40-question module covering the 4-to-5 count separated two-word Hamzah lengthening rule", "Always 2 counts", "Always 6 counts", "Optional lengthening"], "correct_answer": 0 }
+  ]
+}
