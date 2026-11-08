@@ -1,0 +1,88 @@
+{
+  "rule_metadata": {
+    "rule_id": "08_madd_silah",
+    "rule_name_english": "Madd Silah (The Connecting Pronoun Lengthening)",
+    "rule_name_arabic": "مَدّ الصِّلَة",
+    "category": "Madd (Lengthening) Rules",
+    "level": "Advanced Intermediate",
+    "description": "The dedicated module for Madd Silah, covering Lesser (Sughra) and Greater (Kubra) pronoun Haa' al-Kinayah lengthening rules and scholarly exceptions."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Silah (صِلَة) means connection, linkage, or bridge.",
+    "applied_tajweed_definition": "Madd Silah applies to the third-person singular masculine pronoun of possession/reference (Haa' al-Kinayah - هـ) when it is vowelled and situated between two vowelled letters.",
+    "sub_divisions": {
+      "sughra": "Madd Silah Sughra (Lesser Connecting Madd): Pronoun is followed by any letter *except* Hamzah. Lengthened for **2 counts** (acting like Madd Tabii). Example: لَهُ مَا (Lahuu ma).",
+      "kubra": "Madd Silah Kubra (Greater Connecting Madd): Pronoun is followed immediately by a Hamzah (ء). Lengthened for **4 to 5 counts** (matching separated lengthening). Example: بِهِ إِلَّا (Bihii illaa)."
+    },
+    "scholar_exception": "In Surah Al-Furqan (verse 69), وَيَخْلُدْ فِيهِ مُهَانًا, the Haa is vowelled between two vowelled letters, yet Hafs recites it *without* Silah (short 1 count) due to specific transmission rules.",
+    "wasl_vs_waqf": "Silah applies strictly when connecting words in recitation (Wasl). If you pause (Waqf) on the pronoun word, the Silah drops entirely and the Haa is pronounced as a vowelless Sakinah (هْ)."
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "لَهُ مَا فِي السَّمَاوَاتِ",
+      "transliteration": "Lahuu ma fis-samawati",
+      "rule_type": "Madd Silah Sughra",
+      "breakdown": "Haa pronoun of Lahu is between two vowels and followed by Meem; stretched 2 counts.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/lahuu_ma.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "وَمَا يَكْفُرُ بِهِ إِلَّا",
+      "transliteration": "Wa ma yakfuru bihii illaa",
+      "rule_type": "Madd Silah Kubra",
+      "breakdown": "Haa pronoun of Bihi is followed by Hamzah; stretched 4 to 5 counts.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/bihii_illa.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "وَيَخْلُدْ فِيهِ مُهَانًا",
+      "transliteration": "Wa yakhludu fihi muhaana",
+      "rule_type": "Surah Al-Furqan Exception",
+      "breakdown": "Haa is between vowels but recited without Silah (short 1 count) per Hafs narration.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/fihi_muhana.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What does 'Silah' mean linguistically?", "options": ["Connection or linkage", "Separation", "Compulsory", "Merging"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "What does Madd Silah specifically apply to?", "options": ["The third-person singular masculine pronoun (Haa' al-Kinayah - هـ)", "Every letter in the alphabet", "Only Noon Sakinah", "Only Hamzah"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "What are the two sub-types of Madd Silah?", "options": ["Silah Sughra (Lesser) and Silah Kubra (Greater)", "Silah Tabii and Silah Lazim", "Silah Arid and Silah Badal", "Silah Thaqil and Silah Khafif"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "What is the duration of Madd Silah Sughra?", "options": ["2 counts (like Madd Tabii)", "4 counts", "6 counts", "1 count"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "What is the duration of Madd Silah Kubra?", "options": ["4 to 5 counts", "2 counts", "6 counts", "1 count"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "When does Madd Silah Sughra occur?", "options": ["When the Haa pronoun is between two vowelled letters and followed by any letter except Hamzah", "When followed by Hamzah", "When vowelless", "At the end of an Ayah"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "When does Madd Silah Kubra occur?", "options": ["When the Haa pronoun is between two vowelled letters and followed immediately by a Hamzah", "When followed by Baa", "When followed by Sukoon", "Never"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "What is the famous Quranic exception where Madd Silah is omitted despite meeting the conditions (in Surah Al-Furqan)?", "options": ["وَيَخْلُدْ فِيهِ مُهَانًا", "قَالَ رَبِّ", "بِسْمِ اللَّهِ", "الْحَمْدُ لِلَّهِ"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "How is 'فِيهِ مُهَانًا' recited regarding Silah according to Hafs?", "options": ["Without Silah (short 1 count on Haa)", "With 6 counts Silah Kubra", "With Iqlab", "With Idgham"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "In 'لَهُ مَا فِي السَّمَاوَاتِ', what rule governs the Haa of 'لَهُ'?", "options": ["Madd Silah Sughra (2 counts)", "Madd Silah Kubra", "Madd Lazim", "Izhar"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "In 'بِهِ إِلَّا', what rule governs the Haa of 'بِهِ'?", "options": ["Madd Silah Kubra (4-5 counts)", "Madd Silah Sughra", "Madd Tabii", "Iqlab"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "What happens to Madd Silah if you stop (Waqf) on the pronoun word (e.g., stopping on 'لَهُ')?", "options": ["The Silah disappears entirely and the Haa is pronounced as a vowelless Sakinah (هْ)", "It extends to 6 counts", "It turns into Lazim", "It stays 2 counts"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "Can Madd Silah occur if the Haa pronoun is preceded or followed by a vowelless letter (Sukoon)?", "options": ["No, the pronoun must be strictly surrounded by two vowelled letters", "Yes, always", "Only with Hamzah", "Only with Shaddah"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "In 'إِنَّهُ هُوَ', what rule applies to the Haa of 'إِنَّهُ'?", "options": ["Madd Silah Sughra", "Madd Silah Kubra", "Madd Lazim", "Izhar"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "What small Mushaf sign denotes Madd Silah Sughra after the Haa pronoun?", "options": ["A small floating Waw (و) or Ya (ي) subscript", "A Sukoon circle", "A Shaddah", "A Maddah wave"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "What small Mushaf sign denotes Madd Silah Kubra?", "options": ["A floating Waw or Ya followed by a Maddah wave (~)", "A Sukoon", "A small Meem", "A Tanween sign"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "If a student treats Madd Silah Sughra as 6 counts, what feedback is given?", "options": ["Madd Silah Sughra is strictly 2 counts; reserve longer counts for Kubra or Lazim", "Correct recitation", "Increase speed", "Apply Sakt"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "Why is Madd Silah considered a branch of Madd Tabii in its Sughra form?", "options": ["Because its 2-count duration matches natural lengthening", "Because it uses a Hamzah", "Because it is 6 counts", "Because it is optional"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "Why is Madd Silah considered a branch of separated lengthening in its Kubra form?", "options": ["Because its 4-5 count duration matches separated lengthening when meeting Hamzah across words", "Because it is 2 counts", "Because it has no Hamzah", "Because it is Lazim"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "In 'رَبِّهِ أَعْلَمُ', what rule applies to the Haa of 'رَبِّهِ'?", "options": ["Madd Silah Kubra (4-5 counts)", "Madd Silah Sughra", "Madd Tabii", "Izhar"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "What error occurs if a reciter drops the small Waw/Ya sound in Madd Silah Sughra?", "options": ["They fail to complete the 2-count pronoun connection (Silah error)", "Correct recitation", "Madd Lazim error", "Izhar error"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "In 'وَمَا أَنْسَانِيهُ إِلَّا', how does Hafs recite the Haa pronoun?", "options": ["Recited with Madd Silah Kubra according to specific narration paths", "Without Silah", "Silah Sughra", "Deleted"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "In 'فَهُوَ فِي عِيشَةٍ رَاضِيَةٍ', does Madd Silah apply to 'فَهُوَ'?", "options": ["No, because the Waw in 'هُوَ' is part of the base word stem, not a separable third-person masculine pronoun suffix", "Yes, Sughra", "Yes, Kubra", "It is Lazim"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "What is the exact counting rhythm for Madd Silah Kubra?", "options": ["A steady 4-to-5 pulse", "A rigid 6-count pulse", "A quick 1-count pulse", "Zero counts"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "Which rule handles the pronoun Haa when followed by a non-Hamzah letter?", "options": ["Madd Silah Sughra", "Madd Silah Kubra", "Madd Tamkeen", "Madd Lazim"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "Which rule handles the pronoun Haa when followed by a Hamzah?", "options": ["Madd Silah Kubra", "Madd Silah Sughra", "Madd Tamkeen", "Madd Tabii"], "correct_answer": 0 },
+    {="id": "q27", "type": "multiple_choice", "question": "What is the rule for the exception in Surah Al-Furqan ('فِيهِ مُهَانًا')?", "options": ["Pronounced short (1 count) without Silah", "Extended to 6 counts", "Extended to 5 counts", "Converted to Meem"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "What is the overarching objective of Module 08 in your repository?", "options": ["To provide unified, exhaustive coverage of all pronoun Haa connecting rules (Silah Sughra and Kubra)", "To teach Arabic grammar", "To practice translation", "To study history"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "If a reciter connects 'لَهُ' to 'مَا' without extending the floating Waw, what is the feedback?", "options": ["Apply Madd Silah Sughra with a clear 2-count vowel extension", "Increase speed", "Apply Iqlab", "Stop reading"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "Summarize the complete Madd Silah rule:", "options": ["The third-person masculine pronoun Haa when surrounded by vowels receives 2 counts (Sughra) unless followed by Hamzah which raises it to 4-5 counts (Kubra)", "Always 6 counts", "Always 1 count", "Turns into Meem"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "In 'أَنَّهُ كَانَ', does Madd Silah apply?", "options": ["Yes, Sughra (2 counts)", "No", "Kubra", "Lazim"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "In 'إِلَى أَهْلِهِ اضْطَرَبُوا' or similar, what governs the Haa?", "options": ["Madd Silah Kubra meeting Hamzah", "Silah Sughra", "Tabii", "Idgham"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "Can the Haa pronoun be vowelless in Madd Silah?", "options": ["Never; it must carry a vowel (Dammah or Kasrah) between two vowelled letters", "Yes, always", "Only with Sukoon", "Only at verse ends"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "How many total modules now comprise your organized Madd repository?", "options": ["8 definitive modules (01 through 08)", "3 modules", "5 modules", "20 modules"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "What is the role of Wasl in activating Madd Silah?", "options": ["Wasl is mandatory; pausing breaks the surrounding vowel bridge and terminates the Silah", "Wasl cancels Silah", "Wasl makes it 6 counts", "No relation"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "In 'بِهِ', when standing alone as a single word utterance, does Silah apply?", "options": ["No, because Silah requires contextual connection (Wasl) to succeeding words", "Yes, always", "Turns into Lazim", "Turns into 6 counts"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "How should an AI evaluation engine score a student reciting Madd Silah Kubra with 4 counts?", "options": ["Mark as accurate and compliant", "Major error", "Requires 6 counts", "Requires 1 count"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "What happens if a student applies Madd Silah to 'فِيهِ مُهَانًا' in Surah Al-Furqan?", "options": ["Flag as a classical narration exception error (this specific word must be read short without Silah)", "Mark as correct", "Ignore", "Flag as Lazim error"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "In 'عَنْهُ وَمَا', does Madd Silah apply?", "options": ["Yes, Silah Sughra (2 counts)", "No", "Kubra", "Lazim"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the unified Madd Silah module structure:", "options": ["A centralized 40-question master module covering Silah Sughra, Silah Kubra, Wasl conditions, and the Surah Al-Furqan exception", "Always 6 counts", "Always 1 count", "Optional lengthening"], "correct_answer": 0 }
+  ]
+}
