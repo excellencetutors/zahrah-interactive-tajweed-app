@@ -1,0 +1,62 @@
+{
+  "rule_metadata": {
+    "rule_id": "01_madd_tabii_and_madd_muttasil",
+    "rule_name_english": "Madd Tabii (Natural Madd) & Madd Muttasil (Connected Madd)",
+    "rule_name_arabic": "المَدّ الطَّبِيعِي وَالمَدّ المُتَّصِل",
+    "category": "Madd (Lengthening) Rules",
+    "level": "Fundamental & Intermediate",
+    "description": "Comprehensive rules covering the foundational 2-count natural lengthening and the 4-to-5 count obligatory connected lengthening caused by a following Hamzah in the same word."
+  },
+  "theoretical_foundation": {
+    "madd_tabii": {
+      "name": "Madd Tabii (Natural / Original Madd)",
+      "definition": "The baseline lengthening that does not depend on a Hamzah or Sukoon. It occurs when a Madd letter (Alif preceded by Fathah, Waw Saakinah preceded by Dammah, or Ya Saakinah preceded by Kasrah) stands alone without a trigger.",
+      "duration": "Exactly 2 counts (Harakat).",
+      "example": "قَالَ (Qala), يَقُولُ (Yaqool), قِيلَ (Qeela)"
+    },
+    "madd_muttasil": {
+      "name": "Madd Muttasil (Obligatory Connected Madd)",
+      "definition": "Occurs when a Madd letter is immediately followed by a Hamzah (ء) within the **same single word**.",
+      "ruling": "Obligatory (Wajib) extension of 4 to 5 counts according to the narration of Hafs 'an 'Asim.",
+      "example": "جَاءَ (Jaa'a), سُوٓءٌ (Suoo'un), مَلَائِكَةٍ (Mala'ikatin)"
+    }
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "قَالَ",
+      "transliteration": "Qaala",
+      "rule_type": "Madd Tabii",
+      "breakdown": "Alif preceded by Fathah; elongated for precisely 2 counts.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/qaala.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "جَاءَ",
+      "transliteration": "Jaa'a",
+      "rule_type": "Madd Muttasil",
+      "breakdown": "Alif Madd followed by Hamzah inside the same word; extended for 4-5 counts.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/jaaa.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "سُوءُ",
+      "transliteration": "Suoo'u",
+      "rule_type": "Madd Muttasil",
+      "breakdown": "Waw Madd followed by Hamzah in the same word.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/suoo.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What is Madd Tabii also known as?", "options": ["Natural or Original Madd", "Connected Madd", "Separated Madd", "Compulsory Madd"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "How many counts (Harakat) is Madd Tabii lengthened?", "options": ["2 counts", "4 counts", "5 counts", "6 counts"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "What are the three letters of Madd?", "options": ["Alif, Waw, Ya (أ، و، ي)", "Baa, Ta, Tha", "Meem, Noon, Waw", "Hamzah, Haa, Ayn"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "What vowel must precede an Alif for it to act as a Madd letter?", "options": ["Fathah", "Dammah", "Kasrah", "Sukoon"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "What vowel must precede a Waw Saakinah for it to act as a Madd letter?", "options": ["Dammah", "Fathah", "Kasrah", "Shaddah"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "What vowel must precede a Ya Saakinah for it to act as a Madd letter?", "options": ["Kasrah", "Fathah", "Dammah", "Sukoon"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "What defines Madd Muttasil (Connected Madd)?", "options": ["A Madd letter followed by a Hamzah within the same single word", "A Madd letter followed by Sukoon across words", "Noon Sakinah meeting Baa", "Meem Sakinah meeting Meem"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "Why is Madd Muttasil called 'Muttasil' (Connected)?", "options": ["Because the Madd letter and the Hamzah are connected inside one single word", "Because it connects two separate verses", "Because it uses a Shaddah", "Because it requires pausing"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "How many counts must Madd Muttasil be lengthened according to Hafs?", "options": ["4 to 5 counts", "2 counts", "1 count", "6 counts"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "In the word 'جَاءَ', what Tajweed rule applies?", "options": ["Madd Muttasil (4-5 counts)", "Madd Tabii (2 counts only)", "Izhar Halqi", "Iqlab"], "correct_answer": 0 }
+  ]
+}
