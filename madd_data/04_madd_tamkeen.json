@@ -1,0 +1,88 @@
+{
+  "rule_metadata": {
+    "rule_id": "04_madd_tamkeen",
+    "rule_name_english": "Madd Tamkeen (The Unified Empowerment Madd)",
+    "rule_name_arabic": "مَدّ التَّمْكِين",
+    "category": "Madd (Lengthening) Rules",
+    "level": "Advanced",
+    "description": "The definitive, centralized module for Madd Tamkeen, covering both double-Ya and Waw-to-Waw letter empowerment to preserve crisp individual articulation and prevent accidental merging."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Tamkeen (تَمْكِين) means establishment, empowerment, or providing firm phonetic footing.",
+    "applied_tajweed_definition": "Madd Tamkeen occurs when two identical or closely related weak letters meet—specifically requiring a 2-count separation so neither letter is swallowed, compressed, or merged away.",
+    "comprehensive_sub_types": {
+      "type_one_double_ya": "Ya Saakinah (or weak Ya) preceded by a vowelled Ya carrying a Shaddah (e.g., عِلِّيِّينَ, النَّبِيِّينَ). The first Ya is stressed and vowelled, while the second Ya is Saakin, empowered with a 2-count duration.",
+      "type_two_waw_and_ya_separation": "Waw Madd meeting a vowelled Waw (or Ya Madd meeting a vowelled Ya) across words or within words to ensure distinct individual articulation without slurring."
+    },
+    "ruling_and_duration": "Fixed lengthening of exactly **2 counts** (Harakat) across all authentic transmission paths.",
+    "mushaf_indicator": "Explicit double-letter combinations where one is vowelled/stressed and the other acts as a Madd/Saakin letter."
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "النَّبِيِّينَ",
+      "transliteration": "An-Nabiyyeen",
+      "rule_type": "Tamkeen Type 1 (Double Ya)",
+      "breakdown": "Stressed Ya with Shaddah and Kasrah followed by Ya Saakinah; empowered with 2 counts.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/nabiyyeen.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "عِلِّيِّينَ",
+      "transliteration": "'Iyyiyyeen",
+      "rule_type": "Tamkeen Type 1 (Double Ya)",
+      "breakdown": "Empowerment lengthening between double Ya combination.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/illiyyeen.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "آمَنُوا وَعَمِلُوا",
+      "transliteration": "Amanu wa 'amilu",
+      "rule_type": "Tamkeen Type 2 (Waw Separation)",
+      "breakdown": "Waw Madd meeting succeeding vowelled Waw in connective phrasing requiring Tamkeen separation.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/madd/amanu_wa.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What does 'Tamkeen' mean linguistically?", "options": ["Establishment, empowerment, or firm footing", "Merging completely", "Concealment", "Shortening"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "What is the primary phonological purpose of unifying Madd Tamkeen?", "options": ["To prevent adjacent identical or similar letters from being swallowed or mistakenly merged", "To add 6 counts of nasal hum", "To change vowels to Sukoon", "To stop recitation"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "What is the exact duration required for Madd Tamkeen?", "options": ["2 counts (Harakat)", "4 counts", "5 counts", "6 counts"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "In the word 'النَّبِيِّينَ', what letter combination triggers Madd Tamkeen Type 1?", "options": ["A vowelled Ya with Shaddah followed immediately by a Ya Saakinah", "A Noon meeting Baa", "A Meem meeting Meem", "A Hamzah preceding Alif"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "What happens if a reciter rushes through 'النَّبِيِّينَ' without Tamkeen?", "options": ["They risk collapsing the double Ya into a single rushed sound, violating clarity rules", "The recitation becomes Madd Lazim", "It turns into Iqlab", "It becomes silent"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "Which of the following words is a classic textbook example of Madd Tamkeen Type 1?", "options": ["عِلِّيِّينَ", "قَالَ", "جَاءَ", "بِمَا"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "Does Madd Tamkeen also cover Waw-to-Waw letter combinations (Type 2)?", "options": ["Yes, when a Waw Madd meets a vowelled Waw, Tamkeen ensures distinct separation", "No, only to Ya", "Never", "Only at verse endings"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "How does Madd Tamkeen compare in duration to Madd Tabii?", "options": ["Both share an identical 2-count duration baseline", "Tamkeen is 6 counts; Tabii is 2", "Tamkeen is 4 counts", "Tabii is 1 count"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "In 'آمَنُوا وَعَمِلُوا', how does Waw Tamkeen protect the transition?", "options": ["It empowers the Waw Madd so it doesn't get swallowed into the succeeding vowelled Waw", "It turns the Waw into a Hamzah", "It adds a Shaddah", "It deletes the Waw"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "What error does an AI evaluation engine flag if a student drops the double-Ya distinction in 'عِلِّيِّينَ'?", "options": ["Failure to apply Madd Tamkeen empowerment between identical adjacent letters", "Correct recitation", "Madd Badal violation", "Izhar error"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "Is Madd Tamkeen considered a structural letter-integrity rule?", "options": ["Yes, it safeguards individual letter articulation against accidental merging", "No, it is a 6-count Lazim rule", "It is a temporary pause rule", "It is optional poetry"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "What physical mouth adjustment ensures accurate Madd Tamkeen on double Ya?", "options": ["Maintaining clean tongue stability across the vocal transition between stressed Ya and Saakin Ya", "Closing lips completely", "Pressing the throat hard", "Whispering"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "In 'الرَّبَّانِيِّينَ', what rule governs the double Ya combination?", "options": ["Madd Tamkeen (2 counts)", "Madd Lazim", "Madd Muttasil", "Iqlab"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "Does Madd Tamkeen require a Hamzah trigger?", "options": ["No, its trigger is structural letter proximity (identical or similar adjacent letters)", "Yes, always", "Only in Surah Al-Baqarah", "Only with Sukoon"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "What is the acoustic result of correctly executing Madd Tamkeen?", "options": ["A crisp, distinct, and polished dual-letter sound where every syllable is transparent", "A muffled whisper", "A heavy nasal drone", "A broken stutter"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "If a student applies 6 counts to Madd Tamkeen, what is the AI feedback?", "options": ["Madd Tamkeen is strictly 2 counts; do not over-extend like Madd Lazim", "Mark correct", "Ignore", "Flag as Iqlab error"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "In 'آمَنُوا وَهَدَيْنَاهُمْ', does Waw Tamkeen apply between 'آمَنُوا' and 'وَهَدَيْنَاهُمْ'?", "options": ["Yes, empowering the separation of Waw Madd from the vowelled Waw", "No", "It is Lazim", "It is Munfasil"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "Why is mastering Madd Tamkeen crucial for advanced Quranic fluency?", "options": ["It prevents amateur slurring of complex multi-letter clusters in classical Arabic forms", "It is required for translation", "It speeds up reading", "It replaces grammar"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "In 'حُيِّيتُمْ', what letter combination is present?", "options": ["Double Ya with Tamkeen requirement", "Double Waw", "Double Noon", "Double Meem"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "What is the core distinction between Madd Tamkeen and Madd Tabii?", "options": ["Tabii is general vowel lengthening, whereas Tamkeen specifically safeguards identical/similar adjacent letter friction", "Tamkeen is 6 counts", "Tabii requires Hamzah", "There is no difference"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "In 'النَّبِيِّينَ', can the second Ya be omitted?", "options": ["Never; omitting it corrupts both grammar and Tajweed integrity", "Yes, optionally", "Only when whispering", "Only in poetry"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "What counting rhythm should be maintained for Madd Tamkeen?", "options": ["A steady 2-beat micro-pulse", "A rigid 6-beat pulse", "A rapid 1-beat dash", "Zero counts"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "If a reciter connects 'آمَنُوا' to 'وَعَمِلُوا' without pausing, why is Tamkeen necessary on Waw?", "options": ["To keep the Waw Madd audible before the consonant glide of the next Waw", "To add Shaddah", "To change vowel to Kasrah", "To stop breathing"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "In 'عِلِّيِّينَ', what vowel sits on the first Ya?", "options": ["Kasrah with Shaddah (يِّ)", "Fathah only", "Dammah only", "Sukoon"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "What is the status of Madd Tamkeen in traditional Tajweed texts like Tuhfat al-Atfal?", "options": ["Recognized as an essential auxiliary lengthening rule under letter refinement", "Ignored entirely", "Classified as Lazim", "Forbidden"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "How should an AI evaluation engine grade a student pronouncing 'عِلِّيِّينَ' with a clear 2-count empowerment?", "options": ["Mark as accurate and compliant with Tamkeen standards", "Major error", "Requires 6 counts", "Requires 1 count"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "In 'آمَنُوا وَاتَّقَوْا', does Waw Tamkeen apply?", "options": ["Yes, across the adjacent Waw sounds", "No", "It is Lazim", "It is Munfasil"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "What is the primary phonological hazard avoided by Madd Tamkeen?", "options": ["Idgham/Merging error where identical letters collapse into one undifferentiated sound", "Iqlab error", "Madd Muttasil error", "Izhar error"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "Summarize the core rule of unified Madd Tamkeen in one statement:", "options": ["A 2-count empowerment applied to adjacent identical or similar letters (such as double Ya or Waw) to preserve individual clarity and prevent accidental merging", "Always apply 6 counts", "Always apply 1 count", "Convert to Noon"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "In 'النَّبِيِّينَ', what is the exact role of the first Ya?", "options": ["To carry the governing vowel and Shaddah stress", "To act as silent padding", "To turn into Alif", "To create Sukoon"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "In 'النَّبِيِّينَ', what is the exact role of the second Ya?", "options": ["To act as the Saakin/Madd letter empowered by Tamkeen", "To carry Fathah", "To act as a Hamzah", "To be deleted"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "Can Madd Tamkeen occur across word boundaries with Waw?", "options": ["Yes, when a Waw Madd word is followed by a Waw-starting word", "No, never", "Only inside single words", "Only in poetry"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "What is the phonetic output when Waw Tamkeen is executed successfully?", "options": ["A smooth, uncompressed transition between the two Waw sounds", "A harsh throat stop", "A nasal hum", "A stuttered break"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "If a student slurs 'آمَنُوا وَعَمِلُوا' so the Waw sounds like a single long Waw without separation, what feedback is given?", "options": ["Apply Madd Tamkeen to distinctly articulate both Waw sounds with a 2-count micro-separation", "Increase speed", "Apply Iqlab", "Stop reading"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "Does Madd Tamkeen require any special Mushaf notation?", "options": ["Usually represented by standard orthography showing the double letter or Shaddah-Ya combination", "Requires a red circle", "Requires a Shaddah on Alif", "Requires a Meem"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "What is the overarching objective of Module 04 in your repository now?", "options": ["To provide unified, exhaustive coverage of all Tamkeen empowerment variants under one clean file", "To teach Arabic grammar", "To practice translation", "To study history"], "correct_answer": 0 },
+    { "id": "q37", "type": "image_agent:fetch_images", "question": "In 'عِلِّيِّينَ', how many counts is the Tamkeen segment held?", "options": ["2 counts", "4 counts", "6 counts", "1 count"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "How does Tamkeen differ from Idgham?", "options": ["Tamkeen PREVENTS merging to keep identical letters distinct, whereas Idgham CAUSES complete merging", "Tamkeen causes merging", "Both are identical", "Tamkeen is 6 counts"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "Which of these is NOT a Tamkeen variant?", "options": ["Double Ya with Shaddah", "Waw Madd meeting vowelled Waw", "A vowelless Meem meeting Baa", "Empowered adjacent weak letters"], "correct_answer": 2 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the complete unified Tamkeen module:", "options": ["A centralized module covering both double-Ya and Waw-to-Waw empowerment rules to guarantee crisp letter separation and prevent merging errors", "Always 6 counts", "Always 1 count", "Turns into Meem"], "correct_answer": 0 }
+  ]
+}
