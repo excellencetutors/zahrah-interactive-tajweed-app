@@ -1,0 +1,131 @@
+{
+  "rule_metadata": {
+    "rule_id": "01_sifat_huruf",
+    "rule_name_english": "Sifat al-Huruf (Unified Permanent Characteristics of Arabic Letters)",
+    "rule_name_arabic": "صِفَاتُ الحُرُوفِ اللاَّزِمَة",
+    "category": "Letter Characteristics & Articulation",
+    "level": "Advanced",
+    "description": "Comprehensive master module dividing Sifat al-Huruf into Mutadaddah (5 opposing pairs / 10 attributes) and Ghayr Mutadaddah (7 non-opposing attributes)."
+  },
+  "theoretical_foundation": {
+    "definition": "Sifat al-Huruf represent the inherent acoustic and physical qualities manifested when pronouncing a letter at its Makhraj (exit point). Every Arabic letter possesses 5 to 7 permanent characteristics.",
+    "category_one_mutadaddah": {
+      "name": "Sifat Mutadaddah (Opposing Characteristics - 5 Pairs / 10 Attributes)",
+      "pairs": [
+        {
+          "pair_name": "1. Hams vs. Jahr",
+          "hams": "Hams (Whisper): Flow of breath due to weakness of reliance on Makhraj. Letters (10): فَحَثْهُ شَخْصٌ سَكَتْ",
+          "jahr": "Jahr (Clarity/Voiced): Trapping of breath due to strong reliance on Makhraj. Letters (19): The remaining letters."
+        },
+        {
+          "pair_name": "2. Shiddah vs. Rakhawah (with Tawasut)",
+          "shiddah": "Shiddah (Strength): Severe sound blockage. Letters (8): أَجِدُ قَطْ بَكَتْ",
+          "rakhawah": "Rakhawah (Softness): Free running of sound. Letters (16): Remaining letters except Tawasut.",
+          "tawasut": "Tawasut / Bayniyyah (Moderate): Middle flow between Shiddah and Rakhawah. Letters (5): لِعُمَرَ (ل، ع، ن، م، ر)"
+        },
+        {
+          "pair_name": "3. Isti'la' vs. Istifal",
+          "isti'la": "Isti'la' (Elevation): Raising back of tongue toward roof of mouth (Heavy/Tafkheem). Letters (7): خُصَّ ضَغْطٍ قِظْ",
+          "istifal": "Istifal (Lowering): Lowering tongue away from roof of mouth (Light/Tarqeeq). Letters (22): Remaining letters."
+        },
+        {
+          "pair_name": "4. Itbaq vs. Infitah",
+          "itbaq": "Itbaq (Closing/Embracing): Pressing a large portion of tongue against palate. Letters (4): ص، ض، ط، ظ",
+          "infitah": "Infitah (Opening): Separation between tongue and palate. Letters (25): Remaining letters."
+        },
+        {
+          "pair_name": "5. Idhlaq vs. Ismat",
+          "idhlaq": "Idhlaq (Fluent): Articulation from tip/edge of tongue or lips. Letters (6): فِرَّ مَنْ لُبْ",
+          "ismat": "Ismat (Restrained): Non-fluent letters requiring structural restraint. Letters (23): Remaining letters."
+        }
+      ]
+    },
+    "category_two_ghayr_mutadaddah": {
+      "name": "Sifat Ghayr Mutadaddah (Non-Opposing Characteristics - 7 Attributes)",
+      "attributes": [
+        { "name": "1. Safir (Whistling)", "letters": "ص، ز، س" },
+        { "name": "2. Qalqalah (Bouncing Echo)", "letters": "ق، ط، ب، ج، د (قطب جد)" },
+        { "name": "3. Lin (Soft Gliding)", "letters": "Waw and Ya Saakinah preceded by Fathah" },
+        { "name": "4. Inhiraf (Deviation)", "letters": "ل and ر" },
+        { "name": "5. Takrir (Trill/Vibration)", "letters": "ر (controlled)" },
+        { "name": "6. Tafashshi (Diffusion)", "letters": "ش" },
+        { "name": "7. Istitalah (Elongation)", "letters": "ض" }
+      ]
+    }
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "فَحَثْهُ شَخْصٌ سَكَتْ",
+      "transliteration": "Fa hathhu shakhsun sakat",
+      "rule_type": "Hams (Mutadaddah Pair 1)",
+      "breakdown": "The 10 whispered letters characterized by breath emission."
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "خُصَّ ضَغْطٍ قِظْ",
+      "transliteration": "Khussa daghtin qidh",
+      "rule_type": "Isti'la' (Mutadaddah Pair 3)",
+      "breakdown": "The 7 heavy letters characterized by back-tongue elevation."
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "الصَّيْفِ",
+      "transliteration": "As-Sayf",
+      "rule_type": "Lin & Safir (Ghayr Mutadaddah)",
+      "breakdown": "Demonstrates Lin on Ya Saakinah after Fathah, and Safir whistling on Sad."
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "How are Sifat al-Huruf fundamentally divided into two major groups?", "options": ["Sifat Mutadaddah (Opposing pairs) and Sifat Ghayr Mutadaddah (Non-opposing)", "Madd and Qalqalah", "Shiddah and Sukoon", "Wasl and Waqf"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "What does 'Mutadaddah' mean in Tajweed?", "options": ["Opposing characteristics that come in contrasting pairs", "Non-contrasting single traits", "Stopping rules", "Vowel rules"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "How many total opposing pairs (and total attributes) make up Sifat Mutadaddah?", "options": ["5 pairs (10 attributes total)", "3 pairs (6 attributes)", "7 pairs (14 attributes)", "10 pairs (20 attributes)"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "What is the first opposing pair of Sifat Mutadaddah?", "options": ["Hams vs. Jahr", "Shiddah vs. Rakhawah", "Isti'la' vs. Istifal", "Itbaq vs. Infitah"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "What does 'Hams' (هَمْس) mean?", "options": ["Whisper or breath emission due to weak reliance on the Makhraj", "Severe sound blockage", "Heavy tongue elevation", "Whistling sound"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "What is the exact mnemonic phrase for the 10 Hams letters?", "options": ["فَحَثْهُ شَخْصٌ سَكَتْ", "أَجِدُ قَطْ بَكَتْ", "خُصَّ ضَغْطٍ قِظْ", "يَرْمُلُونَ"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "What is the opposite attribute of Hams?", "options": ["Jahr (Clarity and voice retention)", "Shiddah", "Istifal", "Infitah"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "How many letters possess Jahr?", "options": ["19 letters (the remaining alphabet not in Hams)", "10 letters", "7 letters", "5 letters"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "What is the second opposing pair in Sifat Mutadaddah?", "options": ["Shiddah vs. Rakhawah (with Tawasut)", "Hams vs. Jahr", "Isti'la' vs. Istifal", "Idhlaq vs. Ismat"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "What is 'Shiddah' (شِدَّة)?", "options": ["Severe sound blockage due to tight pressure at the Makhraj", "Soft running sound", "Moderate flow", "Whispered breath"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "What is the mnemonic for the Shiddah letters?", "options": ["أَجِدُ قَطْ بَكَتْ", "فَحَثْهُ شَخْصٌ", "خُصَّ ضَغْطٍ", "لَنْ رَكَبَ"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "What is 'Tawasut' (or Bayniyyah)?", "options": ["A middle attribute where sound is neither completely blocked nor fully running", "Total sound blockage", "Heavy whispering", "Nasal vibration"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "Which letters comprise Tawasut (لِعُمَرَ)?", "options": ["ل، ع، ن، م، ر", "ق، ط، ب", "ص، ض، ط", "س، ز، ص"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "What is 'Rakhawah' (رَخَاوَة)?", "options": ["Softness and free running of sound", "Severe blockage", "Tongue elevation", "Whispering"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "What is the third opposing pair in Sifat Mutadaddah?", "options": ["Isti'la' vs. Istifal", "Hams vs. Jahr", "Shiddah vs. Rakhawah", "Itbaq vs. Infitah"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "What does 'Isti'la'' (اسْتِعْلَاء) mean?", "options": ["Elevation of the back of the tongue toward the roof of the mouth (Heavy/Tafkheem)", "Lowering the tongue", "Spreading breath", "Whistling"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "What is the mnemonic for the 7 Isti'la' letters?", "options": ["خُصَّ ضَغْطٍ قِظْ", "فَحَثْهُ شَخْصٌ", "أَجِدُ قَطْ بَكَتْ", "يَرْمُلُونَ"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "What is the opposite attribute of Isti'la'?", "options": ["Istifal (Lowering the tongue for light letters)", "Itbaq", "Shiddah", "Jahr"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "What is the fourth opposing pair in Sifat Mutadaddah?", "options": ["Itbaq vs. Infitah", "Isti'la' vs. Istifal", "Hams vs. Jahr", "Idhlaq vs. Ismat"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "What does 'Itbaq' (إِطْبَاق) mean?", "options": ["Pressing a large portion of the tongue against the roof of the mouth", "Opening the mouth", "Whispering", "Bouncing sound"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "Which four letters possess Itbaq?", "options": ["ص، ض، ط، ظ", "خ، غ، ق", "ب، ج، د", "س، ز، ص"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "What is the opposite attribute of Itbaq?", "options": ["Infitah (Opening space between tongue and palate)", "Istifal", "Jahr", "Shiddah"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "What is the fifth opposing pair in Sifat Mutadaddah?", "options": ["Idhlaq vs. Ismat", "Itbaq vs. Infitah", "Isti'la' vs. Istifal", "Hams vs. Jahr"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "What is 'Idhlaq' (إِذْلَاق)?", "options": ["Linguistic fluency and ease of articulation from the tip or edge of the tongue/lips", "Heavy whistling", "Tongue elevation", "Severe blockage"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "What is the mnemonic for the 6 Idhlaq letters (فِرَّ مَنْ لُبْ)?", "options": ["ف، ر، م، ن، ل، ب", "ق، ط، ب", "ص، ز، س", "أ، ب، ت"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "What is the opposite attribute of Idhlaq?", "options": ["Ismat (Restrained articulation)", "Istila", "Itbaq", "Hams"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "What are 'Sifat Ghayr Mutadaddah'?", "options": ["Non-opposing characteristics that stand alone without a direct opposite pair", "Opposing pairs", "Stopping signs", "Madd rules"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "How many non-opposing characteristics exist in Sifat Ghayr Mutadaddah?", "options": ["7 attributes", "5 attributes", "10 attributes", "Zero"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "What is 'Safir' (صَفِير)?", "options": ["Whistling sound accompanying ص، ز، س", "Bouncing echo", "Trill vibration", "Spreading breath"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "What is 'Qalqalah' categorized as?", "options": ["A non-opposing permanent attribute belonging to قطب جد", "An opposing pair attribute", "A temporary vowel rule", "A Madd rule"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "What is 'Lin' (لِين) as a non-opposing attribute?", "options": ["Soft gliding sound on Waw and Ya Saakinah preceded by Fathah", "Severe blockage", "Whistling", "Elongation"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "What is 'Inhiraf' (انْحِرَاف)?", "options": ["Deviation of a letter's sound toward a different exit point (found in ل and ر)", "Whistling", "Elongation", "Vibration"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "What is 'Takrir' (تَكْرِير)?", "options": ["Slight vibration of the tip of the tongue on the letter Ra (controlled to avoid stuttering)", "Total sound blockage", "Heavy whispering", "Whistling"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "What is 'Tafashshi' (تَفَشِّي)?", "options": ["Spreading or diffusion of breath inside the mouth when pronouncing Shin (ش)", "Severe blockage", "Tongue elevation", "Bouncing"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "What is 'Istitalah' (اسْتِطَالَة)?", "options": ["Stretching or elongation of sound along the side of the tongue when pronouncing Dad (ض)", "Shortening counts", "Whistling", "Nasal hum"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "Which letter uniquely possesses Istitalah?", "options": ["الضَّاد (Dad - ض)", "الصَّاد (Sad)", "الطَّاء (Tah)", "الظَّاء (Dhah)"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "Can a letter possess a non-opposing attribute like Qalqalah without belonging to Mutadaddah?", "options": ["No, every letter combines its 5 Mutadaddah traits plus 0 to 2 Ghayr Mutadaddah traits", "Yes, they are independent", "Mutadaddah is optional", "Ghayr Mutadaddah replaces Mutadaddah"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "Why must Takrir on Ra be tightly controlled?", "options": ["To prevent excessive rolling that turns a single Ra into multiple rolled R-sounds", "To add 6 counts", "To create Qalqalah", "To make it silent"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "What is the acoustic result of Safir on the letter Seen (س)?", "options": ["A clean, sharp whistling hiss", "A heavy roar", "A nasal hum", "A bouncing echo"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "What role do Sifat play in correcting common non-native pronunciation errors (Lahn)?", "options": ["They prevent substituting weak letters for strong ones (e.g., confusing Sin and Sad)", "They translate Arabic words", "They manage breath breaks", "They set quiz scores"], "correct_answer": 0 },
+    { "id": "q41", "type": "multiple_choice", "question": "Are permanent letter attributes subject to change based on vowels?", "options": ["No, inherent Sifat remain permanent across all vowels", "Yes, they change completely", "Only in poetry", "Only at verse ends"], "correct_answer": 0 },
+    { "id": "q42", "type": "multiple_choice", "question": "What is the relationship between Itbaq and Isti'la'?", "options": ["Every letter with Itbaq also has Isti'la', but not vice versa", "They are unrelated", "Itbaq is weaker than Isti'la'", "They cancel each other out"], "correct_answer": 0 },
+    { "id": "q43", "type": "multiple_choice", "question": "In the letter Meem (م), what Tawasut attribute applies?", "options": ["Meem possesses Bayniyyah (Tawasut) through nasal resonance flow", "Shiddah", "Rakhawah", "Hams"], "correct_answer": 0 },
+    { "id": "q44", "type": "multiple_choice", "question": "How many total attributes (Mutadaddah + Ghayr Mutadaddah) are studied in classical Tajweed books like Al-Jazariyyah?", "options": ["17 attributes total (10 opposing + 7 non-opposing)", "10 attributes", "25 attributes", "7 attributes"], "correct_answer": 0 },
+    { "id": "q45", "type": "multiple_choice", "question": "Which of the following is an opposing pair in Mutadaddah?", "options": ["Isti'la' vs. Istifal", "Safir vs. Qalqalah", "Takrir vs. Tafashshi", "Lin vs. Inhiraf"], "correct_answer": 0 },
+    { "id": "q46", "type": "multiple_choice", "question": "Which of the following is NOT a non-opposing attribute (Ghayr Mutadaddah)?", "options": ["Hams (Whisper)", "Safir (Whistling)", "Qalqalah (Bouncing)", "Istitalah (Elongation)"], "correct_answer": 0 },
+    { "id": "q47", "type": "multiple_choice", "question": "What is the defining trait of letters having Rakhawah?", "options": ["Sound continues freely when pronounced", "Sound is completely trapped", "Sound is moderately blocked", "Sound whistles"], "correct_answer": 0 },
+    { "id": "q48", "type": "multiple_choice", "question": "What is the defining trait of letters having Shiddah?", "options": ["Sound is completely trapped at the Makhraj", "Sound flows freely", "Sound vibrates", "Sound whispers"], "correct_answer": 0 },
+    { "id": "q49", "type": "multiple_choice", "question": "How should an AI evaluation engine assess student mastery of Sifat?", "options": ["Verify that both opposite and non-opposite attributes are correctly manifested during phonetic production", "Check translation", "Check verse numbering", "Check page breaks"], "correct_answer": 0 },
+    { "id": "q50", "type": "multiple_choice", "question": "Summarize the complete Sifat al-Huruf master module structure:", "options": ["A rigorous 50-question master module classifying all 17 traits into Mutadaddah opposing pairs and Ghayr Mutadaddah non-opposing characteristics", "Always 2 counts", "Always nasal", "Optional"], "correct_answer": 0 }
+  ]
+}
