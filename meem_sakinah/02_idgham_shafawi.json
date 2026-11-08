@@ -1,0 +1,51 @@
+{
+  "rule_metadata": {
+    "rule_id": "02_idgham_shafawi",
+    "rule_name_english": "Idgham Shafawi / Mithlayn Saghir (Lip Merging)",
+    "rule_name_arabic": "الإِدْغَام الشَّفَوِي",
+    "category": "Meem Sakinah Rules",
+    "level": "Intermediate",
+    "description": "The complete merging of a vowelless Meem (مْ) into a succeeding vowelled Meem (م) across words, accompanied by a 2-count nasal Ghunnah."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Idgham means merging, and Shafawi means labial. It is also classified as 'Al-Mithlayn As-Saghir' (the two identical letters, small form) because a Saakin Meem meets a Mutaharrik Meem.",
+    "applied_tajweed_definition": "When a non-vowelled Meem (مْ) is followed by another vowelled Meem (م) across two words, they merge into one Meem with a Shaddah, held with a 2-count nasal resonance (Ghunnah).",
+    "trigger_letter": {
+      "letter": "م",
+      "name": "Meem",
+      "articulation_point": "Ash-Shafatan (The Lips)",
+      "mechanism": "The lips close firmly and completely for the duration of the Shaddah while sustaining the nasal hum."
+    },
+    "mushaf_indicator": "The first Meem is written bare (no sukoon), and the second Meem carries a Shaddah (Tashdeed)."
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "لَهُمْ مَا يَشْتَهُونَ",
+      "transliteration": "Lahum-ma yashtahoon",
+      "trigger_letter": "م",
+      "breakdown": "The Meem Sakinah of 'Lahum' merges fully into the Meem of 'ma' with a 2-count Ghunnah.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/meem_sakinah/lahum_ma.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "مِنْ حَوْلِهِمْ مُحِيطٌ",
+      "transliteration": "Min hawlihim-muheet",
+      "trigger_letter": "م",
+      "breakdown": "Complete labial merging of Meem into Meem with a held nasal resonance.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/meem_sakinah/hawlihim_muheet.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What is another name for Idgham Shafawi based on letter relationships?", "options": ["Al-Mithlayn As-Saghir (The two identical letters - small)", "Izhar Mutlaq", "Ikhfa Haqiqi", "Mutaqaribayn"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "Which letter triggers Idgham Shafawi when following Meem Sakinah?", "options": ["م (Meem)", "ب (Baa)", "ن (Noon)", "و (Waw)"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "How many counts of Ghunnah are required during Idgham Shafawi?", "options": ["2 counts", "1 count", "4 counts", "6 counts"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "What happens to the two Meems when Idgham Shafawi occurs?", "options": ["They merge completely into a single Meem with a Shaddah", "They are pronounced separately with a pause", "The first Meem changes to a Noon", "Both Meems become silent"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "In 'لَهُمْ مَا يَشْتَهُونَ', how is the transition between 'لَهُمْ' and 'مَا' performed?", "options": ["Merged into one doubled Meem with a 2-count nasal hum", "Read as two distinct separate Meems", "Separated by a breath", "Changed to Baa"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "What is the visual indicator of Idgham Shafawi in standard Mushafs?", "options": ["First Meem is bare, second Meem has a Shaddah", "Both Meems have Sukoon", "First Meem has a small Meem sign", "Second Meem has a Tanween"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "Does Idgham Shafawi occur across two words or within a single word?", "options": ["Across two separate words", "Inside a single word", "Only at the beginning of Surahs", "Only when stopping"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "In 'وَلَهُمْ مَاعَذَابٌ', what rule applies between the Meems?", "options": ["Idgham Shafawi", "Izhar Shafawi", "Ikhfa Shafawi", "Iqlab"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "What error is committed if a reciter reads 'لَهُمْ مَا' without holding the nasal Ghunnah?", "options": ["Failed to sustain the mandatory 2-count nasal resonance for merged Meem", "Correct recitation", "Madd error", "Izhar error"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "Summarize the execution of Idgham Shafawi:", "options": ["Encounter vowelless Meem + vowelled Meem -> merge fully into one doubled Meem -> hold 2-count nasal Ghunnah", "Read clear Meem -> pause -> read second Meem", "Conceal Meem softly", "Change Meem to Noon"], "correct_answer": 0 }
+  ]
+}
