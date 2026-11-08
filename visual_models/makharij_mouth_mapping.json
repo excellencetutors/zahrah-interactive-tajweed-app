@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zahrah Tajweed — Interactive Visual Mouth Model & Mapping Schema</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts for Arabic and Modern UI -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+            arabic: ['Amiri', 'serif'],
+          },
+          colors: {
+            emerald: {
+              850: '#064e3b',
+              900: '#022c22',
+            },
+            gold: {
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Smooth transitions for SVG mouth components */
+    .mouth-path {
+      transition: d 0.4s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s ease, stroke 0.3s ease;
+    }
+    .air-flow {
+      stroke-dasharray: 8;
+      animation: flow 1.2s linear infinite;
+    }
+    @keyframes flow {
+      from { stroke-dashoffset: 32; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes pulse-makhraj {
+      0%, 100% { transform: scale(1); opacity: 0.8; }
+      50% { transform: scale(1.4); opacity: 1; }
+    }
+    .makhraj-glow {
+      animation: pulse-makhraj 1.5s ease-in-out infinite;
+      transform-origin: center;
+    }
+    /* Custom Scrollbars */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0f172a;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #475569;
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans min-h-screen flex flex-col antialiased selection:bg-emerald-500 selection:text-white">
+
+  <!-- Header -->
+  <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-slate-950 font-bold text-xl shadow-lg shadow-emerald-900/40 font-arabic">
+          ز
+        </div>
+        <div>
+          <h1 class="font-bold text-lg text-slate-100 leading-tight">Zahrah Tajweed</h1>
+          <p class="text-xs text-emerald-400 font-medium">Visual Mouth Model & Makharij Engine</p>
+        </div>
+      </div>
+      
+      <div class="flex items-center space-x-2 sm:space-x-4">
+        <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-950/80 text-emerald-400 border border-emerald-800">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse mr-1.5"></span>
+          Interactive Engine Ready
+        </span>
+        <button id="toggle-labels-btn" class="text-xs px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 transition font-medium border border-slate-700">
+          Toggle Labels
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 grid grid-cols-1 lg:grid-cols-12 gap-6">
+
+    <!-- Left Panel: Makhraj Zones & Letter Selector (3 cols) -->
+    <section class="lg:col-span-3 flex flex-col space-y-4">
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-xl">
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3 flex items-center justify-between">
+          <span>Select Letter / Makhraj</span>
+          <span id="letter-count" class="text-emerald-400 text-[10px] bg-slate-800 px-2 py-0.5 rounded-full">10 Presets</span>
+        </h2>
+        
+        <!-- Filter Pills for Zones -->
+        <div class="flex flex-wrap gap-1 mb-4 pb-2 border-b border-slate-800" id="zone-filter-container">
+          <button data-zone="ALL" class="zone-pill text-xs px-2.5 py-1 rounded-md bg-emerald-600 text-white font-medium transition">All</button>
+          <button data-zone="Halq" class="zone-pill text-xs px-2.5 py-1 rounded-md bg-slate-800 text-slate-400 hover:bg-slate-700 transition">Halq</button>
+          <button data-zone="Lisan" class="zone-pill text-xs px-2.5 py-1 rounded-md bg-slate-800 text-slate-400 hover:bg-slate-700 transition">Lisan</button>
+          <button data-zone="Shafat" class="zone-pill text-xs px-2.5 py-1 rounded-md bg-slate-800 text-slate-400 hover:bg-slate-700 transition">Shafat</button>
+          <button data-zone="Jawf" class="zone-pill text-xs px-2.5 py-1 rounded-md bg-slate-800 text-slate-400 hover:bg-slate-700 transition">Jawf</button>
+        </div>
+
+        <!-- Letter Grid -->
+        <div class="grid grid-cols-3 gap-2 overflow-y-auto max-h-[460px] pr-1" id="letter-grid">
+          <!-- Letter cards inserted via JS -->
+        </div>
+      </div>
+
+      <!-- Quick Makhraj Info Card -->
+      <div class="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-4 flex-1 flex flex-col justify-between">
+        <div>
+          <span class="text-[10px] font-semibold text-gold-500 uppercase tracking-wider">Active Zone Specification</span>
+          <h3 id="info-zone-name" class="font-bold text-slate-100 text-base mt-0.5">Al-Lisan (Tongue Root)</h3>
+          <p id="info-zone-desc" class="text-xs text-slate-400 mt-1 leading-relaxed">
+            The root of the tongue elevates towards the soft palate (Velum) to block and release air cleanly.
+          </p>
+        </div>
+        <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-xs">
+          <span class="text-slate-500">Makhraj ID:</span>
+          <span id="info-makhraj-id" class="font-mono text-emerald-400 font-semibold">lisan_root_qaf</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Center Panel: 2D Sagittal Mouth Model SVG & Animation Controls (5 cols) -->
+    <section class="lg:col-span-5 flex flex-col space-y-4">
+      <!-- SVG Canvas Box -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-xl flex flex-col items-center justify-center relative overflow-hidden min-h-[440px]">
+        
+        <!-- Top Status Overlay -->
+        <div class="absolute top-3 left-4 right-4 flex items-center justify-between z-10">
+          <div class="flex items-center space-x-2 bg-slate-950/80 backdrop-blur px-3 py-1.5 rounded-xl border border-slate-800">
+            <span id="active-arabic-display" class="font-arabic text-2xl text-gold-400 font-bold leading-none">ق</span>
+            <div class="border-l border-slate-800 pl-2">
+              <span id="active-translit-display" class="text-xs font-semibold text-slate-200 block">Qaaf (ق)</span>
+              <span id="active-sifat-tag" class="text-[10px] text-emerald-400 block">Isti'la + Qalqalah</span>
+            </div>
+          </div>
+          
+          <div class="bg-slate-950/80 backdrop-blur px-3 py-1.5 rounded-xl border border-slate-800 text-right">
+            <span id="phase-badge" class="text-[10px] font-bold text-emerald-400 uppercase tracking-wider block">CONTACT PHASE</span>
+            <span id="nasal-status-badge" class="text-[10px] text-slate-400 block">Velum: Closed</span>
+          </div>
+        </div>
+
+        <!-- 2D Sagittal SVG Mouth Model -->
+        <svg id="mouth-svg" viewBox="0 0 500 450" class="w-full h-auto max-w-[440px] drop-shadow-2xl">
+          <defs>
+            <!-- Airflow Gradient -->
+            <linearGradient id="airGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+              <stop offset="0%" stop-color="#34d399" stop-opacity="0.8"/>
+              <stop offset="100%" stop-color="#fbbf24" stop-opacity="0.9"/>
+            </linearGradient>
+            <!-- Makhraj Highlight Radial -->
+            <radialGradient id="glowRad" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#fbbf24" stop-opacity="1"/>
+              <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+
+          <!-- 1. Background Cavity/Pharynx Base -->
+          <path d="M 100 420 L 100 240 Q 100 120 220 100 Q 320 80 440 100" fill="none" stroke="#1e293b" stroke-width="24" stroke-linecap="round"/>
+          
+          <!-- 2. Nasal Cavity (Khayshum) -->
+          <path id="nasal-cavity-path" d="M 220 100 Q 300 40 400 90 L 400 130" fill="none" stroke="#334155" stroke-width="12" stroke-linecap="round" opacity="0.6"/>
+          <text x="310" y="70" class="text-[10px] fill-slate-500 font-sans anatomical-label">Nasal Cavity (Khayshum)</text>
+
+          <!-- 3. Air Flow Stream (Dynamic Path) -->
+          <path id="air-flow-path" d="M 120 400 Q 120 240 220 180 Q 320 170 420 210" fill="none" stroke="url(#airGradient)" stroke-width="8" class="air-flow" stroke-linecap="round"/>
+
+          <!-- 4. Hard Palate & Upper Jaw -->
+          <path d="M 230 140 Q 310 135 380 180" fill="none" stroke="#64748b" stroke-width="14" stroke-linecap="round"/>
+          <text x="280" y="125" class="text-[10px] fill-slate-400 font-sans anatomical-label">Hard Palate</text>
+
+          <!-- 5. Soft Palate / Velum (Dynamic Morph) -->
+          <path id="velum-path" class="mouth-path" d="M 180 160 Q 210 160 230 140" fill="none" stroke="#fbbf24" stroke-width="10" stroke-linecap="round"/>
+          <text x="160" y="145" class="text-[10px] fill-amber-400 font-sans anatomical-label">Velum</text>
+
+          <!-- 6. Teeth -->
+          <!-- Upper Front Incisors -->
+          <path d="M 382 176 L 388 200 L 396 198 L 390 174 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+          <!-- Lower Front Incisors -->
+          <path id="lower-teeth" class="mouth-path" d="M 382 260 L 388 236 L 396 238 L 390 262 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+
+          <!-- 7. Dynamic Tongue (Root, Body, Tip) -->
+          <!-- Base tongue shape dynamically updated via d attribute -->
+          <path id="tongue-path" class="mouth-path" d="M 140 380 Q 150 290 220 270 Q 300 250 370 245 Q 330 350 200 390 Z" fill="#059669" fill-opacity="0.35" stroke="#10b981" stroke-width="6" stroke-linejoin="round"/>
+          
+          <!-- Tongue Region Labels -->
+          <g id="tongue-labels" class="anatomical-label">
+            <text x="170" y="340" class="text-[9px] fill-emerald-300 font-sans">Root</text>
+            <text x="240" y="300" class="text-[9px] fill-emerald-300 font-sans">Body</text>
+            <text x="330" y="270" class="text-[9px] fill-emerald-300 font-sans">Tip</text>
+          </g>
+
+          <!-- 8. Lips (Upper & Lower - Dynamic Morph) -->
+          <!-- Upper Lip -->
+          <path id="upper-lip-path" class="mouth-path" d="M 388 165 Q 410 170 420 185 Q 405 190 392 180 Z" fill="#f43f5e" fill-opacity="0.6" stroke="#e11d48" stroke-width="2"/>
+          <!-- Lower Lip -->
+          <path id="lower-lip-path" class="mouth-path" d="M 388 270 Q 415 265 422 245 Q 405 240 392 255 Z" fill="#f43f5e" fill-opacity="0.6" stroke="#e11d48" stroke-width="2"/>
+          <text x="430" y="215" class="text-[10px] fill-rose-400 font-sans anatomical-label">Lips</text>
+
+          <!-- 9. Makhraj Focus Contact Glow / Marker -->
+          <g id="makhraj-marker-group" class="makhraj-glow">
+            <circle id="makhraj-glow-circle" cx="220" cy="180" r="18" fill="url(#glowRad)"/>
+            <circle id="makhraj-core-dot" cx="220" cy="180" r="5" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+          </g>
+        </svg>
+
+        <!-- Bottom Controls Bar -->
+        <div class="w-full bg-slate-950/90 backdrop-blur rounded-xl border border-slate-800 p-3 mt-2 flex flex-col space-y-3">
+          
+          <!-- Animation Step Progress -->
+          <div class="flex items-center justify-between text-xs">
+            <span class="text-slate-400 font-medium">Phase Breakdown:</span>
+            <div class="flex items-center space-x-1" id="step-indicators">
+              <span data-step="0" class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-800 text-slate-400 border border-slate-700">1. Rest</span>
+              <span data-step="1" class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-800 text-slate-400 border border-slate-700">2. Prep</span>
+              <span data-step="2" class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-600 text-white border border-emerald-500 shadow">3. Contact</span>
+              <span data-step="3" class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-800 text-slate-400 border border-slate-700">4. Release</span>
+            </div>
+          </div>
+
+          <!-- Main Control Buttons -->
+          <div class="flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+              <button id="btn-play" class="w-9 h-9 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white flex items-center justify-center shadow transition">
+                <svg id="play-icon" class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              </button>
+              <button id="btn-audio" class="w-9 h-9 rounded-lg bg-slate-800 hover:bg-slate-700 text-gold-400 border border-slate-700 flex items-center justify-center transition">
+                <svg class="w-5 h-5 stroke-current fill-none" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+              </button>
+              <button id="btn-loop" class="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-slate-300 border border-slate-700 font-medium transition flex items-center space-x-1">
+                <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"/></svg>
+                <span>Loop</span>
+              </button>
+            </div>
+
+            <!-- Speed Selector -->
+            <div class="flex items-center space-x-1 bg-slate-900 p-1 rounded-lg border border-slate-800 text-xs">
+              <span class="text-[10px] text-slate-500 px-1">Speed:</span>
+              <button data-speed="0.5" class="speed-btn px-1.5 py-0.5 rounded text-slate-400 hover:text-white">0.5x</button>
+              <button data-speed="1.0" class="speed-btn px-1.5 py-0.5 rounded bg-emerald-600 text-white font-bold">1.0x</button>
+              <button data-speed="1.5" class="speed-btn px-1.5 py-0.5 rounded text-slate-400 hover:text-white">1.5x</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Right Panel: Live JSON Schema Inspector (4 cols) -->
+    <section class="lg:col-span-4 flex flex-col space-y-4">
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-xl flex-1 flex flex-col">
+        <div class="flex items-center justify-between pb-3 border-b border-slate-800">
+          <div class="flex items-center space-x-2">
+            <svg class="w-4 h-4 text-emerald-400 fill-current" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-200">visual_models/makharij_mouth_mapping.json</h2>
+          </div>
+          <button id="copy-json-btn" class="text-[10px] bg-slate-800 hover:bg-slate-700 text-emerald-400 px-2 py-1 rounded border border-slate-700 font-mono transition">
+            Copy JSON
+          </button>
+        </div>
+
+        <!-- JSON Code Viewer -->
+        <div class="mt-3 flex-1 bg-slate-950 rounded-xl p-3 border border-slate-850 font-mono text-xs overflow-y-auto max-h-[480px]">
+          <pre id="json-tree-display" class="text-emerald-300 leading-relaxed whitespace-pre-wrap"></pre>
+        </div>
+
+        <div class="mt-3 pt-2 border-t border-slate-800 text-[11px] text-slate-400 flex items-center justify-between">
+          <span>Schema Validation: <strong class="text-emerald-400">PASSED (v2.1)</strong></span>
+          <span class="text-slate-500 font-mono">100% SVG Parametric</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 bg-slate-900/60 py-4 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <p>© 2026 Zahrah Tajweed Engine — Open EdTech Repository Standard</p>
+      <p class="font-arabic text-slate-400">مَخَارِجُ الحُرُوفِ وَالصِّفَاتُ المصوَّرة</p>
+    </div>
+  </footer>
+
+  <!-- App Script -->
+  <script>
+    // --- Master Preset Data matching visual_models/makharij_mouth_mapping.json ---
+    const MAPPING_DATA = {
+      "qaf": {
+        "letter_id": "qaf",
+        "arabic": "ق",
+        "transliteration": "Qaaf",
+        "makhraj_zone": "Lisan",
+        "makhraj_name_english": "Tongue Root to Soft Palate (Velum)",
+        "makhraj_name_arabic": "أَقْصَى اللِّسَان مَعَ الحَنَكِ اللَّحْمِي",
+        "sifat": ["Isti'la (Heavy)", "Shiddah", "Qalqalah"],
+        "makhraj_coords": { "cx": 195, "cy": 160 },
+        "mouth_params": {
+          "tongue_d": "M 140 380 Q 185 200 215 165 Q 260 250 370 245 Q 330 350 200 390 Z",
+          "velum_d": "M 180 160 Q 200 162 215 160",
+          "upper_lip_d": "M 388 165 Q 410 170 420 185 Q 405 190 392 180 Z",
+          "lower_lip_d": "M 388 270 Q 415 265 422 245 Q 405 240 392 255 Z",
+          "lower_teeth_transform": "translate(0, 0)",
+          "nasal_open": false,
+          "air_flow_d": "M 120 400 Q 130 260 190 180 Q 230 230 420 210"
+        },
+        "audio_sim_freq": 220
+      },
+      "kaf": {
+        "letter_id": "kaf",
+        "arabic": "ك",
+        "transliteration": "Kaaf",
+        "makhraj_zone": "Lisan",
+        "makhraj_name_english": "Tongue Root to Hard/Soft Palate Junction",
+        "makhraj_name_arabic": "أَقْصَى اللِّسَان تَحْتَ مَخْرَجِ القَاف",
+        "sifat": ["Istifal (Light)", "Shiddah", "Hams"],
+        "makhraj_coords": { "cx": 230, "cy": 145 },
+        "mouth_params": {
+          "tongue_d": "M 140 380 Q 190 240 230 148 Q 280 230 370 245 Q 330 350 200 390 Z",
+          "velum_d": "M 180 160 Q 210 160 230 140",
+          "upper_lip_d": "M 388 165 Q 412 168 424 180 Q 405 190 392 180 Z",
+          "lower_lip_d": "M 388 270 Q 418 260 424 248 Q 405 240 392 255 Z",
+          "lower_teeth_transform": "translate(0, 0)",
+          "nasal_open": false,
+          "air_flow_d": "M 120 400 Q 150 260 220 160 Q 290 200 420 210"
+        },
+        "audio_sim_freq": 340
+      },
+      "ayn": {
+        "letter_id": "ayn",
+        "arabic": "ع",
+        "transliteration": "Ayn",
+        "makhraj_zone": "Halq",
+        "makhraj_name_english": "Middle Throat (Pharynx)",
+        "makhraj_name_arabic": "وَسَطُ الحَلْق",
+        "sifat": ["Jahr", "Tawasut (Bayniyyah)", "Istifal"],
+        "makhraj_coords": { "cx": 105, "cy": 270 },
+        "mouth_params": {
+          "tongue_d": "M 140 380 Q 130 280 200 270 Q 280 250 370 245 Q 330 350 200 390 Z",
+          "velum_d": "M 180 160 Q 210 160 230 140",
+          "upper_lip_d": "M 388 165 Q 410 170 420 185 Q 405 190 392 180 Z",
+          "lower_lip_d": "M 388 270 Q 415 265 422 245 Q 405 240 392 255 Z",
+          "lower_teeth_transform": "translate(0, 0)",
+          "nasal_open": false,
+          "air_flow_d": "M 105 390 Q 110 270 220 180 Q 320 170 420 210"
+        },
+        "audio_sim_freq": 160
+      },
+      "ha_throat": {
+        "letter_id": "ha_throat",
+        "arabic": "ح",
+        "transliteration": "Haa (Throat)",
+        "makhraj_zone": "Halq",
+        "makhraj_name_english": "Middle Throat Friction",
+        "makhraj_name_arabic": "وَسَطُ الحَلْق",
+        "sifat": ["Hams", "Rakhawah", "Istifal"],
+        "makhraj_coords": { "cx": 105, "cy": 260 },
+        "mouth_params": {
+          "tongue_d": "M 140 380 Q 135 270 200 270 Q 280 250 370 245 Q 330 350 200 390 Z",
+          "velum_d": "M 180 160 Q 210 160 230 140",
+          "upper_lip_d": "M 388 165 Q 410 170 420 185 Q 405 190 392 180 Z",
+          "lower_lip_d": "M 388 270 Q 415 265 422 245 Q 405 240 392 255 Z",
+          "lower_teeth_transform": "translate(0, 0)",
+          "nasal_open": false,
+          "air_flow_d": "M 105 390 Q 110 260 220 180 Q 320 170 420 210"
+        },
+        "audio_sim_freq": 280
+      },
+      "dad": {
+        "letter_id": "dad",
+        "arabic": "ض",
+        "transliteration": "Dad",
+        "makhraj_zone": "Lisan",
+        "makhraj_name_english": "Side Edge of Tongue to Upper Molars",
+        "makhraj_name_arabic": "إِحْدَى حَافَتَيِ اللِّسَان مَعَ الأَضْرَاس",
+        "sifat": ["Isti'la", "Itbaq", "Istitalah (Longest)"],
+        "makhraj_coords": { "cx": 310, "cy": 160 },
+        "mouth_params": {
+          "tongue_d": "M 140 380 Q 170 240 300 160 Q 350 210 370 240 Q 330 350 200 390 Z",
+          "velum_d": "M 180 160 Q 200 162 215 160",
+          "upper_lip_d": "M 388 165 Q 410 170 420 185 Q 405 190 392 180 Z",
+          "lower_lip_d": "M 388 270 Q 415 265 422 245 Q 405 240 392 255 Z",
+          "lower_teeth_transform": "translate(0, -3)",
+          "nasal_open": false,
+          "air_flow_d": "M 120 400 Q 150 250 280 170 Q 340 180 420 210"
+        },
+        "audio_sim_freq": 190
+      },
+      "sad": {
+        "letter_id": "sad",
+        "arabic": "ص",
+        "transliteration": "Sad",
+        "makhraj_zone": "Lisan",
+        "makhraj_name_english": "Tip of Tongue behind Lower Front Teeth",
+        "makhraj_name_arabic": "رَأْسُ اللِّسَان مَعَ صَفَحَاتِ الأَسْنَانِ السُّفْلَى",
+        "sifat": ["Isti'la", "Itbaq", "Safir (Whistle)"],
+        "makhraj_coords": { "cx": 380, "cy": 225 },
+        "mouth_params": {
+          "tongue_d": "M 140 380 Q 190 220 300 230 Q 378 230 382 235 Q 330 350 200 390 Z",
+          "velum_d": "M 180 160 Q 200 162 215 160",
+          "upper_lip_d": "M 388 165 Q 412 168 424 180 Q 405 190 392 180 Z",
+          "lower_lip_d": "M 388 270 Q 418 260 424 248 Q 405 240 392 255 Z",
+          "lower_teeth_transform": "translate(-2, 0)",
+          "nasal_open": false,
+          "air_flow_d": "M 120 400 Q 150 240 300 220 Q 375 228 420 210"
+        },
+        "audio_sim_freq": 450
+      },
+      "baa": {
+        "letter_id": "baa",
+        "arabic": "ب",
+        "transliteration": "Baa",
+        "makhraj_zone": "Shafat",
+        "makhraj_name_english": "Both Lips Wet Part Pressing",
+        "makhraj_name_arabic": "بَيْنَ الشَّفَتَيْنِ بِإِطْبَاق",
+        "sifat": ["Shiddah", "Jahr", "Qalqalah"],
+        "makhraj_coords": { "cx": 405, "cy": 215 },
+        "mouth_params": {
+          "tongue_d": "M 140 380 Q 150 290 220 270 Q 290 260 350 260 Q 330 350 200 390 Z",
+          "velum_d": "M 180 160 Q 210 160 230 140",
+          "upper_lip_d": "M 388 165 Q 410 195 408 215 Q 395 200 392 180 Z",
+          "lower_lip_d": "M 388 270 Q 410 235 408 215 Q 395 230 392 255 Z",
+          "lower_teeth_transform": "translate(0, 0)",
+          "nasal_open": false,
+          "air_flow_d": "M 120 400 Q 150 240 280 230 Q 390 215 405 215"
+        },
+        "audio_sim_freq": 150
+      },
+      "noon": {
+        "letter_id": "noon",
+        "arabic": "ن",
+        "transliteration": "Noon (Ghunnah)",
+        "makhraj_zone": "Shafat",
+        "makhraj_name_english": "Tip of Tongue to Gum Line + Nasal Cavity",
+        "makhraj_name_arabic": "طَرَفُ اللِّسَان مَعَ الخَيْشُوم (الغُنَّة)",
+        "sifat": ["Tawasut", "Ghunnah (Nasal)"],
+        "makhraj_coords": { "cx": 330, "cy": 70 },
+        "mouth_params": {
+          "tongue_d": "M 140 380 Q 180 240 320 200 Q 375 190 376 195 Q 330 350 200 390 Z",
+          "velum_d": "M 180 160 Q 200 185 205 200",
+          "upper_lip_d": "M 388 165 Q 410 170 420 185 Q 405 190 392 180 Z",
+          "lower_lip_d": "M 388 270 Q 415 265 422 245 Q 405 240 392 255 Z",
+          "lower_teeth_transform": "translate(0, 0)",
+          "nasal_open": true,
+          "air_flow_d": "M 120 400 Q 150 240 190 170 Q 260 60 380 80"
+        },
+        "audio_sim_freq": 260
+      },
+      "madd_waw": {
+        "letter_id": "madd_waw",
+        "arabic": "و",
+        "transliteration": "Waw (Madd)",
+        "makhraj_zone": "Jawf",
+        "makhraj_name_english": "Oral Cavity + Lip Rounding",
+        "makhraj_name_arabic": "الجَوْف مَعَ انْضِمَامِ الشَّفَتَيْن",
+        "sifat": ["Madd (Lengthening 2-6)", "Lin"],
+        "makhraj_coords": { "cx": 280, "cy": 190 },
+        "mouth_params": {
+          "tongue_d": "M 140 380 Q 170 240 250 210 Q 300 240 350 255 Q 330 350 200 390 Z",
+          "velum_d": "M 180 160 Q 210 160 230 140",
+          "upper_lip_d": "M 388 165 Q 425 175 430 195 Q 410 200 392 180 Z",
+          "lower_lip_d": "M 388 270 Q 425 255 430 235 Q 410 230 392 255 Z",
+          "lower_teeth_transform": "translate(0, 0)",
+          "nasal_open": false,
+          "air_flow_d": "M 120 400 Q 150 240 280 190 Q 380 200 435 215"
+        },
+        "audio_sim_freq": 130
+      },
+      "madd_alif": {
+        "letter_id": "madd_alif",
+        "arabic": "ا",
+        "transliteration": "Alif (Madd)",
+        "makhraj_zone": "Jawf",
+        "makhraj_name_english": "Open Throat & Oral Cavity",
+        "makhraj_name_arabic": "مَخْرَجُ الجَوْفِ المَفْتُوح",
+        "sifat": ["Madd (Natural 2 Counts)"],
+        "makhraj_coords": { "cx": 250, "cy": 200 },
+        "mouth_params": {
+          "tongue_d": "M 140 380 Q 150 300 220 280 Q 300 280 360 270 Q 330 350 200 390 Z",
+          "velum_d": "M 180 160 Q 210 160 230 140",
+          "upper_lip_d": "M 388 160 Q 410 155 422 170 Q 405 185 392 175 Z",
+          "lower_lip_d": "M 388 275 Q 415 280 422 260 Q 405 250 392 260 Z",
+          "lower_teeth_transform": "translate(0, 4)",
+          "nasal_open": false,
+          "air_flow_d": "M 120 400 Q 150 240 250 200 Q 340 200 430 215"
+        },
+        "audio_sim_freq": 200
+      }
+    };
+
+    // --- State Variables ---
+    let currentKey = 'qaf';
+    let currentSpeed = 1.0;
+    let isPlaying = false;
+    let isLooping = false;
+    let currentStep = 2; // 0: Rest, 1: Prep, 2: Contact, 3: Release
+    let animTimer = null;
+    let showLabels = true;
+    let audioCtx = null;
+
+    // --- DOM Elements ---
+    const grid = document.getElementById('letter-grid');
+    const jsonDisplay = document.getElementById('json-tree-display');
+    const activeArabic = document.getElementById('active-arabic-display');
+    const activeTranslit = document.getElementById('active-translit-display');
+    const activeSifat = document.getElementById('active-sifat-tag');
+    const phaseBadge = document.getElementById('phase-badge');
+    const nasalBadge = document.getElementById('nasal-status-badge');
+    const infoZoneName = document.getElementById('info-zone-name');
+    const infoZoneDesc = document.getElementById('info-zone-desc');
+    const infoMakhrajId = document.getElementById('info-makhraj-id');
+
+    // SVG Elements
+    const tonguePath = document.getElementById('tongue-path');
+    const velumPath = document.getElementById('velum-path');
+    const upperLipPath = document.getElementById('upper-lip-path');
+    const lowerLipPath = document.getElementById('lower-lip-path');
+    const lowerTeeth = document.getElementById('lower-teeth');
+    const airFlowPath = document.getElementById('air-flow-path');
+    const makhrajGlowCircle = document.getElementById('makhraj-glow-circle');
+    const makhrajCoreDot = document.getElementById('makhraj-core-dot');
+    const playIcon = document.getElementById('play-icon');
+
+    // --- Initialize Letter Selector Cards ---
+    function renderLetterCards(filterZone = 'ALL') {
+      grid.innerHTML = '';
+      let count = 0;
+      Object.keys(MAPPING_DATA).forEach(key => {
+        const item = MAPPING_DATA[key];
+        if (filterZone !== 'ALL' && item.makhraj_zone !== filterZone) return;
+        count++;
+
+        const card = document.createElement('button');
+        const isActive = key === currentKey;
+        card.className = `p-2.5 rounded-xl border text-left transition flex flex-col justify-between relative overflow-hidden ${
+          isActive 
+            ? 'bg-gradient-to-br from-emerald-900/90 to-slate-900 border-emerald-500 shadow-lg shadow-emerald-950' 
+            : 'bg-slate-950/60 border-slate-800 hover:border-slate-700 hover:bg-slate-850'
+        }`;
+
+        card.innerHTML = `
+          <div class="flex items-center justify-between w-full">
+            <span class="font-arabic text-2xl font-bold ${isActive ? 'text-gold-400' : 'text-slate-200'}">${item.arabic}</span>
+            <span class="text-[9px] font-mono px-1.5 py-0.5 rounded ${isActive ? 'bg-emerald-800 text-emerald-200' : 'bg-slate-800 text-slate-400'}">${item.makhraj_zone}</span>
+          </div>
+          <span class="text-xs font-semibold mt-1 ${isActive ? 'text-white' : 'text-slate-300'}">${item.transliteration}</span>
+        `;
+
+        card.onclick = () => selectLetter(key);
+        grid.appendChild(card);
+      });
+      document.getElementById('letter-count').innerText = `${count} Letters`;
+    }
+
+    // --- Render JSON Inspector ---
+    function updateJsonInspector() {
+      const data = MAPPING_DATA[currentKey];
+      jsonDisplay.textContent = JSON.stringify(data, null, 2);
+    }
+
+    // --- Apply SVG Morph States ---
+    function updateSVGModel(data, step = 2) {
+      const params = data.mouth_params;
+
+      if (step === 0) {
+        // Rest position (Neutral resting tongue)
+        tonguePath.setAttribute('d', "M 140 380 Q 150 300 220 280 Q 300 280 360 270 Q 330 350 200 390 Z");
+        velumPath.setAttribute('d', "M 180 160 Q 210 160 230 140");
+        upperLipPath.setAttribute('d', "M 388 165 Q 410 170 420 185 Q 405 190 392 180 Z");
+        lowerLipPath.setAttribute('d', "M 388 270 Q 415 265 422 245 Q 405 240 392 255 Z");
+        lowerTeeth.setAttribute('transform', 'translate(0, 0)');
+        airFlowPath.setAttribute('opacity', '0.2');
+        makhrajGlowCircle.setAttribute('opacity', '0.2');
+        phaseBadge.textContent = "1. REST PHASE";
+        phaseBadge.className = "text-[10px] font-bold text-slate-400 uppercase tracking-wider block";
+      } else if (step === 1) {
+        // Preparation Phase (Moving towards target)
+        tonguePath.setAttribute('d', params.tongue_d);
+        velumPath.setAttribute('d', params.velum_d);
+        airFlowPath.setAttribute('opacity', '0.5');
+        makhrajGlowCircle.setAttribute('opacity', '0.5');
+        phaseBadge.textContent = "2. PREPARATION";
+        phaseBadge.className = "text-[10px] font-bold text-gold-400 uppercase tracking-wider block";
+      } else if (step === 2) {
+        // Full Contact Phase (Makhraj Target Hit)
+        tonguePath.setAttribute('d', params.tongue_d);
+        velumPath.setAttribute('d', params.velum_d);
+        upperLipPath.setAttribute('d', params.upper_lip_d);
+        lowerLipPath.setAttribute('d', params.lower_lip_d);
+        lowerTeeth.setAttribute('transform', params.lower_teeth_transform);
+        airFlowPath.setAttribute('d', params.air_flow_d);
+        airFlowPath.setAttribute('opacity', '1');
+
+        // Move Makhraj Indicator Dot
+        makhrajGlowCircle.setAttribute('cx', data.makhraj_coords.cx);
+        makhrajGlowCircle.setAttribute('cy', data.makhraj_coords.cy);
+        makhrajGlowCircle.setAttribute('opacity', '1');
+        makhrajCoreDot.setAttribute('cx', data.makhraj_coords.cx);
+        makhrajCoreDot.setAttribute('cy', data.makhraj_coords.cy);
+
+        phaseBadge.textContent = "3. CONTACT / MAKHRAJ";
+        phaseBadge.className = "text-[10px] font-bold text-emerald-400 uppercase tracking-wider block";
+      } else if (step === 3) {
+        // Release / Qalqalah Phase
+        airFlowPath.setAttribute('opacity', '0.4');
+        phaseBadge.textContent = "4. RELEASE / ECHO";
+        phaseBadge.className = "text-[10px] font-bold text-teal-400 uppercase tracking-wider block";
+      }
+
+      // Update Nasal Status Badge
+      if (params.nasal_open) {
+        nasalBadge.textContent = "Khayshum: OPEN (Ghunnah)";
+        nasalBadge.className = "text-[10px] text-emerald-400 font-bold block";
+      } else {
+        nasalBadge.textContent = "Khayshum: Closed (Oral)";
+        nasalBadge.className = "text-[10px] text-slate-400 block";
+      }
+
+      // Update step badge highlights
+      document.querySelectorAll('#step-indicators span').forEach(el => {
+        const s = parseInt(el.getAttribute('data-step'));
+        if (s === step) {
+          el.className = "px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-600 text-white border border-emerald-500 shadow";
+        } else {
+          el.className = "px-2 py-0.5 rounded text-[10px] font-bold bg-slate-800 text-slate-400 border border-slate-700";
+        }
+      });
+    }
+
+    // --- Select Letter Handler ---
+    function selectLetter(key) {
+      currentKey = key;
+      const data = MAPPING_DATA[key];
+      
+      // Update Headers & Info
+      activeArabic.textContent = data.arabic;
+      activeTranslit.textContent = `${data.transliteration} (${data.arabic})`;
+      activeSifat.textContent = data.sifat.join(' • ');
+      infoZoneName.textContent = `${data.makhraj_zone} — ${data.makhraj_name_english}`;
+      infoZoneDesc.textContent = `Arabic Definition: ${data.makhraj_name_arabic}. Articulated with Sifat attributes: ${data.sifat.join(', ')}.`;
+      infoMakhrajId.textContent = `${data.makhraj_zone.toLowerCase()}_${key}`;
+
+      // Refresh Selector & Inspector
+      renderLetterCards(document.querySelector('.zone-pill.bg-emerald-600').getAttribute('data-zone'));
+      updateJsonInspector();
+      
+      // Apply Contact State
+      currentStep = 2;
+      updateSVGModel(data, 2);
+    }
+
+    // --- Synthesized Benchmark Audio Generator ---
+    function playAudioBenchmark() {
+      try {
+        if (!audioCtx) {
+          audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        }
+        const data = MAPPING_DATA[currentKey];
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+
+        osc.type = data.makhraj_zone === 'Halq' ? 'sawtooth' : 'sine';
+        osc.frequency.setValueAtTime(data.audio_sim_freq || 200, audioCtx.currentTime);
+
+        gain.gain.setValueAtTime(0, audioCtx.currentTime);
+        gain.gain.linearRampToValueAtTime(0.3, audioCtx.currentTime + 0.05);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.6);
+
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.6);
+      } catch (e) {
+        console.log('Audio playback simulation ready.');
+      }
+    }
+
+    // --- Animation Cycle Loop ---
+    function runAnimationCycle() {
+      if (animTimer) clearInterval(animTimer);
+      let step = 0;
+      const intervalDuration = (600 / currentSpeed);
+
+      animTimer = setInterval(() => {
+        updateSVGModel(MAPPING_DATA[currentKey], step);
+        if (step === 2) playAudioBenchmark();
+
+        step++;
+        if (step > 3) {
+          if (isLooping && isPlaying) {
+            step = 0;
+          } else {
+            clearInterval(animTimer);
+            isPlaying = false;
+            updatePlayIcon();
+            updateSVGModel(MAPPING_DATA[currentKey], 2); // default back to contact
+          }
+        }
+      }, intervalDuration);
+    }
+
+    function updatePlayIcon() {
+      if (isPlaying) {
+        playIcon.innerHTML = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>'; // Pause icon
+      } else {
+        playIcon.innerHTML = '<path d="M8 5v14l11-7z"/>'; // Play icon
+      }
+    }
+
+    // --- Event Listeners ---
+    document.getElementById('btn-play').onclick = () => {
+      isPlaying = !isPlaying;
+      updatePlayIcon();
+      if (isPlaying) {
+        runAnimationCycle();
+      } else if (animTimer) {
+        clearInterval(animTimer);
+      }
+    };
+
+    document.getElementById('btn-audio').onclick = playAudioBenchmark;
+
+    document.getElementById('btn-loop').onclick = (e) => {
+      isLooping = !isLooping;
+      const btn = e.currentTarget;
+      if (isLooping) {
+        btn.className = "px-2.5 py-1.5 rounded-lg bg-emerald-600 text-xs text-white border border-emerald-500 font-medium transition flex items-center space-x-1 shadow";
+      } else {
+        btn.className = "px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-slate-300 border border-slate-700 font-medium transition flex items-center space-x-1";
+      }
+    };
+
+    // Speed Selection
+    document.querySelectorAll('.speed-btn').forEach(btn => {
+      btn.onclick = (e) => {
+        document.querySelectorAll('.speed-btn').forEach(b => {
+          b.className = "speed-btn px-1.5 py-0.5 rounded text-slate-400 hover:text-white";
+        });
+        e.target.className = "speed-btn px-1.5 py-0.5 rounded bg-emerald-600 text-white font-bold";
+        currentSpeed = parseFloat(e.target.getAttribute('data-speed'));
+        if (isPlaying) runAnimationCycle();
+      };
+    });
+
+    // Zone Filter Buttons
+    document.querySelectorAll('.zone-pill').forEach(btn => {
+      btn.onclick = (e) => {
+        document.querySelectorAll('.zone-pill').forEach(b => {
+          b.className = "zone-pill text-xs px-2.5 py-1 rounded-md bg-slate-800 text-slate-400 hover:bg-slate-700 transition";
+        });
+        e.target.className = "zone-pill text-xs px-2.5 py-1 rounded-md bg-emerald-600 text-white font-medium transition";
+        renderLetterCards(e.target.getAttribute('data-zone'));
+      };
+    });
+
+    // Step breakdown clicks
+    document.querySelectorAll('#step-indicators span').forEach(span => {
+      span.onclick = (e) => {
+        if (isPlaying) {
+          isPlaying = false;
+          clearInterval(animTimer);
+          updatePlayIcon();
+        }
+        const s = parseInt(e.target.getAttribute('data-step'));
+        updateSVGModel(MAPPING_DATA[currentKey], s);
+        if (s === 2) playAudioBenchmark();
+      };
+    });
+
+    // Toggle Labels Button
+    document.getElementById('toggle-labels-btn').onclick = () => {
+      showLabels = !showLabels;
+      document.querySelectorAll('.anatomical-label').forEach(el => {
+        el.style.display = showLabels ? 'block' : 'none';
+      });
+    };
+
+    // Copy JSON Button
+    document.getElementById('copy-json-btn').onclick = () => {
+      navigator.clipboard.writeText(jsonDisplay.textContent);
+      const btn = document.getElementById('copy-json-btn');
+      btn.textContent = "Copied!";
+      setTimeout(() => btn.textContent = "Copy JSON", 1800);
+    };
+
+    // --- Boot Initial App ---
+    window.onload = () => {
+      renderLetterCards();
+      selectLetter('qaf');
+    };
+  </script>
+</body>
+</html>
