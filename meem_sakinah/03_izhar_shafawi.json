@@ -1,0 +1,69 @@
+{
+  "rule_metadata": {
+    "rule_id": "03_izhar_shafawi",
+    "rule_name_english": "Izhar Shafawi (Lip Manifestation)",
+    "rule_name_arabic": "الإِظْهَار الشَّفَوِي",
+    "category": "Meem Sakinah Rules",
+    "level": "Intermediate",
+    "description": "The clear, distinct pronunciation of a vowelless Meem (مْ) without Ghunnah when followed by any of the 26 remaining alphabet letters (excluding Baa and Meem)."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Izhar means clarity and manifestation, and Shafawi means labial because the Meem exits from the lips.",
+    "applied_tajweed_definition": "When a non-vowelled Meem (مْ) is followed by any of the 26 letters (excluding ب and م) across words or within a word, the Meem is pronounced distinctly and clearly with its inherent sound, avoiding any nasal Ghunnah holding or merging.",
+    "trigger_letters_count": 26,
+    "trigger_letters_list": [
+      "أ", "ت", "ث", "ج", "ح", "خ", "د", "ذ", "ر", "ز", "س", "ش", "ص", "ض", "ط", "ظ", "ع", "غ", "ف", "ق", "ك", "ل", "ن", "هـ", "و", "ي"
+    ],
+    "critical_warning_waf_faa": {
+      "rule": "Proximity Warning with Fa (ف) and Waw (و)",
+      "explanation": "Special care must be taken to pronounce the Meem clearly when followed by Waw or Fa. Because Waw and Fa share lip proximity with Meem, inexperienced reciters often mistakenly hide (Ikhfa) the Meem. The reciter must maintain strict clarity (Izhar)."
+    },
+    "mushaf_indicator": "The Meem Sakinah carries a clear Sukoon sign (مْ) above it."
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "أَمْ لَمْ تُنْذِرْهُمْ",
+      "transliteration": "Am lam tunthirhum",
+      "trigger_letter": "ل",
+      "breakdown": "Clear pronunciation of Meem Sakinah before Lam without any nasal extension.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/meem_sakinah/am_lam.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "transliteration": "Alayhim-wala-ddaalleen",
+      "trigger_letter": "و",
+      "breakdown": "Critical Izhar warning: Pronounce the Meem of 'Alayhim' completely clear before Waw without letting it slip into Ikhfa.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/meem_sakinah/alayhim_wala.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "هُمْ فِيها",
+      "transliteration": "Hum fiha",
+      "trigger_letter": "ف",
+      "breakdown": "Clear labial manifestation of Meem before Fa.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/meem_sakinah/hum_fiha.mp3"
+    },
+    {
+      "id": "ex_04",
+      "arabic_text": "أَمْ حَسِبَ",
+      "transliteration": "Am hasiba",
+      "trigger_letter": "ح",
+      "breakdown": "Clear Meem followed by throat letter Ha.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/meem_sakinah/am_hasiba.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "How many letters trigger Izhar Shafawi when following Meem Sakinah?", "options": ["26 letters", "28 letters", "15 letters", "4 letters"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "Which two letters are EXCLUDED from Izhar Shafawi?", "options": ["ب (Baa) and م (Meem)", "ر (Ra) and ل (Lam)", "ي (Ya) and و (Waw)", "ن (Noon) and ت (Ta)"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "How should a vowelless Meem be pronounced during Izhar Shafawi?", "options": ["Clearly and distinctly without merging or holding a nasal Ghunnah", "Concealed with a 2-count nasal hum", "Merged completely with a Shaddah", "Converted to a Noon"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "Why is extra care required when Izhar Shafawi occurs before the letter Waw (و) or Fa (ف)?", "options": ["Because Waw and Fa share lip proximity, making reciters prone to mistakenly hiding the Meem (Ikhfa)", "Because Waw and Fa are throat letters", "Because it requires a 6-count Madd", "Because the Meem turns into a Baa"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "In the phrase 'عَلَيْهِمْ وَلَا', what rule applies between Meem and Waw?", "options": ["Izhar Shafawi (Clear pronunciation)", "Ikhfa Shafawi", "Idgham Shafawi", "Iqlab"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "What is the visual sign of Meem Sakinah in the Mushaf during Izhar Shafawi?", "options": ["A clear Sukoon sign (مْ) placed above the Meem", "A bare Meem with no sign", "A Shaddah", "A small Meem"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "In 'أَمْ لَمْ تُنْذِرْهُمْ', how is the Meem of 'أَمْ' pronounced before Lam?", "options": ["Clearly with its inherent sound, no Ghunnah hold", "Concealed", "Merged into Lam", "Changed to a vowel"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "What common error do students commit when reciting 'عَلَيْهِمْ وَلَا'?", "options": ["Incorrectly applying Ikhfa due to the close lip articulation of Waw", "Holding the Ghunnah for 4 counts", "Dropping the Waw entirely", "Turning the Meem into a Noon"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "Can Izhar Shafawi occur across two words as well as within a single word?", "options": ["Yes, it occurs in both cases", "No, only across two words", "Only inside single words", "Only at the end of an Ayah"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "Summarize the core requirement of Izhar Shafawi:", "options": ["Pronounce Meem Sakinah clearly and crisply before any letter except Baa and Meem, maintaining zero nasal holding", "Merge the Meem completely", "Conceale the Meem softly", "Convert the Meem to a Meem Mushaddadah"], "correct_answer": 0 }
+  ]
+}
