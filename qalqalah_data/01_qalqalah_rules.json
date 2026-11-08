@@ -1,0 +1,88 @@
+{
+  "rule_metadata": {
+    "rule_id": "01_qalqalah_rules",
+    "rule_name_english": "Qalqalah (Echoing / Bouncing Letters)",
+    "rule_name_arabic": "حُرُوفُ القَلْقَلَة",
+    "category": "Qalqalah & Stopping Rules",
+    "level": "Foundation & Intermediate",
+    "description": "Comprehensive rules covering the echoing vibration (Qalqalah) of the five Qutb Jadd letters when vowelless, split into major (Kubra) and minor (Sughra) degrees."
+  },
+  "theoretical_foundation": {
+    "linguistic_definition": "Qalqalah (قَلْقَلَة) literally means bouncing, echoing, or vibration.",
+    "applied_tajweed_definition": "A pronounced echoing vibration produced in the articulation point (Makhraj) when pronouncing any of the five vowelless Qalqalah letters, without mixing them with any of the three major vowels (Fathah, Kasrah, Dammah).",
+    "the_five_letters": "قطب جد (Qaf, Ta, Ba, Jeem, Dal)",
+    "sub_divisions": {
+      "sughra": "Qalqalah Sughra (Minor Qalqalah): Occurs when the Qalqalah letter is in the middle of a word with an original Sukoon. The bounce is subtle and controlled.",
+      "kubra": "Qalqalah Kubra (Major Qalqalah): Occurs when stopping (Waqf) on a Qalqalah letter at the end of a word (even if its original vowel was Fathah, Kasrah, or Dammah). The bounce is powerful and prominent.",
+      "akbar": "Qalqalah Akbar (Strongest Qalqalah): Occurs when pausing on a Qalqalah letter that carries a Shaddah at the end of a word (e.g., الحَقّ)."
+    }
+  },
+  "practical_examples": [
+    {
+      "id": "ex_01",
+      "arabic_text": "يَخْلُقُونَ",
+      "transliteration": "Yakluquun (Qaf in middle)",
+      "rule_type": "Qalqalah Sughra",
+      "breakdown": "Qaf with original Sukoon in the middle of the word; moderate bounce.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/qalqalah/yakluqun.mp3"
+    },
+    {
+      "id": "ex_02",
+      "arabic_text": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
+      "transliteration": "Al-Falaq (when stopping)",
+      "rule_type": "Qalqalah Kubra",
+      "breakdown": "Pausing on Qaf at verse end creates a prominent major Qalqalah echo.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/qalqalah/falaq.mp3"
+    },
+    {
+      "id": "ex_03",
+      "arabic_text": "وَتَبَّ",
+      "transliteration": "Watabb (when stopping on Shaddah)",
+      "rule_type": "Qalqalah Akbar",
+      "breakdown": "Pausing on Ba with Shaddah creates the strongest bouncing echo.",
+      "audio_benchmark_url": "https://cdn.tajweedapp.com/audio/qalqalah/watabb.mp3"
+    }
+  ],
+  "assessment_bank": [
+    { "id": "q01", "type": "multiple_choice", "question": "What does 'Qalqalah' mean linguistically?", "options": ["Bouncing, echoing, or vibration", "Merging completely", "Concealment", "Nasal hum"], "correct_answer": 0 },
+    { "id": "q02", "type": "multiple_choice", "question": "How many letters comprise the Qalqalah group?", "options": ["5 letters (قطب جد)", "3 letters", "7 letters", "10 letters"], "correct_answer": 0 },
+    { "id": "q03", "type": "multiple_choice", "question": "Which of the following mnemonic phrases represents the Qalqalah letters?", "options": ["قُطْبُ جَدٍّ", "يَرْمُلُونَ", "نُمُوٌّ", "إِخْفَاءٌ"], "correct_answer": 0 },
+    { "id": "q04", "type": "multiple_choice", "question": "What are the specific letters in 'قُطْبُ جَدٍّ'?", "options": ["Qaf, Ta, Ba, Jeem, Dal", "Noon, Meem, Waw, Ya", "Lam, Ra, Meem, Noon", "Hamzah, Ha, Ayn, Ha"], "correct_answer": 0 },
+    { "id": "q05", "type": "multiple_choice", "question": "When does Qalqalah Sughra (Minor) occur?", "options": ["When the Qalqalah letter is in the middle of a word with an original Sukoon", "When stopping at a verse end", "When a letter has a Shaddah", "When followed by Hamzah"], "correct_answer": 0 },
+    { "id": "q06", "type": "multiple_choice", "question": "When does Qalqalah Kubra (Major) occur?", "options": ["When pausing (Waqf) on a Qalqalah letter at the end of a word", "In the middle of a word", "When followed by Fathah", "With Noon Sakinah"], "correct_answer": 0 },
+    { "id": "q07", "type": "multiple_choice", "question": "What is Qalqalah Akbar (Strongest)?", "options": ["Pausing on a Qalqalah letter that carries a Shaddah at the end of a word", "Minor Qalqalah in middle of word", "Fathah vowel on Qaf", "Dropping the letter"], "correct_answer": 0 },
+    { "id": "q08", "type": "multiple_choice", "question": "What major error must be avoided when executing Qalqalah?", "options": ["Allowing the echo to accidentally drift into one of the three main vowels (Fathah, Kasrah, Dammah)", "Making any sound at all", "Holding for 6 counts", "Adding a Meem"], "correct_answer": 0 },
+    { "id": "q09", "type": "multiple_choice", "question": "In the word 'يَخْلُقُونَ', what type of Qalqalah applies to the Qaf?", "options": ["Qalqalah Sughra", "Qalqalah Kubra", "Qalqalah Akbar", "No Qalqalah"], "correct_answer": 0 },
+    { "id": "q10", "type": "multiple_choice", "question": "In 'قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ', if you pause on 'الْفَلَقِ', what Qalqalah rule applies?", "options": ["Qalqalah Kubra", "Qalqalah Sughra", "Madd Lazim", "Iqlab"], "correct_answer": 0 },
+    { "id": "q11", "type": "multiple_choice", "question": "In 'وَتَبَّ', when pausing on the final Ba, what level of Qalqalah is produced?", "options": ["Qalqalah Akbar (Strongest)", "Qalqalah Sughra", "No Qalqalah", "Idgham"], "correct_answer": 0 },
+    { "id": "q12", "type": "multiple_choice", "question": "Is Qalqalah triggered when a letter carries a clear vowel (Fathah, Kasrah, Dammah)?", "options": ["No, the letter must be vowelless (Saakin) either inherently or due to stopping", "Yes, always", "Only with Fathah", "Only with Dammah"], "correct_answer": 0 },
+    { "id": "q13", "type": "multiple_choice", "question": "What is the physiological mechanism of Qalqalah in the vocal tract?", "options": ["A sudden release of air pressure at the articulation point creating a clean bouncing acoustic wave", "A nasal hum through the nose", "A deep throat scrape", "A prolonged whisper"], "correct_answer": 0 },
+    { "id": "q14", "type": "multiple_choice", "question": "If a student echoes the letter Ba and accidentally makes it sound like 'Ba-h' or adds an 'ah' sound, what error is flagged?", "options": ["Vowel contamination error (sounding like Fathah instead of a pure bounce)", "Correct recitation", "Madd error", "Izhar error"], "correct_answer": 0 },
+    { "id": "q15", "type": "multiple_choice", "question": "Which of the following words contains a Qalqalah Sughra?", "options": ["أَبْصَارِهِمْ (Ba in middle with Sukoon)", "قُلْ هُوَ اللَّهُ", "جَاءَ", "الضَّالِّينَ"], "correct_answer": 0 },
+    { "id": "q16", "type": "multiple_choice", "question": "Which of the following words produces Qalqalah Kubra when stopping?", "options": ["أَحَدٌ (stopping on Dal)", "كِتَابٌ", "رَحْمَةٌ", "مُبِينٌ"], "correct_answer": 0 },
+    { "id": "q17", "type": "multiple_choice", "question": "Does Qalqalah apply to the letter Ta (ط) when vowelless?", "options": ["Yes, Ta is one of the five Qutb Jadd letters", "No", "Only in poetry", "Only in Surah Al-Fatihah"], "correct_answer": 0 },
+    { "id": "q18", "type": "multiple_choice", "question": "Does Qalqalah apply to the letter Jeem (ج) when vowelless?", "options": ["Yes, Jeem is part of قطب جد", "No", "Only with Hamzah", "Only with Noon"], "correct_answer": 0 },
+    { "id": "q19", "type": "multiple_choice", "question": "What is the primary pedagogical goal of Module 01 in Qalqalah?", "options": ["To master the clean bouncing echo of the five Qutb Jadd letters across Sughra, Kubra, and Akbar degrees", "To learn Arabic grammar", "To translate verses", "To study history"], "correct_answer": 0 },
+    { "id": "q20", "type": "multiple_choice", "question": "If a reciter pauses on 'مُحِيطٌ', what Qalqalah rule applies to the Ta?", "options": ["Qalqalah Kubra", "Qalqalah Sughra", "Madd Lazim", "Izhar"], "correct_answer": 0 },
+    { "id": "q21", "type": "multiple_choice", "question": "What distinguishes Qalqalah Sughra from Qalqalah Kubra?", "options": ["Sughra is internal to a word with permanent Sukoon; Kubra is created by pausing at a word end", "Sughra is 6 counts", "Kubra has no bounce", "There is no difference"], "correct_answer": 0 },
+    { "id": "q22", "type": "multiple_choice", "question": "In 'مَجِيدٌ', when stopping on the Dal, what echo is produced?", "options": ["Qalqalah Kubra", "Qalqalah Sughra", "Madd Badal", "Idgham"], "correct_answer": 0 },
+    { "id": "q23", "type": "multiple_choice", "question": "How should an AI voice engine evaluate a Qalqalah Kubra pause on 'أَحَد'?", "options": ["Mark as clean major Qalqalah bounce on Dal", "Major error", "Requires 6 counts", "Requires 1 count"], "correct_answer": 0 },
+    { "id": "q24", "type": "multiple_choice", "question": "Can Qalqalah occur across two separate words?", "options": ["No, Qalqalah is internal to letter pronunciation when vowelless", "Yes, always", "Only with Hamzah", "Only with Tanween"], "correct_answer": 0 },
+    { "id": "q25", "type": "multiple_choice", "question": "What is the phonetic danger of over-bouncing Qalqalah Sughra in the middle of a word?", "options": ["It disrupts the smooth rhythmic flow of recitation", "It causes Iqlab", "It turns into Lazim", "It deletes the word"], "correct_answer": 0 },
+    { "id": "q26", "type": "multiple_choice", "question": "In 'وَجَدَ', does Qalqalah apply to the Dal?", "options": ["No, because the Dal carries an active Fathah vowel", "Yes", "Only when stopping", "Only with Shaddah"], "correct_answer": 0 },
+    { "id": "q27", "type": "multiple_choice", "question": "What is the rule when stopping on a Qalqalah letter that has a Shaddah (like 'الحَقّ')?", "options": ["Qalqalah Akbar (strongest bounce)", "No bounce", "Minor bounce", "Turns into Meem"], "correct_answer": 0 },
+    { "id": "q28", "type": "multiple_choice", "question": "Why are the five Qutb Jadd letters uniquely suited for echoing?", "options": ["Because of their combination of severe obstruction (Shiddah) and openness (jahr)", "Because they are nasal", "Because they are vowels", "Because they are silent"], "correct_answer": 0 },
+    { "id": "q29", "type": "multiple_choice", "question": "If a student fails to bounce the Qaf in 'الْفَلَق' when stopping, what is the feedback?", "options": ["Apply Qalqalah Kubra to cleanly echo the vowelless Qaf", "Mark correct", "Ignore", "Flag as Lazim error"], "correct_answer": 0 },
+    { "id": "q30", "type": "multiple_choice", "question": "Summarize the core mechanics of Qalqalah:", "options": ["Vowelless Qutb Jadd letters produce a crisp bouncing echo without vowel contamination, graded into Sughra, Kubra, and Akbar degrees", "Always 6 counts", "Always nasal", "Optional"], "correct_answer": 0 },
+    { "id": "q31", "type": "multiple_choice", "question": "In 'قَدْ أَفْلَحَ', what governs the Dal?", "options": ["Qalqalah Sughra (Dal has original Sukoon in middle of phrasing)", "Qalqalah Kubra", "Madd Lazim", "Izhar"], "correct_answer": 0 },
+    { "id": "q32", "type": "multiple_choice", "question": "In 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ', does any Qalqalah occur?", "options": ["No Qalqalah letters appear with Sukoon in Fatihah opening", "Yes, on Ba", "Yes, on Qaf", "Yes, on Dal"], "correct_answer": 0 },
+    { "id": "q33", "type": "multiple_choice", "question": "What counting duration is assigned to Qalqalah?", "options": ["It is an instantaneous percussive bounce rather than a timed vowel count like Madd", "2 counts", "4 counts", "6 counts"], "correct_answer": 0 },
+    { "id": "q34", "type": "multiple_choice", "question": "How does Qalqalah behave during continuous Wasl recitation for Sughra letters?", "options": ["The bounce remains present and crisp on the vowelless letter without pausing", "The bounce disappears", "It turns into 6 counts", "It becomes nasal"], "correct_answer": 0 },
+    { "id": "q35", "type": "multiple_choice", "question": "In 'طَارِقٌ', when pausing, what rule applies?", "options": ["Qalqalah Kubra on Qaf", "Qalqalah Sughra", "Madd Badal", "Idgham"], "correct_answer": 0 },
+    { "id": "q36", "type": "multiple_choice", "question": "What is the acoustic benchmark of a correct Qalqalah echo?", "options": ["Clean, crisp separation of sound resembling a miniature acoustic rebound", "A heavy roar", "A whisper", "A nasal hum"], "correct_answer": 0 },
+    { "id": "q37", "type": "multiple_choice", "question": "If a student bounces a non-Qalqalah letter like Meem or Seen, what error is flagged?", "options": ["Unauthorized Qalqalah error (only the 5 Qutb Jadd letters bounce)", "Correct recitation", "Madd error", "Izhar error"], "correct_answer": 0 },
+    { "id": "q38", "type": "multiple_choice", "question": "In 'مُصِيطِرٌ', does Qalqalah apply to the Ta?", "options": ["No, the Ta here is not part of Qutb Jadd", "Yes", "Always", "Only when stopping"], "correct_answer": 0 },
+    { "id": "q39", "type": "multiple_choice", "question": "How should an AI evaluation engine grade Qalqalah Akbar on 'الحَقّ'?", "options": ["Mark as strong, prominent Shaddah Qalqalah bounce", "Major error", "Requires 2 counts", "Requires 1 count"], "correct_answer": 0 },
+    { "id": "q40", "type": "multiple_choice", "question": "Summarize the complete Qalqalah rules module:", "options": ["A comprehensive 40-question module governing the echoing vibration of Qaf, Ta, Ba, Jeem, Dal across Sughra, Kubra, and Akbar degrees", "Always 2 counts", "Always nasal", "Optional"], "correct_answer": 0 }
+  ]
+}
