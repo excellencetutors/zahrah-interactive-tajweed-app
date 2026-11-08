@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ZahraInteractiveQuizEngine",
+  "type": "object",
+  "properties": {
+    "quiz_session_id": {
+      "type": "string",
+      "description": "Unique identifier for the active student quiz session."
+    },
+    "module_reference": {
+      "type": "string",
+      "description": "The target curriculum module ID (e.g., madd_data/01_madd_tabii_and_muttasil.json or qalqalah_data/01_qalqalah_rules.json)."
+    },
+    "assessment_parameters": {
+      "type": "object",
+      "properties": {
+        "total_questions": { "type": "integer", "const": 40 },
+        "passing_threshold_percentage": { "type": "number", "minimum": 0, "maximum": 100, "default": 80.0 },
+        "allow_retry": { "type": "boolean", "default": true }
+      },
+      "required": ["total_questions", "passing_threshold_percentage"]
+    },
+    "question_bank_item": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "type": { "type": "string", "enum": ["multiple_choice", "true_false", "audio_recitation_match"] },
+        "question": { "type": "string" },
+        "options": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 2,
+          "maxItems": 4
+        },
+        "correct_answer": { "type": "integer", "description": "Index of the correct option in the options array." },
+        "audio_benchmark_ref": { "type": "string", "nullable": true }
+      },
+      "required": ["id", "type", "question", "options", "correct_answer"]
+    },
+    "student_response_log": {
+      "type": "object",
+      "properties": {
+        "question_id": { "type": "string" },
+        "selected_option_index": { "type": "integer" },
+        "is_correct": { "type": "boolean" },
+        "timestamp": { "type": "string", "format": "date-time" }
+      },
+      "required": ["question_id", "selected_option_index", "is_correct"]
+    }
+  },
+  "required": ["quiz_session_id", "module_reference", "assessment_parameters"]
+}
